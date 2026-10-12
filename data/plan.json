@@ -1,0 +1,339 @@
+{
+ "version": 1,
+ "updated": "2026-10-12",
+ "weeks": [
+  {
+   "id": "2026-W42",
+   "start": "2026-10-12",
+   "title": "Settimana 42",
+   "note": "Prima settimana del diario. Obiettivo: migliorare in corsa, mantenere bici e nuoto.",
+   "workouts": [
+    {
+     "id": "2026-10-12-mobilita",
+     "date": "2026-10-12",
+     "type": "mobilita",
+     "title": "Mobilità e core",
+     "duration": "circa 40′",
+     "status": "scheda",
+     "summary": "Recupero attivo a casa, senza attrezzi (elastico facoltativo). Con poco tempo: gatto-cammello, flessore dell'anca, figura 4, polpaccio, dead bug, plank laterale (circa 15′).",
+     "blocks": [
+      {
+       "title": "Mobilità e stretching",
+       "dur": "circa 25′",
+       "items": [
+        {
+         "id": "m01",
+         "name": "Gatto-cammello",
+         "target": "10 lente",
+         "how": {
+          "parti": "In quadrupedia: mani sotto le spalle, ginocchia sotto le anche.",
+          "fai": "Espira e spingi il pavimento arrotondando la schiena. Inspira e lascia scendere il ventre, alzando lo sguardo.",
+          "evita": "Muovere solo il collo o caricare il peso sui polsi."
+         }
+        },
+        {
+         "id": "m02",
+         "name": "Apertura toracica",
+         "target": "8 per lato",
+         "how": {
+          "parti": "In quadrupedia, una mano a terra e l'altra sotto il petto, palmo in su.",
+          "fai": "Ruota il busto e porta il braccio teso verso il soffitto, seguendo la mano con lo sguardo. Torna lentamente.",
+          "evita": "Spostare il bacino all'indietro: devono ruotare solo spalle e torace."
+         }
+        },
+        {
+         "id": "m03",
+         "name": "Flessore dell'anca in affondo",
+         "target": "2 × 40″ per lato",
+         "how": {
+          "parti": "Un ginocchio a terra (metti un cuscino), piede davanti piatto con il ginocchio sopra la caviglia.",
+          "fai": "Stringi il gluteo della gamba dietro e porta il bacino in avanti, busto alto, fino a sentire tirare davanti all'anca.",
+          "evita": "Inarcare la zona lombare: se la schiena si incava, spingi meno in avanti."
+         }
+        },
+        {
+         "id": "m04",
+         "name": "Figura 4 da supino",
+         "target": "2 × 40″ per lato",
+         "how": {
+          "parti": "Sdraiato, piedi a terra e ginocchia piegate. Appoggia la caviglia destra sul ginocchio sinistro.",
+          "fai": "Afferra dietro la coscia sinistra e tirala verso il petto, finché senti tirare nel gluteo destro.",
+          "evita": "Sollevare testa e bacino da terra o tirare con le spalle: il movimento viene dalle braccia."
+         }
+        },
+        {
+         "id": "m05",
+         "name": "Ischiocrurali con elastico",
+         "target": "2 × 40″ per gamba",
+         "how": {
+          "parti": "Sdraiato, elastico (o asciugamano) sotto la pianta di un piede, tenuto con le due mani. L'altra gamba resta distesa.",
+          "fai": "Stendi la gamba verso il soffitto e avvicinala al busto, finché senti tirare dietro la coscia.",
+          "evita": "Piegare il ginocchio o staccare il bacino da terra: accorcia l'ampiezza."
+         }
+        },
+        {
+         "id": "m06",
+         "name": "Polpaccio al muro",
+         "target": "30″ + 30″ per gamba",
+         "how": {
+          "parti": "Mani al muro, un piede avanti e l'altro indietro di un passo e mezzo, con la punta dritta.",
+          "fai": "Tallone dietro a terra e gamba tesa: porta il bacino verso il muro per 30″. Poi piega un po' il ginocchio dietro, tallone sempre a terra, per altri 30″.",
+          "evita": "Staccare il tallone o ruotare il piede verso l'esterno."
+         }
+        },
+        {
+         "id": "m07",
+         "name": "Caviglia al muro",
+         "target": "10 per lato",
+         "how": {
+          "parti": "In piedi, punta del piede a circa 10 cm dal muro, mani al muro per l'equilibrio.",
+          "fai": "Porta il ginocchio a toccare il muro senza alzare il tallone, poi torna. Se è facile, allontana il piede.",
+          "evita": "Far cadere il ginocchio verso l'interno."
+         }
+        },
+        {
+         "id": "m08",
+         "name": "Affondo laterale per gli adduttori",
+         "target": "8 per lato, lento",
+         "how": {
+          "parti": "In piedi, gambe larghe il doppio delle spalle, punte dei piedi in avanti.",
+          "fai": "Sposta il peso su una gamba piegando il ginocchio, mentre l'altra resta tesa con il piede piatto. Senti tirare all'interno coscia, poi torna al centro e cambia lato.",
+          "evita": "Sollevare il tallone della gamba tesa o far cadere il ginocchio piegato verso l'interno."
+         }
+        },
+        {
+         "id": "m09",
+         "name": "Posizione del bambino",
+         "target": "60″ respirando",
+         "how": {
+          "parti": "In ginocchio, alluci uniti e ginocchia larghe quanto il tappetino.",
+          "fai": "Siediti sui talloni e distendi le braccia in avanti. Respira lento, portando l'aria ai fianchi e alle costole.",
+          "evita": "Forzare se il ginocchio tira: metti un cuscino tra talloni e gluteo."
+         }
+        }
+       ]
+      },
+      {
+       "title": "Core a bassa intensità",
+       "dur": "circa 10′",
+       "items": [
+        {
+         "id": "m10",
+         "name": "Dead bug",
+         "target": "2 × 8 per lato, lento",
+         "how": {
+          "parti": "Sdraiato, braccia verso il soffitto, anche e ginocchia a 90°, zona lombare a contatto con il pavimento.",
+          "fai": "Espira e abbassa insieme il braccio destro e la gamba sinistra, senza toccare terra. Torna e cambia lato.",
+          "evita": "Staccare la zona lombare dal pavimento: se succede, riduci l'ampiezza."
+         }
+        },
+        {
+         "id": "m11",
+         "name": "Bird dog",
+         "target": "2 × 8 per lato, pausa 3″",
+         "how": {
+          "parti": "In quadrupedia, schiena in posizione neutra, sguardo a terra.",
+          "fai": "Stendi il braccio destro e la gamba sinistra fino a formare una linea con la schiena. Fermati 3″ e torna.",
+          "evita": "Ruotare il bacino o inarcare la schiena: immagina un bicchiere d'acqua sulla zona lombare."
+         }
+        },
+        {
+         "id": "m12",
+         "name": "Plank laterale",
+         "target": "2 × 20″ per lato",
+         "how": {
+          "parti": "Sul fianco, gomito sotto la spalla, gambe distese una sopra l'altra.",
+          "fai": "Solleva il bacino fino ad allineare spalla, anca e caviglia. Respira regolare.",
+          "evita": "Far cadere il bacino o ruotare il busto in avanti."
+         }
+        },
+        {
+         "id": "m13",
+         "name": "Ponte glutei con elastico",
+         "target": "2 × 12, pausa 2″ in alto",
+         "how": {
+          "parti": "Sdraiato, piedi a terra larghi come il bacino, elastico sopra le ginocchia (facoltativo).",
+          "fai": "Spingi sui talloni e alza il bacino fino a formare una linea tra spalle e ginocchia. Spingi le ginocchia contro l'elastico per 2″ e scendi piano.",
+          "evita": "Inarcare la zona lombare in alto: ferma la salita quando il gluteo è contratto."
+         }
+        }
+       ]
+      }
+     ],
+     "notes": [
+      "Negli stretching cerca tensione, mai dolore acuto. Se senti dolore, esci dalla posizione.",
+      "Il core di oggi è leggero: fermati con 2-3 ripetizioni di riserva. Domani c'è la forza e mercoledì corri.",
+      "Se un lato è molto più rigido dell'altro, aggiungi una serie su quel lato."
+     ]
+    },
+    {
+     "id": "2026-10-13-forza",
+     "date": "2026-10-13",
+     "type": "forza",
+     "title": "Forza funzionale",
+     "duration": "circa 60′",
+     "status": "scheda",
+     "summary": "Forza per la corsa. Manubri, panca o gradino, cavo o elastico. Prima settimana: carichi prudenti.",
+     "blocks": [
+      {
+       "title": "Blocco A · gambe e anti-rotazione",
+       "dur": "circa 14′",
+       "items": [
+        {
+         "id": "a1",
+         "name": "A1 · Step-up con manubri",
+         "target": "3 × 6 per gamba, poi passa all'A2",
+         "how": {
+          "parti": "Davanti a una panca o a un box alto quanto il ginocchio, un manubrio per mano, piede intero sul box.",
+          "fai": "Spingi sul piede appoggiato fino a distendere anca e ginocchio, senza dare la spinta con la gamba dietro. Scendi in 3″.",
+          "evita": "Far rientrare il ginocchio o rimbalzare in basso con la gamba a terra."
+         }
+        },
+        {
+         "id": "a2",
+         "name": "A2 · Pallof press",
+         "target": "3 × 10 per lato, pausa 2″ con le braccia tese",
+         "how": {
+          "parti": "Di fianco a un cavo (o a un elastico fissato a una colonna) all'altezza del petto, maniglia al petto, piedi larghi come le spalle.",
+          "fai": "Distendi le braccia in avanti e fermati 2″ resistendo alla trazione, poi torna al petto.",
+          "evita": "Ruotare il busto verso il cavo o spostare il bacino."
+         }
+        }
+       ]
+      },
+      {
+       "title": "Blocco B · catena posteriore e schiena",
+       "dur": "circa 14′",
+       "items": [
+        {
+         "id": "b1",
+         "name": "B1 · Stacco rumeno a una gamba",
+         "target": "3 × 6 per gamba, carico leggero",
+         "how": {
+          "parti": "In piedi su una gamba con il ginocchio morbido, manubrio nella mano opposta alla gamba d'appoggio.",
+          "fai": "Spingi il bacino indietro fino a portare busto e gamba libera in linea orizzontale, poi risali stringendo il gluteo. Per l'equilibrio puoi sfiorare un appoggio con due dita.",
+          "evita": "Arrotondare la schiena o ruotare il bacino verso l'alto."
+         }
+        },
+        {
+         "id": "b2",
+         "name": "B2 · Rematore a un braccio",
+         "target": "3 × 8 per lato, pausa 1″ in alto",
+         "how": {
+          "parti": "Una mano sulla panca e il piede opposto indietro, schiena piatta, manubrio nell'altra mano a braccio disteso.",
+          "fai": "Tira il gomito verso l'anca, fermati 1″ e scendi in 2-3″.",
+          "evita": "Ruotare il busto o alzare la spalla verso l'orecchio."
+         }
+        }
+       ]
+      },
+      {
+       "title": "Blocco C · polpacci e core",
+       "dur": "circa 12′",
+       "items": [
+        {
+         "id": "c1",
+         "name": "C1 · Calf raise a una gamba",
+         "target": "3 × 10 per gamba, pausa 1″ in alto",
+         "how": {
+          "parti": "Su una gamba sola con l'avampiede sul bordo di un gradino, mani a un muro o a un rack per l'equilibrio.",
+          "fai": "Sali sulle punte, fermati 1″ e scendi in 3″ fino a sentire il polpaccio allungarsi sotto il livello del gradino.",
+          "evita": "Piegare il ginocchio o appoggiare l'altro piede."
+         }
+        },
+        {
+         "id": "c2",
+         "name": "C2 · Suitcase carry",
+         "target": "3 × 30″ per mano, camminando",
+         "how": {
+          "parti": "Un manubrio in una mano lungo il fianco, busto dritto, spalle e bacino livellati.",
+          "fai": "Cammina per 30″ senza inclinarti verso il peso, poi cambia mano. Carico medio: gli ultimi 5″ devono essere duri ma controllati.",
+          "evita": "Piegare il busto di lato o alzare la spalla dalla parte del peso."
+         }
+        }
+       ]
+      },
+      {
+       "title": "Blocco D · stabilità del bacino",
+       "dur": "circa 5′",
+       "items": [
+        {
+         "id": "d1",
+         "name": "D1 · Camminata laterale con elastico",
+         "target": "2 × 12 passi per lato",
+         "how": {
+          "parti": "Minibanda sopra le ginocchia, mezzo squat, piedi larghi come le spalle.",
+          "fai": "Fai 12 passi laterali in una direzione e 12 nell'altra, tenendo l'elastico in tensione e le ginocchia in linea con i piedi.",
+          "evita": "Avvicinare i piedi tra loro o far cadere le ginocchia verso l'interno."
+         }
+        }
+       ]
+      }
+     ],
+     "notes": [
+      "Prima di iniziare: 5-8′ di cyclette o tapis roulant facile e una serie leggera di step-up (6 per gamba).",
+      "Fai le coppie A1 + A2, B1 + B2 e C1 + C2 alternando gli esercizi, con 90″ di recupero dopo ogni coppia. Il blocco D chiude la seduta.",
+      "Carichi: scegli il peso con cui l'ultima ripetizione lascia 2 ripetizioni di riserva. Nella prima settimana resta leggero, soprattutto su step-up e stacco a una gamba.",
+      "Mercoledì corri: nessun cedimento. Se polpacci o glutei sono molto indolenziti, la corsa resta facile.",
+      "Se in palestra manca qualcosa: step-up con leg press, stacco a una gamba con leg curl, rematore con low row, calf raise con rotary calf."
+     ]
+    },
+    {
+     "id": "2026-10-14-corsa",
+     "date": "2026-10-14",
+     "type": "corsa",
+     "title": "Corsa",
+     "duration": "",
+     "status": "da-programmare",
+     "summary": "Scheda ancora da programmare.",
+     "blocks": [],
+     "notes": []
+    },
+    {
+     "id": "2026-10-15-nuoto",
+     "date": "2026-10-15",
+     "type": "nuoto",
+     "title": "Nuoto",
+     "duration": "",
+     "status": "da-programmare",
+     "summary": "Scheda ancora da programmare.",
+     "blocks": [],
+     "notes": []
+    },
+    {
+     "id": "2026-10-16-corsa",
+     "date": "2026-10-16",
+     "type": "corsa",
+     "title": "Corsa",
+     "duration": "",
+     "status": "da-programmare",
+     "summary": "Scheda ancora da programmare.",
+     "blocks": [],
+     "notes": []
+    },
+    {
+     "id": "2026-10-17-bici",
+     "date": "2026-10-17",
+     "type": "bici",
+     "title": "Bici su strada",
+     "duration": "",
+     "status": "da-programmare",
+     "summary": "Scheda ancora da programmare.",
+     "blocks": [],
+     "notes": []
+    },
+    {
+     "id": "2026-10-18-corsa-10k",
+     "date": "2026-10-18",
+     "type": "corsa",
+     "title": "Corsa 10 km",
+     "duration": "",
+     "status": "da-programmare",
+     "summary": "Scheda ancora da programmare.",
+     "blocks": [],
+     "notes": []
+    }
+   ]
+  }
+ ]
+}
