@@ -315,115 +315,7 @@
      "duration": "circa 42′",
      "status": "scheda",
      "summary": "Vasca da 18 m, circa 1.980 m (110 vasche), con pull buoy e tavoletta. Tempi per ripetizione: il ritmo base di 16,7 s a vasca è misurato (nuotata dell'8 ottobre), gli altri sono stime da verificare. Con poco tempo: togli gambe e pull buoy (1.512 m).",
-     "blocks": [
-      {
-       "title": "Riscaldamento",
-       "dur": "circa 10′",
-       "items": [
-        {
-         "id": "n1",
-         "name": "Libero continuo",
-         "cells": [
-          "6 vasche (108 m)",
-          "circa 1:50 totali",
-          "–"
-         ]
-        },
-        {
-         "id": "n2",
-         "name": "Gambe con tavoletta",
-         "cells": [
-          "4 × 2 vasche (144 m)",
-          "0:56",
-          "1:15"
-         ]
-        },
-        {
-         "id": "n3",
-         "name": "Progressivi, libero",
-         "cells": [
-          "4 × 4 vasche (288 m)",
-          "1:10 · 1:08 · 1:06 · 1:04",
-          "1:30"
-         ]
-        }
-       ],
-       "cols": [
-        "Ripetizioni",
-        "Tempo",
-        "Partenza ogni"
-       ]
-      },
-      {
-       "title": "Serie centrale",
-       "dur": "circa 13′",
-       "items": [
-        {
-         "id": "n4",
-         "name": "Libero",
-         "cells": [
-          "5 × 8 vasche (720 m)",
-          "2:10 (16,3 s a vasca)",
-          "2:30"
-         ]
-        }
-       ],
-       "cols": [
-        "Ripetizioni",
-        "Tempo",
-        "Partenza ogni"
-       ]
-      },
-      {
-       "title": "Pull buoy e finale",
-       "dur": "circa 12′",
-       "items": [
-        {
-         "id": "n5",
-         "name": "Pull buoy",
-         "cells": [
-          "3 × 6 vasche (324 m)",
-          "1:40",
-          "2:00"
-         ]
-        },
-        {
-         "id": "n6",
-         "name": "Finale veloce, libero",
-         "cells": [
-          "4 × 4 vasche (288 m)",
-          "1:01 (15,3 s a vasca)",
-          "1:25"
-         ]
-        }
-       ],
-       "cols": [
-        "Ripetizioni",
-        "Tempo",
-        "Partenza ogni"
-       ]
-      },
-      {
-       "title": "Defaticamento",
-       "dur": "circa 2′",
-       "items": [
-        {
-         "id": "n7",
-         "name": "Libero molto facile",
-         "cells": [
-          "6 vasche (108 m)",
-          "circa 1:50 totali",
-          "–"
-         ]
-        }
-       ],
-       "cols": [
-        "Ripetizioni",
-        "Tempo",
-        "Partenza ogni"
-       ]
-      }
-     ],
+     "blocks": [],
      "notes": [
       "Il solo numero misurato è il ritmo base: circa 16,7 s a vasca (1:33 ogni 100 m), costante nella nuotata dell'8 ottobre. I tempi di serie centrale, finale, gambe e pull buoy sono stime: nessun dato sui tuoi ritmi più veloci.",
       "Serie centrale: se la 1ª ripetizione supera 2:14, il target è troppo ambizioso: riparti da 2:15 per tutte. Se la 5ª è più lenta della 1ª di oltre 4″, la prossima volta la partenza passa a 2:40.",
@@ -431,7 +323,90 @@
       "Finale: se non tieni 1:03 per tutte e quattro, il target di 1:01 era troppo veloce e viene allungato.",
       "Pull buoy: è il blocco che carica di più le spalle. Se senti dolore, salta il blocco.",
       "Dopo la seduta confronta i tempi a vasca registrati dall'orologio con questi target e scrivili nelle note della valutazione."
-     ]
+     ],
+     "table": {
+      "first": "Esercizio + accessorio",
+      "cols": [
+       "Ripetizioni",
+       "Tempo target",
+       "Ripartenza",
+       "Metri"
+      ],
+      "rows": [
+       {
+        "name": "Riscaldamento",
+        "cells": [
+         "6 vasche",
+         "circa 1:50 totali",
+         "–",
+         "108"
+        ]
+       },
+       {
+        "name": "Gambe, tavoletta",
+        "cells": [
+         "4 × 2 vasche",
+         "0:56",
+         "1:15",
+         "144"
+        ]
+       },
+       {
+        "name": "Progressivi",
+        "cells": [
+         "4 × 4 vasche",
+         "1:10 · 1:08 · 1:06 · 1:04",
+         "1:30",
+         "288"
+        ]
+       },
+       {
+        "name": "Serie centrale",
+        "cells": [
+         "5 × 8 vasche",
+         "2:10 (16,3 s a vasca)",
+         "2:30",
+         "720"
+        ]
+       },
+       {
+        "name": "Braccia, pull buoy",
+        "cells": [
+         "3 × 6 vasche",
+         "1:40",
+         "2:00",
+         "324"
+        ]
+       },
+       {
+        "name": "Finale veloce",
+        "cells": [
+         "4 × 4 vasche",
+         "1:01 (15,3 s a vasca)",
+         "1:25",
+         "288"
+        ]
+       },
+       {
+        "name": "Defaticamento",
+        "cells": [
+         "6 vasche",
+         "circa 1:50 totali",
+         "–",
+         "108"
+        ]
+       }
+      ],
+      "total": {
+       "name": "Totale",
+       "cells": [
+        "110 vasche",
+        "circa 42′",
+        "",
+        "1.980"
+       ]
+      }
+     }
     },
     {
      "id": "2026-10-16-corsa",

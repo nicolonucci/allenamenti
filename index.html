@@ -104,6 +104,8 @@
   .tbl tbody th { font-weight: 400; min-width: 38%; }
   .tbl td { color: var(--accent); font-weight: 500; }
   .tbl .ex-name { font-size: 17px; }
+  .tbl tr.tot th, .tbl tr.tot td { font-weight: 700; background: var(--tile); }
+  .tbl tr.tot td { color: var(--ink); }
   .exs { list-style: none; margin: 0; padding: 0; }
   .ex { border-top: 1px solid var(--line); padding: 10px 0; min-width: 0; }
   .ex:first-child { border-top: 0; }
@@ -434,6 +436,16 @@
     var h = '';
     if (x.summary) h += '<p class="intro">' + esc(x.summary) + '</p>';
     if (x.text) h += '<p class="freetext">' + esc(x.text) + '</p>';
+    if (x.table && x.table.rows && x.table.rows.length) {
+      var t = x.table, rows = t.rows.concat(t.total ? [Object.assign({ tot: true }, t.total)] : []);
+      h += '<div class="tbl-wrap"><table class="tbl"><thead><tr><th scope="col">' + esc(t.first || 'Esercizio') + '</th>' +
+        t.cols.map(function (c) { return '<th scope="col">' + esc(c) + '</th>'; }).join('') + '</tr></thead><tbody>';
+      rows.forEach(function (r) {
+        h += '<tr' + (r.tot ? ' class="tot"' : '') + '><th scope="row"><span class="ex-name">' + esc(r.name) + '</span></th>' +
+          r.cells.map(function (c) { return '<td>' + esc(c) + '</td>'; }).join('') + '</tr>';
+      });
+      h += '</tbody></table></div>';
+    }
     (x.blocks || []).forEach(function (b) {
       var cols = b.cols && b.cols.length ? b.cols : ['Serie e ripetizioni'];
       h += '<h4 class="blk">' + esc(b.title) + (b.dur ? '<span>' + esc(b.dur) + '</span>' : '') + '</h4>' +
