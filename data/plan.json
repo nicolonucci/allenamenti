@@ -300,12 +300,83 @@
      "id": "2026-10-14-corsa",
      "date": "2026-10-14",
      "type": "corsa",
-     "title": "Corsa",
-     "duration": "",
-     "status": "da-programmare",
-     "summary": "Scheda ancora da programmare.",
+     "title": "Corsa progressiva",
+     "duration": "circa 36′",
+     "status": "scheda",
+     "summary": "Corsa aerobica di 5,5 km con progressione leggera, il giorno dopo la forza gambe. Ritmi e frequenza cardiaca sono ricavati dalle tue corse recenti: 6:19/km a 147–148 bpm e 5:59/km a 156 bpm (export Apple Health). Gli intervalli di FC sono stime, non misure a questi ritmi.",
      "blocks": [],
-     "notes": []
+     "notes": [
+      "Stop: se nel progressivo superi 155 bpm, torna al ritmo del km precedente.",
+      "Gli intervalli di FC sono stimati interpolando due punti misurati (6:19/km → 147–148 bpm, 5:59/km → 156 bpm). Dopo la leg press, con caldo o poco sonno la FC a parità di ritmo può salire.",
+      "Nei dati la FC massima reale non è misurata: il massimo sostenuto è 171 bpm, in sforzi non massimali. Per questo i target sono espressi in bpm assoluti e non in percentuale della massima.",
+      "Le zone cardio di Strava sono impostate a mano. Le tue corse facili stanno a circa 147 bpm, cioè in Z3 secondo quelle zone: o le zone sono basse o 6:19/km non è facile per te. Non so quale delle due; confronta FC e sensazioni dopo la seduta.",
+      "Dopo la seduta scrivi nelle note della valutazione FC media, ritmo di ogni km e dolori."
+     ],
+     "table": {
+      "first": "Fase",
+      "cols": [
+       "Distanza",
+       "Ritmo target",
+       "FC target (bpm)",
+       "Tempo"
+      ],
+      "rows": [
+       {
+        "name": "Riscaldamento",
+        "cells": [
+         "1,5 km",
+         "6:45/km",
+         "fino a 140",
+         "10:08"
+        ]
+       },
+       {
+        "name": "Progressivo, km 1",
+        "cells": [
+         "1 km",
+         "6:30/km",
+         "142–147",
+         "6:30"
+        ]
+       },
+       {
+        "name": "Progressivo, km 2",
+        "cells": [
+         "1 km",
+         "6:20/km",
+         "146–150",
+         "6:20"
+        ]
+       },
+       {
+        "name": "Progressivo, km 3",
+        "cells": [
+         "1 km",
+         "6:10/km",
+         "148–153",
+         "6:10"
+        ]
+       },
+       {
+        "name": "Defaticamento",
+        "cells": [
+         "1 km",
+         "6:55/km",
+         "sotto 135 a fine km",
+         "6:55"
+        ]
+       }
+      ],
+      "total": {
+       "name": "Totale",
+       "cells": [
+        "5,5 km",
+        "",
+        "",
+        "circa 36′"
+       ]
+      }
+     }
     },
     {
      "id": "2026-10-15-nuoto",
