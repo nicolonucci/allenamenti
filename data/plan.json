@@ -303,13 +303,14 @@
      "title": "Corsa progressiva",
      "duration": "circa 36′",
      "status": "scheda",
-     "summary": "Corsa aerobica di 5,5 km con progressione leggera, il giorno dopo la forza gambe. Ritmi e frequenza cardiaca sono ricavati dalle tue corse recenti: 6:19/km a 147–148 bpm e 5:59/km a 156 bpm (export Apple Health). Gli intervalli di FC sono stime, non misure a questi ritmi.",
+     "summary": "Corsa aerobica di 5,5 km con progressione leggera, il giorno dopo la forza gambe. I ritmi vengono dalle tue corse recenti su Strava. Gli intervalli di FC sono stime comprese tra due condizioni osservate: 147 bpm a ~6:18/km (1 e 7 ottobre) e 157 bpm a 6:16/km (11 ottobre, il giorno dopo una corsa a 5:59 e 23 km di bici).",
      "blocks": [],
      "notes": [
-      "Stop: se nel progressivo superi 155 bpm, torna al ritmo del km precedente.",
-      "Gli intervalli di FC sono stimati interpolando due punti misurati (6:19/km → 147–148 bpm, 5:59/km → 156 bpm). Dopo la leg press, con caldo o poco sonno la FC a parità di ritmo può salire.",
-      "Nei dati la FC massima reale non è misurata: il massimo sostenuto è 171 bpm, in sforzi non massimali. Per questo i target sono espressi in bpm assoluti e non in percentuale della massima.",
-      "Le zone cardio di Strava sono impostate a mano. Le tue corse facili stanno a circa 147 bpm, cioè in Z3 secondo quelle zone: o le zone sono basse o 6:19/km non è facile per te. Non so quale delle due; confronta FC e sensazioni dopo la seduta.",
+      "Stop: se nel km 1 sei già sopra 155 bpm, tieni 6:30 per tutti e tre i km. È una regola di prudenza, non una soglia misurata.",
+      "A parità di ritmo la FC è cambiata di circa 10 bpm: 147 il 1 e il 7 ottobre (6:18–6:20/km), 157 l'11 ottobre (6:16/km). Che la differenza dipenda dalla stanchezza è un'ipotesi. Mercoledì è il giorno dopo la leg press, quindi può andare come l'11.",
+      "Il 10 ottobre, a 156 bpm di media e 5:59/km, hai indicato uno sforzo percepito di 4. Non so su che scala sia, quindi è solo un indizio.",
+      "La FC massima reale non è misurata: il massimo registrato è 171 bpm, in sforzi non massimali. Per questo i target sono in bpm assoluti e non in percentuale della massima.",
+      "Le zone cardio di Strava sono impostate a mano e non ho verificato che siano corrette per te.",
       "Dopo la seduta scrivi nelle note della valutazione FC media, ritmo di ogni km e dolori."
      ],
      "table": {
@@ -326,7 +327,7 @@
         "cells": [
          "1,5 km",
          "6:45/km",
-         "fino a 140",
+         "fino a 148",
          "10:08"
         ]
        },
@@ -335,7 +336,7 @@
         "cells": [
          "1 km",
          "6:30/km",
-         "142–147",
+         "145–155",
          "6:30"
         ]
        },
@@ -344,7 +345,7 @@
         "cells": [
          "1 km",
          "6:20/km",
-         "146–150",
+         "148–157",
          "6:20"
         ]
        },
@@ -353,7 +354,7 @@
         "cells": [
          "1 km",
          "6:10/km",
-         "148–153",
+         "150–160",
          "6:10"
         ]
        },
@@ -362,7 +363,7 @@
         "cells": [
          "1 km",
          "6:55/km",
-         "sotto 135 a fine km",
+         "scendi sotto 150",
          "6:55"
         ]
        }
