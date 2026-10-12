@@ -97,6 +97,13 @@
   .blk { display: flex; flex-wrap: wrap; align-items: baseline; gap: 2px 10px; margin: 18px 0 6px; font-family: var(--font-display); font-weight: 700; font-size: 18px; letter-spacing: .06em; text-transform: uppercase; }
   .blk:first-of-type { margin-top: 4px; }
   .blk span { color: var(--muted); font-weight: 500; font-size: 15px; }
+  .tbl-wrap { overflow-x: auto; border: 1px solid var(--line); border-radius: 10px; }
+  .tbl { width: 100%; border-collapse: collapse; font-size: 14.5px; }
+  .tbl th, .tbl td { text-align: left; vertical-align: top; padding: 8px 10px; border-top: 1px solid var(--line); overflow-wrap: anywhere; }
+  .tbl thead th { border-top: 0; background: var(--tile); color: var(--muted); font-family: var(--font-display); font-weight: 600; font-size: 13px; letter-spacing: .08em; text-transform: uppercase; white-space: nowrap; }
+  .tbl tbody th { font-weight: 400; min-width: 38%; }
+  .tbl td { color: var(--accent); font-weight: 500; }
+  .tbl .ex-name { font-size: 17px; }
   .exs { list-style: none; margin: 0; padding: 0; }
   .ex { border-top: 1px solid var(--line); padding: 10px 0; min-width: 0; }
   .ex:first-child { border-top: 0; }
@@ -428,13 +435,17 @@
     if (x.summary) h += '<p class="intro">' + esc(x.summary) + '</p>';
     if (x.text) h += '<p class="freetext">' + esc(x.text) + '</p>';
     (x.blocks || []).forEach(function (b) {
-      h += '<h4 class="blk">' + esc(b.title) + (b.dur ? '<span>' + esc(b.dur) + '</span>' : '') + '</h4><ul class="exs">';
+      var cols = b.cols && b.cols.length ? b.cols : ['Serie e ripetizioni'];
+      h += '<h4 class="blk">' + esc(b.title) + (b.dur ? '<span>' + esc(b.dur) + '</span>' : '') + '</h4>' +
+        '<div class="tbl-wrap"><table class="tbl"><thead><tr><th scope="col">Esercizio</th>' +
+        cols.map(function (c) { return '<th scope="col">' + esc(c) + '</th>'; }).join('') + '</tr></thead><tbody>';
       b.items.forEach(function (e) {
-        h += '<li class="ex"><div class="ex-name">' + esc(e.name) + '</div><div class="ex-target">' + esc(e.target) + '</div>';
+        var cells = e.cells && e.cells.length ? e.cells : [e.target];
+        h += '<tr><th scope="row"><span class="ex-name">' + esc(e.name) + '</span>';
         if (e.how) h += '<details class="how"><summary>Come si fa</summary><p><b>Parti</b>' + esc(e.how.parti) + '</p><p><b>Fai</b>' + esc(e.how.fai) + '</p><p><b>Evita</b>' + esc(e.how.evita) + '</p></details>';
-        h += '</li>';
+        h += '</th>' + cells.map(function (c) { return '<td>' + esc(c) + '</td>'; }).join('') + '</tr>';
       });
-      h += '</ul>';
+      h += '</tbody></table></div>';
     });
     if (x.notes && x.notes.length) h += '<ul class="notes">' + x.notes.map(function (n) { return '<li>' + esc(n) + '</li>'; }).join('') + '</ul>';
     if (x.custom) h += '<div class="savebar"><span></span><button type="button" class="link danger" data-act="del-custom">Elimina allenamento</button></div>';

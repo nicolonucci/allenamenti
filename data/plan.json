@@ -111,6 +111,9 @@
           "evita": "Forzare se il ginocchio tira: metti un cuscino tra talloni e gluteo."
          }
         }
+       ],
+       "cols": [
+        "Serie e ripetizioni"
        ]
       },
       {
@@ -157,6 +160,9 @@
           "evita": "Inarcare la zona lombare in alto: ferma la salita quando il gluteo è contratto."
          }
         }
+       ],
+       "cols": [
+        "Serie e ripetizioni"
        ]
       }
      ],
@@ -199,6 +205,9 @@
           "evita": "Ruotare il busto verso il cavo o spostare il bacino."
          }
         }
+       ],
+       "cols": [
+        "Serie e ripetizioni"
        ]
       },
       {
@@ -225,6 +234,9 @@
           "evita": "Ruotare il busto o alzare la spalla verso l'orecchio."
          }
         }
+       ],
+       "cols": [
+        "Serie e ripetizioni"
        ]
       },
       {
@@ -251,6 +263,9 @@
           "evita": "Piegare il busto di lato o alzare la spalla dalla parte del peso."
          }
         }
+       ],
+       "cols": [
+        "Serie e ripetizioni"
        ]
       },
       {
@@ -267,6 +282,9 @@
           "evita": "Avvicinare i piedi tra loro o far cadere le ginocchia verso l'interno."
          }
         }
+       ],
+       "cols": [
+        "Serie e ripetizioni"
        ]
       }
      ],
@@ -305,18 +323,35 @@
         {
          "id": "n1",
          "name": "Libero continuo",
-         "target": "6 vasche (108 m), circa 1:50 totali"
+         "cells": [
+          "6 vasche (108 m)",
+          "circa 1:50 totali",
+          "–"
+         ]
         },
         {
          "id": "n2",
          "name": "Gambe con tavoletta",
-         "target": "4 × 2 vasche (144 m), 0:56 a ripetizione, partenza ogni 1:15"
+         "cells": [
+          "4 × 2 vasche (144 m)",
+          "0:56",
+          "1:15"
+         ]
         },
         {
          "id": "n3",
          "name": "Progressivi, libero",
-         "target": "4 × 4 vasche (288 m), 1:10 · 1:08 · 1:06 · 1:04, partenza ogni 1:30"
+         "cells": [
+          "4 × 4 vasche (288 m)",
+          "1:10 · 1:08 · 1:06 · 1:04",
+          "1:30"
+         ]
         }
+       ],
+       "cols": [
+        "Ripetizioni",
+        "Tempo",
+        "Partenza ogni"
        ]
       },
       {
@@ -326,8 +361,17 @@
         {
          "id": "n4",
          "name": "Libero",
-         "target": "5 × 8 vasche (720 m), 2:10 a ripetizione (16,3 s a vasca), partenza ogni 2:30"
+         "cells": [
+          "5 × 8 vasche (720 m)",
+          "2:10 (16,3 s a vasca)",
+          "2:30"
+         ]
         }
+       ],
+       "cols": [
+        "Ripetizioni",
+        "Tempo",
+        "Partenza ogni"
        ]
       },
       {
@@ -337,13 +381,26 @@
         {
          "id": "n5",
          "name": "Pull buoy",
-         "target": "3 × 6 vasche (324 m), 1:40 a ripetizione, partenza ogni 2:00"
+         "cells": [
+          "3 × 6 vasche (324 m)",
+          "1:40",
+          "2:00"
+         ]
         },
         {
          "id": "n6",
          "name": "Finale veloce, libero",
-         "target": "4 × 4 vasche (288 m), 1:01 a ripetizione (15,3 s a vasca), partenza ogni 1:25"
+         "cells": [
+          "4 × 4 vasche (288 m)",
+          "1:01 (15,3 s a vasca)",
+          "1:25"
+         ]
         }
+       ],
+       "cols": [
+        "Ripetizioni",
+        "Tempo",
+        "Partenza ogni"
        ]
       },
       {
@@ -353,8 +410,17 @@
         {
          "id": "n7",
          "name": "Libero molto facile",
-         "target": "6 vasche (108 m), circa 1:50 totali"
+         "cells": [
+          "6 vasche (108 m)",
+          "circa 1:50 totali",
+          "–"
+         ]
         }
+       ],
+       "cols": [
+        "Ripetizioni",
+        "Tempo",
+        "Partenza ogni"
        ]
       }
      ],
