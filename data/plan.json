@@ -1,6 +1,6 @@
 {
  "version": 1,
- "updated": "2026-10-12",
+ "updated": "2026-10-13",
  "weeks": [
   {
    "id": "2026-W42",
@@ -521,6 +521,219 @@
     {
      "id": "2026-10-18-corsa-10k",
      "date": "2026-10-18",
+     "type": "corsa",
+     "title": "Corsa 10 km",
+     "duration": "",
+     "status": "da-programmare",
+     "summary": "Scheda ancora da programmare.",
+     "blocks": [],
+     "notes": []
+    }
+   ]
+  },
+  {
+   "id": "2026-W43",
+   "start": "2026-10-19",
+   "title": "Settimana 43",
+   "note": "Solo la forza di martedì è programmata. Gli altri giorni dopo l'export Apple Health aggiornato.",
+   "workouts": [
+    {
+     "id": "2026-10-19-mobilita",
+     "date": "2026-10-19",
+     "type": "mobilita",
+     "title": "Mobilità e core",
+     "duration": "",
+     "status": "da-programmare",
+     "summary": "Scheda ancora da programmare.",
+     "blocks": [],
+     "notes": []
+    },
+    {
+     "id": "2026-10-20-forza",
+     "date": "2026-10-20",
+     "type": "forza",
+     "title": "Forza funzionale",
+     "duration": "circa 60′",
+     "status": "scheda",
+     "summary": "Seconda seduta di forza per la corsa. Stesso schema del 13 ottobre con tre modifiche: polpacci con manubrio, lateral crunch al posto del suitcase carry, abductor machine a 35 kg.",
+     "blocks": [
+      {
+       "title": "Blocco A · gambe e anti-rotazione",
+       "dur": "circa 14′",
+       "items": [
+        {
+         "id": "a1",
+         "name": "A1 · Step-up con manubri",
+         "target": "3 × 6 per gamba, 12 kg per mano (24 totali), poi passa all'A2",
+         "sets": 3,
+         "reps": 6,
+         "how": {
+          "parti": "Davanti a una panca o a un box alto quanto il ginocchio, un manubrio per mano, piede intero sul box.",
+          "fai": "Spingi sul piede appoggiato fino a distendere anca e ginocchio, senza dare la spinta con la gamba dietro. Scendi in 3″.",
+          "evita": "Far rientrare il ginocchio o rimbalzare in basso con la gamba a terra."
+         }
+        },
+        {
+         "id": "a2",
+         "name": "A2 · Pallof press",
+         "target": "3 × 10 per lato, 5 kg, pausa 2″ con le braccia tese",
+         "sets": 3,
+         "reps": 10,
+         "how": {
+          "parti": "Di fianco a un cavo (o a un elastico fissato a una colonna) all'altezza del petto, maniglia al petto, piedi larghi come le spalle.",
+          "fai": "Distendi le braccia in avanti e fermati 2″ resistendo alla trazione, poi torna al petto.",
+          "evita": "Ruotare il busto verso il cavo o spostare il bacino."
+         }
+        }
+       ],
+       "cols": [
+        "Serie e ripetizioni"
+       ]
+      },
+      {
+       "title": "Blocco B · catena posteriore e schiena",
+       "dur": "circa 14′",
+       "items": [
+        {
+         "id": "b1",
+         "name": "B1 · Stacco rumeno a una gamba",
+         "target": "3 × 6 per gamba, 24 kg totali",
+         "sets": 3,
+         "reps": 6,
+         "how": {
+          "parti": "In piedi su una gamba con il ginocchio morbido, manubrio nella mano opposta alla gamba d'appoggio.",
+          "fai": "Spingi il bacino indietro fino a portare busto e gamba libera in linea orizzontale, poi risali stringendo il gluteo. Per l'equilibrio puoi sfiorare un appoggio con due dita.",
+          "evita": "Arrotondare la schiena o ruotare il bacino verso l'alto."
+         }
+        },
+        {
+         "id": "b2",
+         "name": "B2 · Rematore a un braccio",
+         "target": "3 × 8 per lato, 12 kg, pausa 1″ in alto",
+         "sets": 3,
+         "reps": 8,
+         "how": {
+          "parti": "Una mano sulla panca e il piede opposto indietro, schiena piatta, manubrio nell'altra mano a braccio disteso.",
+          "fai": "Tira il gomito verso l'anca, fermati 1″ e scendi in 2-3″.",
+          "evita": "Ruotare il busto o alzare la spalla verso l'orecchio."
+         }
+        }
+       ],
+       "cols": [
+        "Serie e ripetizioni"
+       ]
+      },
+      {
+       "title": "Blocco C · polpacci e core",
+       "dur": "circa 12′",
+       "items": [
+        {
+         "id": "c1",
+         "name": "C1 · Calf raise a una gamba con manubrio",
+         "target": "3 × 10 per gamba, parti con 12 kg, pausa 1″ in alto",
+         "sets": 3,
+         "reps": 10,
+         "how": {
+          "parti": "Su una gamba sola con l'avampiede sul bordo di un gradino, un manubrio nella mano dello stesso lato e l'altra mano a un muro o a un rack per l'equilibrio.",
+          "fai": "Sali sulle punte, fermati 1″ e scendi in 3″ fino a sentire il polpaccio allungarsi sotto il livello del gradino. Se la serie chiude oltre RIR 4, sali di 4 kg nella serie dopo. La 3ª serie deve chiudere a RIR 2–3.",
+          "evita": "Piegare il ginocchio, rimbalzare in basso o appoggiare l'altro piede."
+         }
+        },
+        {
+         "id": "c2",
+         "name": "C2 · Lateral crunch alla macchina",
+         "target": "3 × 10–12 per lato, RIR 2; primo giorno parti leggero e trova il carico",
+         "sets": 3,
+         "reps": 10,
+         "how": {
+          "parti": "Seduto alla macchina con il pad sul fianco e il bacino fermo, mani sulle impugnature.",
+          "fai": "Piega il busto di lato contro il pad e torna in 2–3″, senza dare slancio.",
+          "evita": "Ruotare il busto o spingere con le gambe."
+         }
+        }
+       ],
+       "cols": [
+        "Serie e ripetizioni"
+       ]
+      },
+      {
+       "title": "Blocco D · stabilità del bacino",
+       "dur": "circa 5′",
+       "items": [
+        {
+         "id": "d1",
+         "name": "D1 · Abductor machine",
+         "target": "2 × 12, 35 kg",
+         "sets": 2,
+         "reps": 12,
+         "how": {
+          "parti": "Seduto alla macchina con la schiena appoggiata e i cuscinetti all'esterno delle ginocchia.",
+          "fai": "Apri le gambe fino a sentire lavorare il gluteo, fermati un attimo e torna lentamente.",
+          "evita": "Dare slancio o staccare il bacino dal sedile."
+         }
+        }
+       ],
+       "cols": [
+        "Serie e ripetizioni"
+       ]
+      }
+     ],
+     "notes": [
+      "Prima di iniziare: 5-8′ di cyclette o tapis roulant facile e una serie leggera di step-up (6 per gamba).",
+      "Fai le coppie A1 + A2, B1 + B2 e C1 + C2 alternando gli esercizi, con 90″ di recupero dopo ogni coppia. Il blocco D chiude la seduta.",
+      "Step-up: punta a RIR 2. Se la 3ª serie chiude di nuovo a RIR 3, la volta dopo passa a 14 kg per mano.",
+      "Calf raise: il carico di partenza (12 kg) è una stima, non un dato. Regolalo con la prima serie.",
+      "Lateral crunch: è il sostituto del suitcase carry. Il primo giorno serve a trovare il carico.",
+      "Nel diario scrivi il carico, le serie e la riserva (RIR) di ogni esercizio. Se corri il giorno dopo, nessun cedimento."
+     ]
+    },
+    {
+     "id": "2026-10-21-corsa",
+     "date": "2026-10-21",
+     "type": "corsa",
+     "title": "Corsa",
+     "duration": "",
+     "status": "da-programmare",
+     "summary": "Scheda ancora da programmare.",
+     "blocks": [],
+     "notes": []
+    },
+    {
+     "id": "2026-10-22-nuoto",
+     "date": "2026-10-22",
+     "type": "nuoto",
+     "title": "Nuoto",
+     "duration": "",
+     "status": "da-programmare",
+     "summary": "Scheda ancora da programmare.",
+     "blocks": [],
+     "notes": []
+    },
+    {
+     "id": "2026-10-23-corsa",
+     "date": "2026-10-23",
+     "type": "corsa",
+     "title": "Corsa",
+     "duration": "",
+     "status": "da-programmare",
+     "summary": "Scheda ancora da programmare.",
+     "blocks": [],
+     "notes": []
+    },
+    {
+     "id": "2026-10-24-bici",
+     "date": "2026-10-24",
+     "type": "bici",
+     "title": "Bici su strada",
+     "duration": "",
+     "status": "da-programmare",
+     "summary": "Scheda ancora da programmare.",
+     "blocks": [],
+     "notes": []
+    },
+    {
+     "id": "2026-10-25-corsa-10k",
+     "date": "2026-10-25",
      "type": "corsa",
      "title": "Corsa 10 km",
      "duration": "",
