@@ -189,6 +189,8 @@
          "id": "a1",
          "name": "A1 · Step-up con manubri",
          "target": "3 × 6 per gamba, poi passa all'A2",
+         "sets": 3,
+         "reps": 6,
          "how": {
           "parti": "Davanti a una panca o a un box alto quanto il ginocchio, un manubrio per mano, piede intero sul box.",
           "fai": "Spingi sul piede appoggiato fino a distendere anca e ginocchio, senza dare la spinta con la gamba dietro. Scendi in 3″.",
@@ -199,6 +201,8 @@
          "id": "a2",
          "name": "A2 · Pallof press",
          "target": "3 × 10 per lato, pausa 2″ con le braccia tese",
+         "sets": 3,
+         "reps": 10,
          "how": {
           "parti": "Di fianco a un cavo (o a un elastico fissato a una colonna) all'altezza del petto, maniglia al petto, piedi larghi come le spalle.",
           "fai": "Distendi le braccia in avanti e fermati 2″ resistendo alla trazione, poi torna al petto.",
@@ -218,6 +222,8 @@
          "id": "b1",
          "name": "B1 · Stacco rumeno a una gamba",
          "target": "3 × 6 per gamba, carico leggero",
+         "sets": 3,
+         "reps": 6,
          "how": {
           "parti": "In piedi su una gamba con il ginocchio morbido, manubrio nella mano opposta alla gamba d'appoggio.",
           "fai": "Spingi il bacino indietro fino a portare busto e gamba libera in linea orizzontale, poi risali stringendo il gluteo. Per l'equilibrio puoi sfiorare un appoggio con due dita.",
@@ -228,6 +234,8 @@
          "id": "b2",
          "name": "B2 · Rematore a un braccio",
          "target": "3 × 8 per lato, pausa 1″ in alto",
+         "sets": 3,
+         "reps": 8,
          "how": {
           "parti": "Una mano sulla panca e il piede opposto indietro, schiena piatta, manubrio nell'altra mano a braccio disteso.",
           "fai": "Tira il gomito verso l'anca, fermati 1″ e scendi in 2-3″.",
@@ -247,6 +255,8 @@
          "id": "c1",
          "name": "C1 · Calf raise a una gamba",
          "target": "3 × 10 per gamba, pausa 1″ in alto",
+         "sets": 3,
+         "reps": 10,
          "how": {
           "parti": "Su una gamba sola con l'avampiede sul bordo di un gradino, mani a un muro o a un rack per l'equilibrio.",
           "fai": "Sali sulle punte, fermati 1″ e scendi in 3″ fino a sentire il polpaccio allungarsi sotto il livello del gradino.",
@@ -257,6 +267,9 @@
          "id": "c2",
          "name": "C2 · Suitcase carry",
          "target": "3 × 30″ per mano, camminando",
+         "sets": 3,
+         "reps": 30,
+         "unit": "s",
          "how": {
           "parti": "Un manubrio in una mano lungo il fianco, busto dritto, spalle e bacino livellati.",
           "fai": "Cammina per 30″ senza inclinarti verso il peso, poi cambia mano. Carico medio: gli ultimi 5″ devono essere duri ma controllati.",
@@ -276,6 +289,9 @@
          "id": "d1",
          "name": "D1 · Camminata laterale con elastico",
          "target": "2 × 12 passi per lato",
+         "sets": 2,
+         "reps": 12,
+         "unit": "passi",
          "how": {
           "parti": "Minibanda sopra le ginocchia, mezzo squat, piedi larghi come le spalle.",
           "fai": "Fai 12 passi laterali in una direzione e 12 nell'altra, tenendo l'elastico in tensione e le ginocchia in linea con i piedi.",

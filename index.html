@@ -153,6 +153,15 @@
   .exlog-name { font-family: var(--font-display); font-weight: 600; font-size: 19px; line-height: 1.15; margin: 0 0 6px; overflow-wrap: anywhere; }
   .three { display: grid; grid-template-columns: repeat(3, minmax(0, 1fr)); gap: 8px; }
   .three label span { display: block; color: var(--muted); font-size: 12.5px; margin-bottom: 2px; }
+  .exlog-target { margin: 0 0 6px; color: var(--accent); font-weight: 500; font-size: 14.5px; overflow-wrap: anywhere; }
+  .exlog-last { margin: 0 0 8px; color: var(--muted); font-size: 13.5px; overflow-wrap: anywhere; }
+  .srow { display: grid; grid-template-columns: 2.2ch minmax(0, 1fr) minmax(0, 1fr) 48px; gap: 8px; align-items: center; margin: 0 0 8px; }
+  .srow.shead { margin-bottom: 2px; color: var(--muted); font-size: 12.5px; }
+  .srow .sn { font-family: var(--font-display); font-weight: 700; font-size: 22px; text-align: center; font-variant-numeric: tabular-nums; }
+  .opt.sok { width: 48px; height: 44px; font-size: 22px; padding: 0; }
+  .exlog-foot { display: grid; grid-template-columns: minmax(0, 1fr) minmax(0, 1fr); gap: 8px; align-items: end; margin-top: 4px; }
+  .exlog-foot label span { display: block; color: var(--muted); font-size: 12.5px; margin-bottom: 2px; }
+  .exlog-foot .link { text-align: right; padding: 0; min-height: 44px; }
   .savebar { display: flex; flex-wrap: wrap; align-items: center; justify-content: space-between; gap: 8px 12px; margin-top: 16px; padding-top: 12px; border-top: 1px dashed var(--line); font-size: 14px; color: var(--muted); }
   .link { background: none; border: 0; padding: 8px 0; min-height: 44px; color: var(--muted); text-decoration: underline; cursor: pointer; font-size: 14px; }
   .link.danger { color: var(--warn); }
@@ -492,20 +501,76 @@
     return '<select aria-label="Zona" data-path="' + path + '"><option value="">–</option>' + ZONES.map(function (z) { return '<option' + (z === cur ? ' selected' : '') + '>' + esc(z) + '</option>'; }).join('') + '</select>';
   }
 
+  /* ---------- forza: serie programmate, peso e ripetizioni per serie ---------- */
+  function progr(it) {
+    var tg = it.target || '', m = /^\s*(\d+)\s*[×x]\s*(\d+)\s*(″|"|passi|secondi)?/i.exec(tg);
+    var u = it.unit || (m && m[3] ? (/passi/i.test(m[3]) ? 'passi' : 's') : '');
+    return { sets: it.sets || (m ? +m[1] : 3), reps: it.reps != null ? it.reps : (m ? +m[2] : ''), unit: u };
+  }
+  function kgTxt(v) { return String(v).replace('.', ','); }
+  function shortDate(s) { var d = pd(s); return d.getDate() + ' ' + MONTHS[d.getMonth()]; }
+  /* testo di un esercizio registrato: solo le serie segnate fatte; vale anche per i dati vecchi (kg + "serie" a testo) */
+  function exText(r, it) {
+    if (!r) return '';
+    var P = progr(it), toks = [], out = [], n, i = 0, j, c, t, rep, txt;
+    for (n = 1; n <= P.sets; n++) {
+      var s = r['s' + n];
+      if (s && s.ok === 1) toks.push({ kg: s.kg != null ? s.kg : null, rip: s.rip != null ? s.rip : P.reps });
+    }
+    while (i < toks.length) {
+      j = i; while (j + 1 < toks.length && toks[j + 1].kg === toks[i].kg && toks[j + 1].rip === toks[i].rip) j++;
+      c = j - i + 1; t = toks[i];
+      rep = t.rip + (P.unit === 's' ? '″' : '');
+      txt = c > 1 ? c + ' × ' + rep : rep + (P.unit === 's' ? '' : P.unit === 'passi' ? ' passi' : ' rip');
+      if (t.kg != null) txt += ' a ' + kgTxt(t.kg) + ' kg';
+      out.push(txt); i = j + 1;
+    }
+    var f = [];
+    if (out.length) f.push((toks.length < P.sets ? toks.length + ' serie su ' + P.sets + ': ' : '') + out.join(', '));
+    if (r.kg != null) f.push(kgTxt(r.kg) + ' kg');
+    if (r.serie) f.push(r.serie);
+    if (r.rir != null) f.push('riserva ' + r.rir);
+    return f.join(' · ');
+  }
+  function lastForza(x, it) {
+    var best = null;
+    weeks.forEach(function (w) { w.workouts.forEach(function (o) {
+      if (o.type !== 'forza' || o.deleted || o.id === x.id || o.date >= x.date) return;
+      var e = db.evals[o.id], r = e && e.ex && e.ex[it.id];
+      if (r && exText(r, it) && (!best || o.date > best.date)) best = { date: o.date, r: r };
+    }); });
+    return best;
+  }
+  function lastKg(last, n) {
+    if (!last) return '';
+    var k, s;
+    for (k = n; k >= 1; k--) { s = last.r['s' + k]; if (s && s.kg != null) return String(s.kg); }
+    return last.r.kg != null ? String(last.r.kg) : '';
+  }
+
   function evalHtml(x) {
     var id = x.id, t = x.type, e = ev(id), h = '';
     h += '<fieldset class="fs"><legend>Com\'è andata</legend><div class="field">' + seg('status', [['fatto', 'Fatto'], ['parziale', 'Parziale'], ['saltato', 'Saltato']], id) + '</div>' +
       num(id, 'minuti', 'Durata effettiva <span class="hint">(minuti)</span>', 'inputmode="numeric" min="0" step="1"') + '</fieldset>';
 
     if (t === 'forza' && x.blocks && x.blocks.length) {
-      h += '<fieldset class="fs"><legend>Carichi</legend><p class="hint" style="margin:0 0 10px">Riserva: ripetizioni che ti restavano nell\'ultima serie. Lascia vuoto quello che non fai.</p>';
+      h += '<fieldset class="fs"><legend>Carichi</legend><p class="hint" style="margin:0 0 10px">Le ripetizioni sono già quelle programmate: cambiale solo se ne hai fatte di più o di meno. Inserisci il peso di ogni serie e tocca ✓ per segnarla fatta (si segna da sola quando scrivi peso o ripetizioni). Riserva: ripetizioni che ti restavano nell\'ultima serie.</p>';
       x.blocks.forEach(function (b) {
         b.items.forEach(function (it) {
-          h += '<div class="exlog"><p class="exlog-name">' + esc(it.name) + '</p><div class="three">' +
-            '<label><span>Carico kg</span><input type="number" inputmode="decimal" step="0.5" min="0" data-path="ex.' + it.id + '.kg" value="' + esc(getVal(id, 'ex.' + it.id + '.kg')) + '"></label>' +
-            '<label><span>Serie × rip</span><input type="text" autocomplete="off" autocapitalize="off" data-path="ex.' + it.id + '.serie" value="' + esc(getVal(id, 'ex.' + it.id + '.serie')) + '" placeholder="3×6"></label>' +
-            '<label><span>Riserva</span><input type="number" inputmode="numeric" min="0" max="10" data-path="ex.' + it.id + '.rir" value="' + esc(getVal(id, 'ex.' + it.id + '.rir')) + '"></label>' +
-            '</div></div>';
+          var P = progr(it), last = lastForza(x, it), base = 'ex.' + it.id, n;
+          h += '<div class="exlog"><p class="exlog-name">' + esc(it.name) + '</p>' +
+            (it.target ? '<p class="exlog-target">Programmato: ' + esc(it.target) + '</p>' : '') +
+            (last ? '<p class="exlog-last">Ultima volta (' + esc(shortDate(last.date)) + '): ' + esc(exText(last.r, it) || 'nessun dato') + '</p>' : '') +
+            '<div class="srow shead" aria-hidden="true"><span></span><span>Peso (kg)</span><span>' + (P.unit === 's' ? 'Secondi' : P.unit === 'passi' ? 'Passi' : 'Ripetizioni') + '</span><span></span></div>';
+          for (n = 1; n <= P.sets; n++) {
+            var sp = base + '.s' + n, sv = getVal(id, sp + '.rip'), kgp = lastKg(last, n), okOn = getVal(id, sp + '.ok') === 1;
+            h += '<div class="srow"><span class="sn">' + n + '</span>' +
+              '<input type="number" inputmode="decimal" step="0.5" min="0" aria-label="Peso serie ' + n + ' (kg)" placeholder="' + esc(kgp) + '" data-path="' + sp + '.kg" data-ok="' + sp + '.ok" value="' + esc(getVal(id, sp + '.kg')) + '">' +
+              '<input type="number" inputmode="numeric" min="0" aria-label="Ripetizioni serie ' + n + '" data-path="' + sp + '.rip" data-ok="' + sp + '.ok" value="' + esc(sv === '' ? P.reps : sv) + '">' +
+              '<button type="button" class="opt sok" data-act="sok" data-path="' + sp + '.ok" aria-label="Serie ' + n + ' fatta" aria-pressed="' + okOn + '">✓</button></div>';
+          }
+          h += '<div class="exlog-foot"><label><span>Riserva ultima serie</span><input type="number" inputmode="numeric" min="0" max="10" data-path="' + base + '.rir" value="' + esc(getVal(id, base + '.rir')) + '"></label>' +
+            '<button type="button" class="link" data-act="all-ok" data-ex="' + esc(it.id) + '" data-sets="' + P.sets + '">Tutte fatte</button></div></div>';
         });
       });
       h += '</fieldset>';
@@ -548,6 +613,13 @@
       var sib = b.parentNode.querySelectorAll('.opt'), i;
       for (i = 0; i < sib.length; i++) sib[i].setAttribute('aria-pressed', 'false');
       if (on) setVal(id, path, ''); else { b.setAttribute('aria-pressed', 'true'); setVal(id, path, val); }
+    } else if (act === 'sok') {
+      var okp = b.getAttribute('data-path'), okOn = b.getAttribute('aria-pressed') === 'true';
+      setVal(id, okp, okOn ? '' : 1); b.setAttribute('aria-pressed', String(!okOn));
+    } else if (act === 'all-ok') {
+      var exid = b.getAttribute('data-ex'), ns = +b.getAttribute('data-sets'), k, oks = b.closest('.exlog').querySelectorAll('.sok');
+      for (k = 1; k <= ns; k++) setVal(id, 'ex.' + exid + '.s' + k + '.ok', 1);
+      for (k = 0; k < oks.length; k++) oks[k].setAttribute('aria-pressed', 'true');
     } else if (act === 'clear-eval') {
       if (confirm('Cancellare la valutazione di questo allenamento?')) { db.evals[id] = { updatedAt: nowMs() }; persist(); render(); }
     } else if (act === 'del-custom') {
@@ -564,6 +636,11 @@
     if (t.type === 'number' && val !== '') { var n = parseFloat(String(val).replace(',', '.')); if (!isNaN(n)) val = n; }
     if (t.getAttribute('data-range')) { var o = t.parentNode.querySelector('output'); if (o) o.textContent = t.value; }
     setVal(li.getAttribute('data-id'), p, val);
+    var okPath = t.getAttribute('data-ok');
+    if (okPath && val !== '') { /* scrivere peso o ripetizioni segna la serie come fatta */
+      setVal(li.getAttribute('data-id'), okPath, 1);
+      var okBtn = t.parentNode.querySelector('.sok'); if (okBtn) okBtn.setAttribute('aria-pressed', 'true');
+    }
   }
   document.addEventListener('input', function (e) { onField(e.target); });
   document.addEventListener('change', function (e) { onField(e.target); });
@@ -636,8 +713,8 @@
         var parts = [];
         (x.blocks || []).forEach(function (b) { b.items.forEach(function (it) {
           var r = e.ex[it.id]; if (!r) return;
-          var s = it.name + ': ' + [r.kg != null ? r.kg + ' kg' : '', r.serie || '', r.rir != null ? 'riserva ' + r.rir : ''].filter(Boolean).join(', ');
-          parts.push(s);
+          var s = exText(r, it); if (!s) return;
+          parts.push(it.name + ': ' + s);
         }); });
         if (parts.length) L.push('   Carichi – ' + parts.join(' | '));
       }

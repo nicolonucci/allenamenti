@@ -9,6 +9,7 @@ Pagina statica (GitHub Pages) con una settimana per volta: scheda e valutazione 
 
 ## Come funziona
 - `data/plan.json` contiene le schede (si aggiornano con un commit).
+- Nelle schede di forza ogni esercizio ha `sets` (numero di serie) e `reps` (ripetizioni programmate; `unit`: `"s"` per i secondi, `"passi"` per i passi) oltre al testo `target`: la scheda di valutazione li usa per creare una riga per serie con le ripetizioni già compilate. Se mancano, li ricava dal testo (es. "3 × 6 per gamba"); se non riesce, mostra 3 serie con ripetizioni vuote.
 - Le valutazioni stanno nel browser del telefono (localStorage), non nel repository.
 - Backup: Dati e sincronizzazione → Scarica file / Copia JSON, oppure sincronizza con un repository **privato** (token fine-grained, solo Contents: Read and write).
 - Con la sincronizzazione configurata (e riuscita una volta a mano) il diario si invia da solo: circa 5 secondi dopo ogni modifica, all'apertura della pagina e quando la lasci. In cima alla pagina compare lo stato ("Sincronizzato alle…", "Da sincronizzare…", "Non sincronizzato: motivo"). Funziona solo con la pagina aperta; se non cambia nulla non viene creato nessun commit.
