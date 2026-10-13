@@ -182,6 +182,7 @@
   <p class="lede">Una settimana alla volta: tocca un allenamento per vedere la scheda e compilare la valutazione.</p>
 
   <div id="banner" class="banner" hidden></div>
+  <p class="msg" id="sync-status" role="status" hidden></p>
 
   <nav class="weeknav" aria-label="Settimane">
     <button class="navbtn" id="prev" type="button" aria-label="Settimana precedente">&#8249;</button>
@@ -238,6 +239,7 @@
     <div class="field"><label class="lbl" for="g-token">Token</label><input type="password" id="g-token" autocomplete="off" autocapitalize="off" autocorrect="off" spellcheck="false"></div>
     <div class="actions"><button class="btn" id="g-sync" type="button">Sincronizza</button></div>
     <p class="msg" id="g-msg" role="status"></p>
+    <p class="hint">Dopo la prima sincronizzazione riuscita il diario si sincronizza da solo: pochi secondi dopo ogni modifica, quando apri la pagina e quando la lasci. Funziona solo con la pagina aperta; in cima vedi se l'ultima modifica è stata inviata.</p>
   </section>
 </div>
 
@@ -291,6 +293,13 @@
   var openId = null;
   var tabOf = {};
   var saveTimer = null;
+  var autoTimer = null;       // timer della sincronizzazione automatica
+  var syncing = false;        // sincronizzazione in corso
+  var syncAgain = false;      // c'è stata una modifica durante la sincronizzazione
+  var pendingRender = false;  // dati remoti arrivati mentre stai scrivendo
+  var conflictRetries = 0;
+  var rev = 0;                // contatore delle modifiche locali
+  var syncedRev = 0;          // modifica già inviata al repository
 
   function loadDb() {
     var raw = lsGet(LS_KEY), o = null;
@@ -304,8 +313,9 @@
     if (raw) { try { o = JSON.parse(raw) || {}; } catch (e) { o = {}; } }
     return o;
   }
-  function persist() {
+  function persist(quiet) {
     if (!lsSet(LS_KEY, JSON.stringify(db))) showBanner('Questo browser non permette di salvare i dati: quello che scrivi si perde alla chiusura della pagina. Esporta spesso il JSON da "Dati e sincronizzazione".');
+    if (!quiet) { rev++; autoSyncSoon(); }
   }
   function showBanner(t) { var b = $('banner'); b.textContent = t; b.hidden = false; }
   function nowMs() { return Date.now(); }
@@ -694,27 +704,84 @@
   function gmsg(t, cls) { var m = $('g-msg'); m.className = 'msg ' + (cls || ''); m.textContent = t; }
   function b64enc(s) { var b = new TextEncoder().encode(s), bin = '', i; for (i = 0; i < b.length; i++) bin += String.fromCharCode(b[i]); return btoa(bin); }
   function b64dec(s) { var bin = atob(s.replace(/\s/g, '')), b = new Uint8Array(bin.length), i; for (i = 0; i < bin.length; i++) b[i] = bin.charCodeAt(i); return new TextDecoder().decode(b); }
+  function httpErr(m, status) { var e = new Error(m); e.status = status; return e; }
+  function syncReady() { return !!(cfg && /^[\w.-]+\/[\w.-]+$/.test(cfg.repo || '') && cfg.token); }
+  function setStatus(t, cls) {
+    var s = $('sync-status');
+    if (!syncReady()) { s.hidden = true; return; }
+    s.hidden = false; s.className = 'msg ' + (cls || ''); s.textContent = t;
+  }
+  function isEditing() { var a = document.activeElement; return !!(a && /^(INPUT|TEXTAREA|SELECT)$/.test(a.tagName)); }
+  function core(o) { return JSON.stringify({ evals: o.evals || {}, weeks: o.weeks || [], workouts: o.workouts || [] }); }
+  function autoSyncSoon(delay) {
+    if (!syncReady()) return;
+    clearTimeout(autoTimer);
+    setStatus('Da sincronizzare…');
+    autoTimer = setTimeout(function () { runSync(true); }, delay == null ? 5000 : delay);
+  }
+  function runSync(auto) {
+    if (!syncReady()) return Promise.resolve();
+    if (syncing) { syncAgain = true; return Promise.resolve(); }
+    syncing = true; clearTimeout(autoTimer);
+    var btn = $('g-sync'); btn.disabled = true;
+    if (auto) setStatus('Sincronizzo…'); else gmsg('Sincronizzo…');
+    var url = 'https://api.github.com/repos/' + cfg.repo + '/contents/' + cfg.path.split('/').map(encodeURIComponent).join('/');
+    var hdr = { 'Authorization': 'Bearer ' + cfg.token, 'Accept': 'application/vnd.github+json' };
+    var sentRev = rev;
+    return fetch(url + '?ref=' + encodeURIComponent(cfg.branch), { headers: hdr, cache: 'no-store' }).then(function (r) {
+      if (r.status === 404) return { sha: null, text: null };
+      if (!r.ok) throw httpErr('GitHub ha risposto ' + r.status + (r.status === 401 || r.status === 403 ? ' (token o permessi)' : ''), r.status);
+      return r.json().then(function (j) { return { sha: j.sha, text: b64dec(j.content) }; });
+    }).then(function (remote) {
+      var n = 0, o = null;
+      if (remote.text) {
+        try { o = JSON.parse(remote.text); } catch (e) { throw new Error('Il file remoto non è JSON valido'); }
+        n = mergeLog(o);
+        if (n > 0) { persist(true); buildWeeks(); if (isEditing()) pendingRender = true; else render(); }
+      }
+      sentRev = rev;
+      var local = logObj();
+      if (o && core(o) === core(local)) return n; // niente da inviare
+      var body = { message: 'Aggiorna diario allenamenti', content: b64enc(JSON.stringify(local, null, 1)), branch: cfg.branch };
+      if (remote.sha) body.sha = remote.sha;
+      var opts = { method: 'PUT', headers: merge(hdr, { 'Content-Type': 'application/json' }), body: JSON.stringify(body) };
+      if (body.content.length < 60000) opts.keepalive = true;
+      return fetch(url, opts).then(function (r) {
+        if (!r.ok) throw httpErr('Invio non riuscito (' + r.status + ')' + (r.status === 409 ? ': riprova' : r.status === 404 ? ': repository non trovato o token senza accesso' : r.status === 401 || r.status === 403 ? ': token o permessi' : ''), r.status);
+        return n;
+      });
+    }).then(function (n) {
+      syncedRev = sentRev; conflictRetries = 0;
+      var d = new Date();
+      if (!auto) gmsg('Sincronizzato. Dal remoto: ' + n + ' elementi nuovi o più recenti.', 'ok');
+      if (rev !== syncedRev) setStatus('Da sincronizzare…');
+      else setStatus('Sincronizzato alle ' + pad(d.getHours()) + ':' + pad(d.getMinutes()), 'ok');
+    }).catch(function (e) {
+      var m = e && e.message ? e.message : 'Errore di rete.';
+      if (e && e.status === 409 && conflictRetries < 2) { conflictRetries++; syncAgain = true; return; }
+      conflictRetries = 0;
+      if (!auto) gmsg(m, 'err');
+      setStatus('Non sincronizzato: ' + m + '. Riprova da "Dati e sincronizzazione".', 'err');
+    }).then(function () {
+      syncing = false; btn.disabled = false;
+      if (syncAgain) { syncAgain = false; autoSyncSoon(1500); }
+    });
+  }
   $('g-sync').addEventListener('click', function () {
     cfg = { repo: $('g-repo').value.trim(), branch: $('g-branch').value.trim() || 'main', path: $('g-path').value.trim() || 'diario.json', token: $('g-token').value.trim() };
     lsSet(CFG_KEY, JSON.stringify(cfg));
-    if (!/^[\w.-]+\/[\w.-]+$/.test(cfg.repo) || !cfg.token) { gmsg('Inserisci repository (utente/nome) e token.', 'err'); return; }
-    var btn = this; btn.disabled = true; gmsg('Sincronizzo…');
-    var url = 'https://api.github.com/repos/' + cfg.repo + '/contents/' + cfg.path.split('/').map(encodeURIComponent).join('/');
-    var hdr = { 'Authorization': 'Bearer ' + cfg.token, 'Accept': 'application/vnd.github+json' };
-    fetch(url + '?ref=' + encodeURIComponent(cfg.branch), { headers: hdr, cache: 'no-store' }).then(function (r) {
-      if (r.status === 404) return { sha: null, text: null };
-      if (!r.ok) throw new Error('GitHub ha risposto ' + r.status + (r.status === 401 || r.status === 403 ? ' (token o permessi)' : ''));
-      return r.json().then(function (j) { return { sha: j.sha, text: b64dec(j.content) }; });
-    }).then(function (remote) {
-      var n = 0;
-      if (remote.text) { var o; try { o = JSON.parse(remote.text); } catch (e) { throw new Error('Il file remoto non è JSON valido'); } n = mergeLog(o); persist(); buildWeeks(); render(); }
-      var body = { message: 'Aggiorna diario allenamenti', content: b64enc(JSON.stringify(logObj(), null, 1)), branch: cfg.branch };
-      if (remote.sha) body.sha = remote.sha;
-      return fetch(url, { method: 'PUT', headers: merge(hdr, { 'Content-Type': 'application/json' }), body: JSON.stringify(body) }).then(function (r) {
-        if (!r.ok) throw new Error('Invio non riuscito (' + r.status + ')' + (r.status === 409 ? ': riprova' : ''));
-        gmsg('Sincronizzato. Dal remoto: ' + n + ' elementi nuovi o più recenti.', 'ok');
-      });
-    }).catch(function (e) { gmsg(e && e.message ? e.message : 'Errore di rete.', 'err'); }).then(function () { btn.disabled = false; });
+    if (!syncReady()) { gmsg('Inserisci repository (utente/nome) e token.', 'err'); return; }
+    runSync(false);
+  });
+  document.addEventListener('visibilitychange', function () {
+    if (!syncReady()) return;
+    if (document.visibilityState === 'hidden') { if (rev !== syncedRev) runSync(true); } else runSync(true);
+  });
+  window.addEventListener('pagehide', function () { if (syncReady() && rev !== syncedRev) runSync(true); });
+  window.addEventListener('online', function () { if (syncReady() && rev !== syncedRev) autoSyncSoon(1000); });
+  document.addEventListener('focusout', function () {
+    if (!pendingRender) return;
+    setTimeout(function () { if (pendingRender && !isEditing()) { pendingRender = false; buildWeeks(); render(); } }, 0);
   });
 
   /* ---------- avvio ---------- */
@@ -730,7 +797,7 @@
     if (c) { try { p = JSON.parse(c); } catch (e) { p = null; } }
     if (p) { showBanner('Sei offline o il piano non si carica: uso l\'ultima copia salvata.'); } else { showBanner('Impossibile caricare il piano (data/plan.json). Se apri il file direttamente dal telefono non funziona: va aperto dal sito pubblicato.'); }
     start(p);
-  });
+  }).then(function () { if (syncReady()) setTimeout(function () { runSync(true); }, 800); });
 })();
 </script>
 </body>
