@@ -1,6 +1,6 @@
 {
  "version": 1,
- "updated": "2026-10-13",
+ "updated": "2026-10-14",
  "weeks": [
   {
    "id": "2026-W42",
@@ -500,12 +500,65 @@
      "id": "2026-10-16-corsa",
      "date": "2026-10-16",
      "type": "corsa",
-     "title": "Corsa",
-     "duration": "",
-     "status": "da-programmare",
-     "summary": "Scheda ancora da programmare.",
+     "title": "Corsa facile controllata",
+     "duration": "circa 33′",
+     "status": "scheda",
+     "summary": "Corsa facile di 5 km, tre giorni dopo la forza e due giorni dopo una corsa dura. Obiettivo: finire con lo stesso passo di partenza. Mercoledì sei partito a 5:55/km, sei rimasto 9 minuti sopra 161 bpm e hai perso circa 40 s/km negli ultimi 2 km.",
      "blocks": [],
-     "notes": []
+     "notes": [
+      "Regola principale: se la FC supera 148 bpm, rallenta anche sotto 6:40/km. Il riferimento viene dalle tue corse facili misurate: 147–148 bpm a circa 6:19/km. Il passo si adegua alla FC, non il contrario.",
+      "Primo km a 6:45 anche se ti sembra lento: è lì che mercoledì hai sbagliato. Non accelerare nell'ultimo km oltre 6:30.",
+      "I ritmi sono prudenziali e li ho scelti io: non sono una soglia misurata. Se risultano troppo lenti, scrivilo nelle note con FC e passo e li correggo sui dati.",
+      "La FC massima reale non è misurata (il massimo registrato è 171 bpm, in sforzi non massimali) e le zone cardio di Strava sono impostate a mano. Per questo i target sono in bpm assoluti.",
+      "Dopo la seduta scrivi nelle note della valutazione FC media, ritmo di ogni km e dolori."
+     ],
+     "table": {
+      "first": "Fase",
+      "cols": [
+       "Distanza",
+       "Ritmo target",
+       "FC target (bpm)",
+       "Tempo"
+      ],
+      "rows": [
+       {
+        "name": "Primo km",
+        "cells": [
+         "1 km",
+         "6:45/km",
+         "sotto 148",
+         "6:45"
+        ]
+       },
+       {
+        "name": "Centrale",
+        "cells": [
+         "3 km",
+         "6:30–6:40/km",
+         "sotto 148",
+         "19:30–20:00"
+        ]
+       },
+       {
+        "name": "Ultimo km",
+        "cells": [
+         "1 km",
+         "6:30/km",
+         "sotto 150",
+         "6:30"
+        ]
+       }
+      ],
+      "total": {
+       "name": "Totale",
+       "cells": [
+        "5 km",
+        "",
+        "",
+        "circa 33′"
+       ]
+      }
+     }
     },
     {
      "id": "2026-10-17-bici",
