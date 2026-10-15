@@ -1,6 +1,6 @@
 {
  "version": 1,
- "updated": "2026-10-14",
+ "updated": "2026-10-15",
  "weeks": [
   {
    "id": "2026-W42",
@@ -396,105 +396,149 @@
      }
     },
     {
-     "id": "2026-10-15-nuoto",
+     "id": "2026-10-15-mobilita",
      "date": "2026-10-15",
-     "type": "nuoto",
-     "title": "Nuoto",
-     "duration": "circa 42′",
+     "type": "mobilita",
+     "title": "Mobilità leggera",
+     "duration": "circa 34′",
      "status": "scheda",
-     "summary": "Vasca da 18 m, circa 1.980 m (110 vasche), con pull buoy e tavoletta. Tempi per ripetizione: il ritmo base di 16,7 s a vasca è misurato (nuotata dell'8 ottobre), gli altri sono stime da verificare. Con poco tempo: togli gambe e pull buoy (1.512 m).",
-     "blocks": [],
-     "notes": [
-      "Il solo numero misurato è il ritmo base: circa 16,7 s a vasca (1:33 ogni 100 m), costante nella nuotata dell'8 ottobre. I tempi di serie centrale, finale, gambe e pull buoy sono stime: nessun dato sui tuoi ritmi più veloci.",
-      "Serie centrale: se la 1ª ripetizione supera 2:14, il target è troppo ambizioso: riparti da 2:15 per tutte. Se la 5ª è più lenta della 1ª di oltre 4″, la prossima volta la partenza passa a 2:40.",
-      "Gambe: se 2 vasche richiedono più di 1:00, porta la partenza a 1:30.",
-      "Finale: se non tieni 1:03 per tutte e quattro, il target di 1:01 era troppo veloce e viene allungato.",
-      "Pull buoy: è il blocco che carica di più le spalle. Se senti dolore, salta il blocco.",
-      "Dopo la seduta confronta i tempi a vasca registrati dall'orologio con questi target e scrivili nelle note della valutazione."
-     ],
-     "table": {
-      "first": "Esercizio + accessorio",
-      "cols": [
-       "Ripetizioni",
-       "Tempo target",
-       "Ripartenza",
-       "Metri"
-      ],
-      "rows": [
-       {
-        "name": "Riscaldamento",
-        "cells": [
-         "6 vasche",
-         "circa 1:50 totali",
-         "–",
-         "108"
-        ]
-       },
-       {
-        "name": "Gambe, tavoletta",
-        "cells": [
-         "4 × 2 vasche",
-         "0:56",
-         "1:15",
-         "144"
-        ]
-       },
-       {
-        "name": "Progressivi",
-        "cells": [
-         "4 × 4 vasche",
-         "1:10 · 1:08 · 1:06 · 1:04",
-         "1:30",
-         "288"
-        ]
-       },
-       {
-        "name": "Serie centrale",
-        "cells": [
-         "5 × 8 vasche",
-         "2:10 (16,3 s a vasca)",
-         "2:30",
-         "720"
-        ]
-       },
-       {
-        "name": "Braccia, pull buoy",
-        "cells": [
-         "3 × 6 vasche",
-         "1:40",
-         "2:00",
-         "324"
-        ]
-       },
-       {
-        "name": "Finale veloce",
-        "cells": [
-         "4 × 4 vasche",
-         "1:01 (15,3 s a vasca)",
-         "1:25",
-         "288"
-        ]
-       },
-       {
-        "name": "Defaticamento",
-        "cells": [
-         "6 vasche",
-         "circa 1:50 totali",
-         "–",
-         "108"
-        ]
-       }
-      ],
-      "total": {
-       "name": "Totale",
-       "cells": [
-        "110 vasche",
-        "circa 42′",
-        "",
-        "1.980"
+     "summary": "Recupero attivo a casa, senza attrezzi (elastico facoltativo), al posto del nuoto. Notte corta (circa 5 h 26′ sull'Apple Watch), cinque giorni consecutivi di allenamento (10-14 ottobre) e polpacci pesanti. Con poco tempo: gatto-cammello, flessore dell'anca, polpaccio al muro, figura 4, dead bug (circa 12′).",
+     "blocks": [
+      {
+       "title": "Mobilità e stretching",
+       "dur": "circa 28′",
+       "items": [
+        {
+         "id": "o01",
+         "name": "Respirazione diaframmatica",
+         "target": "2′, espirazione lunga",
+         "how": {
+          "parti": "Sdraiato, gambe appoggiate su una sedia o sul divano con anche e ginocchia a 90°. Una mano sul petto, una sulla pancia.",
+          "fai": "Inspira dal naso gonfiando la pancia, poi espira lentamente dalla bocca per il doppio del tempo, finché senti le costole chiudersi.",
+          "evita": "Alzare le spalle o il petto: deve muoversi soprattutto la mano sulla pancia."
+         }
+        },
+        {
+         "id": "o02",
+         "name": "Gatto-cammello",
+         "target": "12 lente",
+         "how": {
+          "parti": "In quadrupedia: mani sotto le spalle, ginocchia sotto le anche.",
+          "fai": "Espira e spingi il pavimento arrotondando la schiena. Inspira e lascia scendere il ventre, alzando lo sguardo.",
+          "evita": "Muovere solo il collo o caricare il peso sui polsi."
+         }
+        },
+        {
+         "id": "o03",
+         "name": "Apertura toracica",
+         "target": "2 × 8 per lato",
+         "how": {
+          "parti": "In quadrupedia, una mano a terra e l'altra sotto il petto, palmo in su.",
+          "fai": "Ruota il busto e porta il braccio teso verso il soffitto, seguendo la mano con lo sguardo. Torna lentamente.",
+          "evita": "Spostare il bacino all'indietro: devono ruotare solo spalle e torace."
+         }
+        },
+        {
+         "id": "o04",
+         "name": "Flessore dell'anca in affondo",
+         "target": "2 × 45″ per lato",
+         "how": {
+          "parti": "Un ginocchio a terra (metti un cuscino), piede davanti piatto con il ginocchio sopra la caviglia.",
+          "fai": "Stringi il gluteo della gamba dietro e porta il bacino in avanti, busto alto, fino a sentire tirare davanti all'anca.",
+          "evita": "Inarcare la zona lombare: se la schiena si incava, spingi meno in avanti."
+         }
+        },
+        {
+         "id": "o05",
+         "name": "Polpaccio al muro",
+         "target": "2 × 40″ per gamba, tesa e poi piegata",
+         "how": {
+          "parti": "Mani al muro, un piede avanti e l'altro indietro di un passo e mezzo, con la punta dritta.",
+          "fai": "Tallone dietro a terra e gamba tesa: porta il bacino verso il muro per 30″. Poi piega un po' il ginocchio dietro, tallone sempre a terra, per altri 30″.",
+          "evita": "Staccare il tallone o ruotare il piede verso l'esterno."
+         }
+        },
+        {
+         "id": "o06",
+         "name": "Caviglia al muro",
+         "target": "2 × 10 per lato",
+         "how": {
+          "parti": "In piedi, punta del piede a circa 10 cm dal muro, mani al muro per l'equilibrio.",
+          "fai": "Porta il ginocchio a toccare il muro senza alzare il tallone, poi torna. Se è facile, allontana il piede.",
+          "evita": "Far cadere il ginocchio verso l'interno."
+         }
+        },
+        {
+         "id": "o07",
+         "name": "Mobilità anche 90/90",
+         "target": "2 × 6 per lato",
+         "how": {
+          "parti": "Seduto a terra, una gamba piegata a 90° davanti e l'altra piegata a 90° di lato, entrambe con il ginocchio a terra o appoggiato a un cuscino.",
+          "fai": "Con il busto alto ruota le ginocchia dall'altro lato, passando da una posizione 90/90 all'altra, senza usare le mani se riesci.",
+          "evita": "Forzare fino al dolore al ginocchio: se un ginocchio non arriva a terra, appoggialo su un cuscino e riduci l'ampiezza."
+         }
+        },
+        {
+         "id": "o08",
+         "name": "Figura 4 da supino",
+         "target": "2 × 45″ per lato",
+         "how": {
+          "parti": "Sdraiato, piedi a terra e ginocchia piegate. Appoggia la caviglia destra sul ginocchio sinistro.",
+          "fai": "Afferra dietro la coscia sinistra e tirala verso il petto, finché senti tirare nel gluteo destro.",
+          "evita": "Sollevare testa e bacino da terra o tirare con le spalle: il movimento viene dalle braccia."
+         }
+        },
+        {
+         "id": "o09",
+         "name": "Ischiocrurali con elastico",
+         "target": "2 × 40″ per gamba",
+         "how": {
+          "parti": "Sdraiato, elastico (o asciugamano) sotto la pianta di un piede, tenuto con le due mani. L'altra gamba resta distesa.",
+          "fai": "Stendi la gamba verso il soffitto e avvicinala al busto, finché senti tirare dietro la coscia.",
+          "evita": "Piegare il ginocchio o staccare il bacino da terra: accorcia l'ampiezza."
+         }
+        }
+       ],
+       "cols": [
+        "Serie e ripetizioni"
+       ]
+      },
+      {
+       "title": "Core a bassa intensità",
+       "dur": "circa 6′",
+       "items": [
+        {
+         "id": "o10",
+         "name": "Dead bug",
+         "target": "2 × 8 per lato, lento",
+         "how": {
+          "parti": "Sdraiato, braccia verso il soffitto, anche e ginocchia a 90°, zona lombare a contatto con il pavimento.",
+          "fai": "Espira e abbassa insieme il braccio destro e la gamba sinistra, senza toccare terra. Torna e cambia lato.",
+          "evita": "Staccare la zona lombare dal pavimento: se succede, riduci l'ampiezza."
+         }
+        },
+        {
+         "id": "o11",
+         "name": "Ponte glutei con elastico",
+         "target": "2 × 12, pausa 2″ in alto",
+         "how": {
+          "parti": "Sdraiato, piedi a terra larghi come il bacino, elastico sopra le ginocchia (facoltativo).",
+          "fai": "Spingi sui talloni e alza il bacino fino a formare una linea tra spalle e ginocchia. Spingi le ginocchia contro l'elastico per 2″ e scendi piano.",
+          "evita": "Inarcare la zona lombare in alto: ferma la salita quando il gluteo è contratto."
+         }
+        }
+       ],
+       "cols": [
+        "Serie e ripetizioni"
        ]
       }
-     }
+     ],
+     "notes": [
+      "Oggi non è un allenamento: tensione leggera, mai dolore. Se negli stretching dei polpacci senti dolore o crampi dopo 10-15 secondi, esci dalla posizione e passa all'esercizio successivo.",
+      "Il core è volutamente leggero: niente plank, fermati con 2-3 ripetizioni di riserva.",
+      "La FC a riposo è salita da 55-60 a 60-63 bpm dal 10 ottobre: è una possibile spia di recupero incompleto, non una conferma (pochi giorni di dati). Domani decidi sulla corsa con sonno di stanotte e FC a riposo del mattino.",
+      "Il nuoto previsto per oggi (1.980 m) è stato tolto: la versione completa resta nella cronologia del repository."
+     ]
     },
     {
      "id": "2026-10-16-corsa",
