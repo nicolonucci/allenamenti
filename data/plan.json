@@ -1,6 +1,6 @@
 {
  "version": 1,
- "updated": "2026-10-15",
+ "updated": "2026-10-18",
  "weeks": [
   {
    "id": "2026-W42",
@@ -608,10 +608,10 @@
      "id": "2026-10-17-bici",
      "date": "2026-10-17",
      "type": "bici",
-     "title": "Bici su strada",
-     "duration": "",
-     "status": "da-programmare",
-     "summary": "Scheda ancora da programmare.",
+     "title": "Bici su strada (uscita libera, Montorfano)",
+     "duration": "circa 1 h (59′ di movimento)",
+     "status": "scheda",
+     "summary": "Allenamento svolto: 27,0 km, dislivello +221 m, velocità media 27,3 km/h, FC media 129 bpm, FC massima 142 bpm.",
      "blocks": [],
      "notes": []
     },
@@ -621,8 +621,8 @@
      "type": "corsa",
      "title": "Corsa 10 km",
      "duration": "",
-     "status": "da-programmare",
-     "summary": "Scheda ancora da programmare.",
+     "status": "scheda",
+     "summary": "Non svolta: maltempo.",
      "blocks": [],
      "notes": []
     }
