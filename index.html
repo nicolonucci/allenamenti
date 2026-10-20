@@ -106,6 +106,18 @@
   .tbl .ex-name { font-size: 17px; }
   .tbl tr.tot th, .tbl tr.tot td { font-weight: 700; background: var(--tile); }
   .tbl tr.tot td { color: var(--ink); }
+  .tbl td { font-variant-numeric: tabular-nums; }
+  .tbl td.nw { white-space: nowrap; }
+  .tbl-wrap { -webkit-overflow-scrolling: touch; }
+  @media (max-width: 480px) {
+    .tbl { font-size: 12.5px; }
+    .tbl th, .tbl td { padding: 7px 3px; overflow-wrap: normal; word-break: normal; }
+    .tbl thead th { font-size: 10px; letter-spacing: .01em; white-space: normal; line-height: 1.15; vertical-align: bottom; }
+    .tbl tbody th { min-width: 0; position: sticky; left: 0; z-index: 1; background: var(--surface); box-shadow: 1px 0 0 var(--line); }
+    .tbl thead th:first-child { position: sticky; left: 0; z-index: 2; box-shadow: 1px 0 0 var(--line); }
+    .tbl tr.tot th { background: var(--tile); }
+    .tbl .ex-name { font-size: 13.5px; line-height: 1.15; overflow-wrap: normal; word-break: normal; -webkit-hyphens: auto; hyphens: auto; }
+  }
   .exs { list-style: none; margin: 0; padding: 0; }
   .ex { border-top: 1px solid var(--line); padding: 10px 0; min-width: 0; }
   .ex:first-child { border-top: 0; }
@@ -461,7 +473,7 @@
         t.cols.map(function (c) { return '<th scope="col">' + esc(c) + '</th>'; }).join('') + '</tr></thead><tbody>';
       rows.forEach(function (r) {
         h += '<tr' + (r.tot ? ' class="tot"' : '') + '><th scope="row"><span class="ex-name">' + esc(r.name) + '</span></th>' +
-          r.cells.map(function (c) { return '<td>' + esc(c) + '</td>'; }).join('') + '</tr>';
+          r.cells.map(function (c) { return '<td' + (String(c).length <= 8 ? ' class="nw"' : '') + '>' + esc(c) + '</td>'; }).join('') + '</tr>';
       });
       h += '</tbody></table></div>';
     }
