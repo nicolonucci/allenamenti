@@ -1,6 +1,6 @@
 {
  "version": 1,
- "updated": "2026-10-19",
+ "updated": "2026-10-20",
  "weeks": [
   {
    "id": "2026-W42",
@@ -704,7 +704,7 @@
      "date": "2026-10-20",
      "type": "forza",
      "title": "Forza funzionale",
-     "duration": "circa 60′",
+     "duration": "circa 66′",
      "status": "scheda",
      "summary": "Seconda seduta di forza per la corsa, il giorno dopo la corsa di lunedì e prima di quella di mercoledì. Stesso schema del 13 ottobre con tre modifiche (polpacci con manubrio, lateral crunch al posto del suitcase carry, abductor machine a 35 kg) e meno volume sulle gambe: 2 serie per step-up e stacco rumeno, tutto a RIR 3 o più.",
      "blocks": [
@@ -808,8 +808,8 @@
        ]
       },
       {
-       "title": "Blocco D · stabilità del bacino",
-       "dur": "circa 5′",
+       "title": "Blocco D · stabilità del bacino e tibiale posteriore",
+       "dur": "circa 11′",
        "items": [
         {
          "id": "d1",
@@ -821,6 +821,30 @@
           "parti": "Seduto alla macchina con la schiena appoggiata e i cuscinetti all'esterno delle ginocchia.",
           "fai": "Apri le gambe fino a sentire lavorare il gluteo, fermati un attimo e torna lentamente.",
           "evita": "Dare slancio o staccare il bacino dal sedile."
+         }
+        },
+        {
+         "id": "d2",
+         "name": "D2 · Inversione con elastico",
+         "target": "2 × 12 per gamba, RIR 3 o più, ritorno in 3″",
+         "sets": 2,
+         "reps": 12,
+         "how": {
+          "parti": "Seduto con la gamba tesa davanti, elastico attorno all'avampiede e fissato di lato (lato esterno del piede), tallone a terra.",
+          "fai": "Porta la punta del piede verso l'interno contro la resistenza dell'elastico, fermati 1″ e torna lentamente in 3″.",
+          "evita": "Muovere la gamba o il ginocchio al posto della caviglia, o forzare fino a dolore."
+         }
+        },
+        {
+         "id": "d3",
+         "name": "D3 · Calf raise con pallina tra i talloni",
+         "target": "2 × 12, a corpo libero, RIR 3 o più, discesa in 3″",
+         "sets": 2,
+         "reps": 12,
+         "how": {
+          "parti": "In piedi con una pallina o un asciugamano arrotolato stretto tra i talloni, appoggio leggero a un muro.",
+          "fai": "Sali sulle punte stringendo i talloni sulla pallina, fermati 1″ e scendi in 3″.",
+          "evita": "Far cadere la pallina o aprire i talloni durante la salita."
          }
         }
        ],
@@ -835,7 +859,9 @@
       "Oggi niente cedimento sulle gambe: step-up e stacco rumeno restano a RIR 3 o più, mercoledì corri. Il 13 ottobre lo step-up è finito a RIR 3 con 12 kg per mano, quindi il carico resta invariato.",
       "Calf raise: il carico di partenza (12 kg) è una stima, non un dato. Regolalo con la prima serie; se i polpacci sono rigidi, riduci il carico.",
       "Lateral crunch: è il sostituto del suitcase carry. Il primo giorno serve a trovare il carico.",
-      "Nel diario scrivi il carico, le serie e la riserva (RIR) di ogni esercizio. Domani c'è la corsa: nessun cedimento."
+      "Nel diario scrivi il carico, le serie e la riserva (RIR) di ogni esercizio. Domani c'è la corsa: nessun cedimento.",
+      "D2 e D3 (tibiale posteriore) chiudono la seduta: RIR 3 o più, niente cedimento, domani corri. D3 aggiunge lavoro ai polpacci già caricati dal C1: se oggi i polpacci sono rigidi, salta D3 e tieni solo D2.",
+      "Se senti dolore vero (non rigidità) lungo il bordo interno della tibia, anche a riposo o al tatto, fermati, scrivilo nelle note e senti un fisioterapista prima della 10 km di domenica. Il 16 ottobre hai scritto «tibiale anteriore»: nelle note di oggi indica dove senti esattamente la rigidità."
      ]
     },
     {
