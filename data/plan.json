@@ -632,7 +632,7 @@
    "id": "2026-W43",
    "start": "2026-10-19",
    "title": "Settimana 43",
-   "note": "Lunedì corsa, martedì forza, mercoledì corsa, giovedì mobilità, venerdì nuoto (mattina), sabato bici, domenica 10 km (provvisoria).",
+   "note": "Lunedì corsa (una tantum), martedì forza, mercoledì nuoto, giovedì corsa, venerdì mobilità, sabato bici, domenica 10 km (provvisoria).",
    "workouts": [
     {
      "id": "2026-10-19-corsa",
@@ -865,19 +865,123 @@
      ]
     },
     {
-     "id": "2026-10-21-corsa",
+     "id": "2026-10-21-nuoto",
      "date": "2026-10-21",
-     "type": "corsa",
-     "title": "Corsa facile controllata",
-     "duration": "circa 37′",
+     "type": "nuoto",
+     "title": "Nuoto",
+     "duration": "circa 42′",
      "status": "scheda",
-     "summary": "Corsa facile di 5,5 km, il giorno dopo la forza e quattro giorni prima della 10 km. Nessun ritmo: stessa regola di lunedì, finire con lo stesso passo di partenza.",
+     "summary": "Vasca da 18 m, circa 1.980 m (110 vasche), con pull buoy e tavoletta. Tempi per ripetizione: il ritmo base di 16,7 s a vasca è misurato (nuotata dell'8 ottobre), gli altri sono stime da verificare. Con poco tempo: togli gambe e pull buoy (1.512 m).",
      "blocks": [],
      "notes": [
-      "Regola principale: se la FC supera 148 bpm, rallenta anche sotto 6:40/km.",
-      "Primo km a 6:45. Non accelerare nell'ultimo km oltre 6:30.",
-      "Questa corsa e quella di lunedì decidono la 10 km di domenica: se una delle due chiude oltre RPE 4, o il tibiale anteriore è rigido o dolorante dopo, scrivilo nelle note e domenica scende a 8 km.",
-      "Il giorno dopo la forza lo scorso 14 ottobre sei finito a RPE 7 e gambe 2: oggi il rischio è partire forte, non la stanchezza.",
+      "Il nuoto è il giorno dopo la forza di oggi: se le gambe sono pesanti, dai meno peso a gambe e pull buoy, che sono i blocchi più carichi.",
+      "Il solo numero misurato è il ritmo base: circa 16,7 s a vasca (1:33 ogni 100 m), costante nella nuotata dell'8 ottobre. I tempi di serie centrale, finale, gambe e pull buoy sono stime: nessun dato sui tuoi ritmi più veloci.",
+      "Dal 29 settembre hai fatto solo tre nuotate (29 set, 6 e 8 ott): i tempi target non sono verificati sul tuo stato di oggi.",
+      "Serie centrale: se la 1ª ripetizione supera 2:14, il target è troppo ambizioso: riparti da 2:15 per tutte. Se la 5ª è più lenta della 1ª di oltre 4″, la prossima volta la partenza passa a 2:40.",
+      "Gambe: se 2 vasche richiedono più di 1:00, porta la partenza a 1:30.",
+      "Finale: se non tieni 1:03 per tutte e quattro, il target di 1:01 era troppo veloce e viene allungato.",
+      "Pull buoy: è il blocco che carica di più le spalle. Se senti dolore, salta il blocco.",
+      "Dopo la seduta confronta i tempi a vasca registrati dall'orologio con questi target e scrivili nelle note della valutazione."
+     ],
+     "table": {
+      "first": "Esercizio + accessorio",
+      "cols": [
+       "Ripetizioni",
+       "Tempo target",
+       "Ripartenza",
+       "Metri"
+      ],
+      "rows": [
+       {
+        "name": "Riscaldamento",
+        "cells": [
+         "6 vasche",
+         "circa 1:50 totali",
+         "–",
+         "108"
+        ]
+       },
+       {
+        "name": "Gambe, tavoletta",
+        "cells": [
+         "4 × 2 vasche",
+         "0:56",
+         "1:15",
+         "144"
+        ]
+       },
+       {
+        "name": "Progressivi",
+        "cells": [
+         "4 × 4 vasche",
+         "1:10 · 1:08 · 1:06 · 1:04",
+         "1:30",
+         "288"
+        ]
+       },
+       {
+        "name": "Serie centrale",
+        "cells": [
+         "5 × 8 vasche",
+         "2:10 (16,3 s a vasca)",
+         "2:30",
+         "720"
+        ]
+       },
+       {
+        "name": "Braccia, pull buoy",
+        "cells": [
+         "3 × 6 vasche",
+         "1:40",
+         "2:00",
+         "324"
+        ]
+       },
+       {
+        "name": "Finale veloce",
+        "cells": [
+         "4 × 4 vasche",
+         "1:01 (15,3 s a vasca)",
+         "1:25",
+         "288"
+        ]
+       },
+       {
+        "name": "Defaticamento",
+        "cells": [
+         "6 vasche",
+         "circa 1:50 totali",
+         "–",
+         "108"
+        ]
+       }
+      ],
+      "total": {
+       "name": "Totale",
+       "cells": [
+        "110 vasche",
+        "circa 42′",
+        "",
+        "1.980"
+       ]
+      }
+     }
+    },
+    {
+     "id": "2026-10-22-corsa",
+     "date": "2026-10-22",
+     "type": "corsa",
+     "title": "Corsa facile con tetto FC",
+     "duration": "circa 39′",
+     "status": "scheda",
+     "summary": "Corsa facile di 6 km, il giorno dopo il nuoto e tre giorni prima della 10 km. Tetto FC 148 bpm: il passo si adegua alla FC, non il contrario.",
+     "blocks": [],
+     "notes": [
+      "Regola principale: la FC non deve superare 148 bpm. Se la supera per più di 30 secondi, rallenta o cammina finché non scende, senza recuperare il passo perso.",
+      "Primo km a 6:45/km (8,9 km/h). Poi 6:30/km (9,2 km/h) solo se la FC resta sotto 148. Il massimo che ti consiglio è 6:15/km (9,6 km/h), sempre con FC sotto 148.",
+      "Sul tapis roulant imposta la pendenza all'1%. A pari velocità la FC può salire di più che all'aperto: in quel caso vale il tetto di FC, non la velocità in tabella.",
+      "Il 148 è un tetto che hai scelto tu, non una soglia misurata. La FC massima reale non è misurata (il massimo registrato è 171 bpm) e le zone cardio di Strava non si usano per la corsa: per questo i target sono in bpm assoluti.",
+      "Questa corsa decide la 10 km di domenica: se chiude oltre RPE 4 o con dolori, domenica scende a 8 km.",
       "Dopo la seduta scrivi nelle note della valutazione FC media, ritmo di ogni km e dolori."
      ],
      "table": {
@@ -885,7 +989,8 @@
       "cols": [
        "Distanza",
        "Ritmo target",
-       "FC target (bpm)",
+       "Velocità (km/h)",
+       "FC tetto (bpm)",
        "Tempo"
       ],
       "rows": [
@@ -894,48 +999,42 @@
         "cells": [
          "1 km",
          "6:45/km",
-         "sotto 148",
+         "8,9",
+         "148",
          "6:45"
         ]
        },
        {
         "name": "Centrale",
         "cells": [
-         "3,5 km",
-         "6:35–6:45/km",
-         "sotto 148",
-         "23:00–23:40"
-        ]
-       },
-       {
-        "name": "Ultimo km",
-        "cells": [
-         "1 km",
-         "6:35/km",
-         "sotto 150",
-         "6:35"
+         "5 km",
+         "6:30/km (max 6:15)",
+         "9,2 (max 9,6)",
+         "148",
+         "32:30"
         ]
        }
       ],
       "total": {
        "name": "Totale",
        "cells": [
-        "5,5 km",
+        "6 km",
         "",
         "",
-        "circa 37′"
+        "",
+        "circa 39′"
        ]
       }
      }
     },
     {
-     "id": "2026-10-22-mobilita",
-     "date": "2026-10-22",
+     "id": "2026-10-23-mobilita",
+     "date": "2026-10-23",
      "type": "mobilita",
      "title": "Mobilità leggera",
      "duration": "circa 34′",
      "status": "scheda",
-     "summary": "Recupero attivo a casa, senza attrezzi (elastico facoltativo), il giorno dopo la corsa di mercoledì e prima del nuoto di venerdì. Con poco tempo: gatto-cammello, flessore dell'anca, polpaccio al muro, figura 4, dead bug (circa 12′).",
+     "summary": "Recupero attivo a casa, senza attrezzi (elastico facoltativo), il giorno dopo la corsa di giovedì e prima della bici di sabato. Con poco tempo: gatto-cammello, flessore dell'anca, polpaccio al muro, figura 4, dead bug (circa 12′).",
      "blocks": [
       {
        "title": "Mobilità e stretching",
@@ -1069,125 +1168,23 @@
      "notes": [
       "Oggi non è un allenamento: tensione leggera, mai dolore. Se negli stretching dei polpacci senti dolore o crampi dopo 10-15 secondi, esci dalla posizione e passa all'esercizio successivo.",
       "Il core è volutamente leggero: niente plank, fermati con 2-3 ripetizioni di riserva.",
-      "Domani c'è il nuoto: se la rigidità a polpacci o tibiale è 4 o più, scrivilo nelle note della valutazione."
+      "Domani c'è la bici: se la rigidità ai polpacci è 4 o più, scrivilo nelle note della valutazione."
      ]
-    },
-    {
-     "id": "2026-10-23-nuoto",
-     "date": "2026-10-23",
-     "type": "nuoto",
-     "title": "Nuoto",
-     "duration": "circa 42′",
-     "status": "scheda",
-     "summary": "Vasca da 18 m, circa 1.980 m (110 vasche), con pull buoy e tavoletta. Tempi per ripetizione: il ritmo base di 16,7 s a vasca è misurato (nuotata dell'8 ottobre), gli altri sono stime da verificare. Con poco tempo: togli gambe e pull buoy (1.512 m).",
-     "blocks": [],
-     "notes": [
-      "Oggi nuoti la mattina: la vasca è disponibile. È due giorni prima della 10 km e dopo il giovedì di mobilità, quindi nessuna forza prima.",
-      "Dal 29 settembre hai fatto solo tre nuotate (29 set, 6 e 8 ott): i tempi target non sono verificati sul tuo stato di oggi.",
-      "Il solo numero misurato è il ritmo base: circa 16,7 s a vasca (1:33 ogni 100 m), costante nella nuotata dell'8 ottobre. I tempi di serie centrale, finale, gambe e pull buoy sono stime: nessun dato sui tuoi ritmi più veloci.",
-      "Serie centrale: se la 1ª ripetizione supera 2:14, il target è troppo ambizioso: riparti da 2:15 per tutte. Se la 5ª è più lenta della 1ª di oltre 4″, la prossima volta la partenza passa a 2:40.",
-      "Gambe: se 2 vasche richiedono più di 1:00, porta la partenza a 1:30.",
-      "Finale: se non tieni 1:03 per tutte e quattro, il target di 1:01 era troppo veloce e viene allungato.",
-      "Pull buoy: è il blocco che carica di più le spalle. Se senti dolore, salta il blocco.",
-      "Dopo la seduta confronta i tempi a vasca registrati dall'orologio con questi target e scrivili nelle note della valutazione."
-     ],
-     "table": {
-      "first": "Esercizio + accessorio",
-      "cols": [
-       "Ripetizioni",
-       "Tempo target",
-       "Ripartenza",
-       "Metri"
-      ],
-      "rows": [
-       {
-        "name": "Riscaldamento",
-        "cells": [
-         "6 vasche",
-         "circa 1:50 totali",
-         "–",
-         "108"
-        ]
-       },
-       {
-        "name": "Gambe, tavoletta",
-        "cells": [
-         "4 × 2 vasche",
-         "0:56",
-         "1:15",
-         "144"
-        ]
-       },
-       {
-        "name": "Progressivi",
-        "cells": [
-         "4 × 4 vasche",
-         "1:10 · 1:08 · 1:06 · 1:04",
-         "1:30",
-         "288"
-        ]
-       },
-       {
-        "name": "Serie centrale",
-        "cells": [
-         "5 × 8 vasche",
-         "2:10 (16,3 s a vasca)",
-         "2:30",
-         "720"
-        ]
-       },
-       {
-        "name": "Braccia, pull buoy",
-        "cells": [
-         "3 × 6 vasche",
-         "1:40",
-         "2:00",
-         "324"
-        ]
-       },
-       {
-        "name": "Finale veloce",
-        "cells": [
-         "4 × 4 vasche",
-         "1:01 (15,3 s a vasca)",
-         "1:25",
-         "288"
-        ]
-       },
-       {
-        "name": "Defaticamento",
-        "cells": [
-         "6 vasche",
-         "circa 1:50 totali",
-         "–",
-         "108"
-        ]
-       }
-      ],
-      "total": {
-       "name": "Totale",
-       "cells": [
-        "110 vasche",
-        "circa 42′",
-        "",
-        "1.980"
-       ]
-      }
-     }
     },
     {
      "id": "2026-10-24-bici",
      "date": "2026-10-24",
      "type": "bici",
-     "title": "Bici su strada, zona 2",
-     "duration": "1 h–1 h 15",
+     "title": "Bici su strada facile",
+     "duration": "1 h–1 h 30",
      "status": "scheda",
-     "summary": "Uscita facile in zona 2 da Piazza Roma a Montorfano, il giorno dopo il nuoto di venerdì e il giorno prima della 10 km.",
+     "summary": "Uscita facile da Piazza Roma a Montorfano, il giorno dopo la mobilità di venerdì e il giorno prima della 10 km. Durata tra 60 e 90 minuti.",
      "blocks": [],
      "notes": [
-      "FC target: 127–137 bpm. Sono le zone Strava impostate a mano, non verificate; la FC massima reale non è misurata. Sabato scorso hai fatto 27 km a 129 bpm di media (Strava), cioè nella parte bassa di questa fascia.",
+      "Limite 90 minuti anche se hai tempo per 120: con più durata aumenta il rischio di arrivare alla 10 km di domenica con le gambe cariche. È una valutazione, non una soglia misurata. Se hai più tempo, vai più piano, non più lungo.",
+      "FC di riferimento: 127–137 bpm. Sono le zone Strava impostate a mano, non verificate (potrebbero essere affidabili per la bici, ma va controllato). Il 17 ottobre hai fatto 27 km a 129 bpm di media: nella parte bassa di questa fascia.",
       "Domani c'è la 10 km: niente sforzi sui segmenti Strava (Sprint, Rush finale) e niente salite spinte.",
-      "Se vuoi, usa il percorso del 17 ottobre e valuta se salvarlo come uscita di zona 2 (nota tua).",
+      "Se vuoi, usa il percorso del 17 ottobre e valuta se salvarlo come uscita facile (nota tua).",
       "Dopo la seduta scrivi nelle note della valutazione FC media, durata e come stanno le gambe."
      ]
     },
@@ -1198,13 +1195,14 @@
      "title": "Corsa 10 km",
      "duration": "circa 66′",
      "status": "scheda",
-     "summary": "10 km facili, ritmo costante, FC sotto 150. Distanza scelta da te; scheda provvisoria, da confermare dopo la corsa di mercoledì.",
+     "summary": "10 km facili, ritmo costante, tetto FC 148 bpm. Distanza scelta da te; scheda provvisoria, da confermare dopo la corsa di giovedì.",
      "blocks": [],
      "notes": [
-      "La 10 km è una tua scelta: il mio parere resta che sia un salto. Il tuo massimo recente è 5,0 km (Strava, 11 e 16 ottobre) e con le corse di lunedì (5 km), mercoledì (5,5 km) e domenica la settimana arriva a 20,5 km di corsa contro 10–11,6 delle ultime due. Il rischio è un sovraccarico (tibiale, polpacci, Achille) che si sente il giorno dopo o la settimana successiva. È una valutazione, non una soglia misurata.",
-      "Regola di uscita: se prima del km 5 compare rigidità al tibiale anteriore, o la FC supera 155 bpm con i ritmi indicati, chiudi a 8 km al massimo.",
-      "Non accelerare nella seconda metà: gli ultimi 2 km non oltre 6:30/km.",
-      "Condizioni per i 10 km: lunedì e mercoledì chiusi a RPE 4 o meno e domenica mattina il tibiale a 0. Se manca una di queste, la distanza scende a 8 km a 6:30–6:45/km.",
+      "La 10 km è una tua scelta: il mio parere resta che sia un salto. Il tuo massimo recente è 5,0 km (Strava, 11 e 16 ottobre) e con le corse di lunedì (5 km), giovedì (6 km) e domenica la settimana arriva a 21 km di corsa contro 10–11,6 delle ultime due. Il rischio è un sovraccarico che si sente il giorno dopo o la settimana successiva. È una valutazione, non una soglia misurata.",
+      "Regola principale: la FC non deve superare 148 bpm. Se la supera per più di 30 secondi, rallenta o cammina finché non scende. Se prima del km 5 compare un dolore, chiudi a 8 km al massimo.",
+      "Non accelerare nella seconda metà: gli ultimi 2 km non oltre 6:30/km (9,2 km/h).",
+      "Condizioni per i 10 km: giovedì chiusa a RPE 4 o meno e domenica mattina nessun dolore. Se manca una di queste, la distanza scende a 8 km a 6:30–6:45/km (8,9–9,2 km/h).",
+      "Sul tapis roulant imposta la pendenza all'1%; vale il tetto di FC, non la velocità in tabella.",
       "Dopo la seduta scrivi nelle note della valutazione FC media, ritmo di ogni km e dolori."
      ],
      "table": {
@@ -1212,7 +1210,8 @@
       "cols": [
        "Distanza",
        "Ritmo target",
-       "FC target (bpm)",
+       "Velocità (km/h)",
+       "FC tetto (bpm)",
        "Tempo"
       ],
       "rows": [
@@ -1221,7 +1220,8 @@
         "cells": [
          "2 km",
          "6:45/km",
-         "sotto 148",
+         "8,9",
+         "148",
          "13:30"
         ]
        },
@@ -1230,7 +1230,8 @@
         "cells": [
          "6 km",
          "6:30–6:40/km",
-         "sotto 150",
+         "9,0–9,2",
+         "148",
          "39:00–40:00"
         ]
        },
@@ -1239,7 +1240,8 @@
         "cells": [
          "2 km",
          "6:30/km",
-         "sotto 150",
+         "9,2",
+         "148",
          "13:00"
         ]
        }
@@ -1248,6 +1250,7 @@
        "name": "Totale",
        "cells": [
         "10 km",
+        "",
         "",
         "",
         "circa 66′"
