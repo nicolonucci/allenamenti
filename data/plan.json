@@ -1,6 +1,6 @@
 {
  "version": 1,
- "updated": "2026-10-20",
+ "updated": "2026-10-21",
  "weeks": [
   {
    "id": "2026-W42",
@@ -632,7 +632,7 @@
    "id": "2026-W43",
    "start": "2026-10-19",
    "title": "Settimana 43",
-   "note": "Lunedì corsa (una tantum), martedì forza, mercoledì nuoto, giovedì corsa, venerdì mobilità, sabato bici, domenica 10 km (provvisoria).",
+   "note": "Lunedì corsa (una tantum), martedì forza, mercoledì corsa, giovedì nuoto, venerdì mobilità, sabato bici, domenica 10 km (provvisoria).",
    "workouts": [
     {
      "id": "2026-10-19-corsa",
@@ -865,8 +865,68 @@
      ]
     },
     {
-     "id": "2026-10-21-nuoto",
+     "id": "2026-10-21-corsa",
      "date": "2026-10-21",
+     "type": "corsa",
+     "title": "Corsa facile con tetto FC",
+     "duration": "circa 39′",
+     "status": "scheda",
+     "summary": "Corsa facile di 6 km, il giorno dopo la forza e quattro giorni prima della 10 km. Tetto FC 148 bpm: il passo si adegua alla FC, non il contrario.",
+     "blocks": [],
+     "notes": [
+      "Regola principale: la FC non deve superare 148 bpm. Se la supera per più di 30 secondi, rallenta o cammina finché non scende, senza recuperare il passo perso.",
+      "Primo km a 6:45/km (8,9 km/h). Poi 6:30/km (9,2 km/h) solo se la FC resta sotto 148. Il massimo che ti consiglio è 6:15/km (9,6 km/h), sempre con FC sotto 148.",
+      "Sul tapis roulant imposta la pendenza all'1%. A pari velocità la FC può salire di più che all'aperto: in quel caso vale il tetto di FC, non la velocità in tabella.",
+      "Il 148 è un tetto che hai scelto tu, non una soglia misurata. La FC massima reale non è misurata (il massimo registrato è 171 bpm) e le zone cardio di Strava non si usano per la corsa: per questo i target sono in bpm assoluti.",
+      "Questa corsa decide la 10 km di domenica: se chiude oltre RPE 4 o con dolori, domenica scende a 8 km.",
+      "Dopo la seduta scrivi nelle note della valutazione FC media, ritmo di ogni km e dolori."
+     ],
+     "table": {
+      "first": "Fase",
+      "cols": [
+       "Distanza",
+       "Ritmo /km",
+       "FC tetto",
+       "km/h",
+       "Tempo"
+      ],
+      "rows": [
+       {
+        "name": "Primo km",
+        "cells": [
+         "1 km",
+         "6:45",
+         "148",
+         "8,9",
+         "6:45"
+        ]
+       },
+       {
+        "name": "Centrale",
+        "cells": [
+         "5 km",
+         "6:30",
+         "148",
+         "9,2",
+         "32:30"
+        ]
+       }
+      ],
+      "total": {
+       "name": "Totale",
+       "cells": [
+        "6 km",
+        "",
+        "",
+        "",
+        "circa 39′"
+       ]
+      }
+     }
+    },
+    {
+     "id": "2026-10-22-nuoto",
+     "date": "2026-10-22",
      "type": "nuoto",
      "title": "Nuoto",
      "duration": "circa 42′",
@@ -874,7 +934,7 @@
      "summary": "Vasca da 18 m, circa 1.980 m (110 vasche), con pull buoy e tavoletta. Tempi per ripetizione: il ritmo base di 16,7 s a vasca è misurato (nuotata dell'8 ottobre), gli altri sono stime da verificare. Con poco tempo: togli gambe e pull buoy (1.512 m).",
      "blocks": [],
      "notes": [
-      "Il nuoto è il giorno dopo la forza di oggi: se le gambe sono pesanti, dai meno peso a gambe e pull buoy, che sono i blocchi più carichi.",
+      "Il nuoto è il giorno dopo la corsa di mercoledì: se le gambe sono pesanti, dai meno peso a gambe e pull buoy, che sono i blocchi più carichi.",
       "Il solo numero misurato è il ritmo base: circa 16,7 s a vasca (1:33 ogni 100 m), costante nella nuotata dell'8 ottobre. I tempi di serie centrale, finale, gambe e pull buoy sono stime: nessun dato sui tuoi ritmi più veloci.",
       "Dal 29 settembre hai fatto solo tre nuotate (29 set, 6 e 8 ott): i tempi target non sono verificati sul tuo stato di oggi.",
       "Serie centrale: se la 1ª ripetizione supera 2:14, il target è troppo ambizioso: riparti da 2:15 per tutte. Se la 5ª è più lenta della 1ª di oltre 4″, la prossima volta la partenza passa a 2:40.",
@@ -968,73 +1028,13 @@
      }
     },
     {
-     "id": "2026-10-22-corsa",
-     "date": "2026-10-22",
-     "type": "corsa",
-     "title": "Corsa facile con tetto FC",
-     "duration": "circa 39′",
-     "status": "scheda",
-     "summary": "Corsa facile di 6 km, il giorno dopo il nuoto e tre giorni prima della 10 km. Tetto FC 148 bpm: il passo si adegua alla FC, non il contrario.",
-     "blocks": [],
-     "notes": [
-      "Regola principale: la FC non deve superare 148 bpm. Se la supera per più di 30 secondi, rallenta o cammina finché non scende, senza recuperare il passo perso.",
-      "Primo km a 6:45/km (8,9 km/h). Poi 6:30/km (9,2 km/h) solo se la FC resta sotto 148. Il massimo che ti consiglio è 6:15/km (9,6 km/h), sempre con FC sotto 148.",
-      "Sul tapis roulant imposta la pendenza all'1%. A pari velocità la FC può salire di più che all'aperto: in quel caso vale il tetto di FC, non la velocità in tabella.",
-      "Il 148 è un tetto che hai scelto tu, non una soglia misurata. La FC massima reale non è misurata (il massimo registrato è 171 bpm) e le zone cardio di Strava non si usano per la corsa: per questo i target sono in bpm assoluti.",
-      "Questa corsa decide la 10 km di domenica: se chiude oltre RPE 4 o con dolori, domenica scende a 8 km.",
-      "Dopo la seduta scrivi nelle note della valutazione FC media, ritmo di ogni km e dolori."
-     ],
-     "table": {
-      "first": "Fase",
-      "cols": [
-       "Distanza",
-       "Ritmo /km",
-       "FC tetto",
-       "km/h",
-       "Tempo"
-      ],
-      "rows": [
-       {
-        "name": "Primo km",
-        "cells": [
-         "1 km",
-         "6:45",
-         "148",
-         "8,9",
-         "6:45"
-        ]
-       },
-       {
-        "name": "Centrale",
-        "cells": [
-         "5 km",
-         "6:30",
-         "148",
-         "9,2",
-         "32:30"
-        ]
-       }
-      ],
-      "total": {
-       "name": "Totale",
-       "cells": [
-        "6 km",
-        "",
-        "",
-        "",
-        "circa 39′"
-       ]
-      }
-     }
-    },
-    {
      "id": "2026-10-23-mobilita",
      "date": "2026-10-23",
      "type": "mobilita",
      "title": "Mobilità leggera",
      "duration": "circa 34′",
      "status": "scheda",
-     "summary": "Recupero attivo a casa, senza attrezzi (elastico facoltativo), il giorno dopo la corsa di giovedì e prima della bici di sabato. Con poco tempo: gatto-cammello, flessore dell'anca, polpaccio al muro, figura 4, dead bug (circa 12′).",
+     "summary": "Recupero attivo a casa, senza attrezzi (elastico facoltativo), il giorno dopo il nuoto di giovedì e prima della bici di sabato. Con poco tempo: gatto-cammello, flessore dell'anca, polpaccio al muro, figura 4, dead bug (circa 12′).",
      "blocks": [
       {
        "title": "Mobilità e stretching",
@@ -1195,13 +1195,13 @@
      "title": "Corsa 10 km",
      "duration": "circa 66′",
      "status": "scheda",
-     "summary": "10 km facili, ritmo costante, tetto FC 148 bpm. Distanza scelta da te; scheda provvisoria, da confermare dopo la corsa di giovedì.",
+     "summary": "10 km facili, ritmo costante, tetto FC 148 bpm. Distanza scelta da te; scheda provvisoria, da confermare dopo la corsa di mercoledì.",
      "blocks": [],
      "notes": [
-      "La 10 km è una tua scelta: il mio parere resta che sia un salto. Il tuo massimo recente è 5,0 km (Strava, 11 e 16 ottobre) e con le corse di lunedì (5 km), giovedì (6 km) e domenica la settimana arriva a 21 km di corsa contro 10–11,6 delle ultime due. Il rischio è un sovraccarico che si sente il giorno dopo o la settimana successiva. È una valutazione, non una soglia misurata.",
+      "La 10 km è una tua scelta: il mio parere resta che sia un salto. Il tuo massimo recente è 5,0 km (Strava, 11 e 16 ottobre) e con le corse di lunedì (5 km), mercoledì (6 km) e domenica la settimana arriva a 21 km di corsa contro 10–11,6 delle ultime due. Il rischio è un sovraccarico che si sente il giorno dopo o la settimana successiva. È una valutazione, non una soglia misurata.",
       "Regola principale: la FC non deve superare 148 bpm. Se la supera per più di 30 secondi, rallenta o cammina finché non scende. Se prima del km 5 compare un dolore, chiudi a 8 km al massimo.",
       "Non accelerare nella seconda metà: gli ultimi 2 km non oltre 6:30/km (9,2 km/h).",
-      "Condizioni per i 10 km: giovedì chiusa a RPE 4 o meno e domenica mattina nessun dolore. Se manca una di queste, la distanza scende a 8 km a 6:30–6:45/km (8,9–9,2 km/h).",
+      "Condizioni per i 10 km: mercoledì chiusa a RPE 4 o meno e domenica mattina nessun dolore. Se manca una di queste, la distanza scende a 8 km a 6:30–6:45/km (8,9–9,2 km/h).",
       "Sul tapis roulant imposta la pendenza all'1%; vale il tetto di FC, non la velocità in tabella.",
       "Dopo la seduta scrivi nelle note della valutazione FC media, ritmo di ogni km e dolori."
      ],
