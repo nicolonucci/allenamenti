@@ -226,7 +226,7 @@
     <h2>Nuovo allenamento</h2>
     <div class="field"><label class="lbl" for="n-date">Data</label><input type="date" id="n-date"></div>
     <div class="field"><label class="lbl" for="n-type">Tipo</label>
-      <select id="n-type"><option value="corsa">Corsa</option><option value="nuoto">Nuoto</option><option value="bici">Bici</option><option value="forza">Forza</option><option value="mobilita">Mobilità</option><option value="altro">Altro</option></select></div>
+      <select id="n-type"><option value="corsa">Corsa</option><option value="nuoto">Nuoto</option><option value="bici">Bici</option><option value="forza">Forza</option><option value="mobilita">Mobilità e core</option><option value="altro">Altro</option></select></div>
     <div class="field"><label class="lbl" for="n-title">Titolo</label><input type="text" id="n-title" placeholder="Es. Lungo facile" autocomplete="off"></div>
     <div class="field"><label class="lbl" for="n-text">Scheda <span class="hint">(testo libero)</span></label><textarea id="n-text"></textarea></div>
     <div class="actions"><button class="btn" id="n-save" type="button">Aggiungi</button><button class="btn ghost" id="n-cancel" type="button">Annulla</button></div>
@@ -273,7 +273,7 @@
   var PLAN_KEY = 'diario-allenamenti-plan-v1';
   var DAYS = ['Dom', 'Lun', 'Mar', 'Mer', 'Gio', 'Ven', 'Sab'];
   var MONTHS = ['gen', 'feb', 'mar', 'apr', 'mag', 'giu', 'lug', 'ago', 'set', 'ott', 'nov', 'dic'];
-  var TYPE_LABEL = { mobilita: 'Mobilità', forza: 'Forza', corsa: 'Corsa', nuoto: 'Nuoto', bici: 'Bici', altro: 'Altro' };
+  var TYPE_LABEL = { mobilita: 'Mobilità e core', forza: 'Forza', corsa: 'Corsa', nuoto: 'Nuoto', bici: 'Bici', altro: 'Altro' };
   var ZONES = ['Nessuno', 'Polpacci', 'Tendine d\'Achille', 'Piede / fascia plantare', 'Caviglia', 'Ginocchio', 'Anca', 'Ischiocrurali', 'Quadricipiti', 'Adduttori', 'Gluteo', 'Zona lombare', 'Schiena alta', 'Spalla', 'Collo', 'Altro'];
   var TEMPLATE = [
     ['mobilita', 'Mobilità e core'], ['forza', 'Forza'], ['corsa', 'Corsa'], ['nuoto', 'Nuoto'],
@@ -588,7 +588,7 @@
       h += '</fieldset>';
     }
     if (t === 'mobilita') {
-      h += '<fieldset class="fs"><legend>Mobilità</legend>' +
+      h += '<fieldset class="fs"><legend>Mobilità e core</legend>' +
         '<div class="field"><span class="lbl">Rigidità a inizio seduta <span class="hint">(1 sciolto, 5 molto rigido)</span></span>' + scale('rigidita', 5, 1, id) + '</div>' +
         '<div class="field"><span class="lbl">Zona più rigida</span>' + zoneSel(id, 'zonaRigida') + '</div>' +
         '<div class="field"><span class="lbl">Come ti senti a fine seduta <span class="hint">(1 peggio, 5 molto meglio)</span></span>' + scale('benessere', 5, 1, id) + '</div></fieldset>';
