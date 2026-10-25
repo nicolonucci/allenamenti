@@ -1451,7 +1451,8 @@
      "blocks": [],
      "notes": [
       "Regola principale: la FC non deve superare 148 bpm. Se la supera per più di 1 minuto, cammina per 30 secondi e riparti più piano, senza recuperare il passo perso.",
-      "Primo km a 6:45/km (8,9 km/h). Poi tra 6:45 e 7:00/km (8,6–8,9 km/h): non più veloce, anche se la FC resta bassa. Domani ci sono gli intervalli.",
+      "Primo km a 6:45/km (8,9 km/h). Poi tra 6:35 e 6:50/km (8,8–9,1 km/h), sempre con FC sotto 148: se la supera rallenta. Non più veloce di 6:35 anche se la FC resta bassa, perché domani ci sono gli intervalli.",
+      "Ritmi ricalibrati sulla corsa del 25 ottobre: nei km 3–4 la FC è rimasta fra 145 e 152 a 6:17 di media; dal km 5, con passi più veloci, è salita a 157–162. Per questo la FC resta la regola e il passo è solo un'indicazione.",
       "Sul tapis roulant imposta la pendenza all'1%; vale il tetto di FC, non la velocità in tabella.",
       "Questa corsa serve ad arrivare freschi agli intervalli: se la FC supera 148 più di una volta, la seduta è andata troppo forte.",
       "Dopo la seduta compila nella valutazione Fastidi: zona (tibiale, Achille o altro) e intensità da 0 a 10, più FC media e ritmo di ogni km nelle note."
@@ -1480,10 +1481,10 @@
         "name": "Resto",
         "cells": [
          "3 km",
-         "6:45–7:00",
+         "6:35–6:50",
          "148",
-         "8,6–8,9",
-         "20:15–21:00"
+         "8,8–9,1",
+         "19:45–20:30"
         ]
        }
       ],
@@ -1531,9 +1532,9 @@
         "name": "Riscaldamento",
         "cells": [
          "12′",
-         "6:45–7:00",
+         "6:35–6:50",
          "tetto 148",
-         "8,6–8,9",
+         "8,8–9,1",
          "12′"
         ]
        },
@@ -1585,9 +1586,9 @@
      "date": "2026-10-29",
      "type": "forza",
      "title": "Forza funzionale",
-     "duration": "circa 60′",
+     "duration": "circa 63′",
      "status": "scheda",
-     "summary": "Terza seduta di forza per la corsa, il giorno dopo gli intervalli e prima della mobilità di venerdì. Meno volume sulle gambe: 2 serie per step-up e stacco rumeno, 2 serie per i calf raise a una gamba, tutto a RIR 3 o più. Core, abductor e tibiale come il 20 ottobre.",
+     "summary": "Terza seduta di forza per la corsa, il giorno dopo gli intervalli e prima della mobilità di venerdì. Tre serie su step-up, stacco rumeno e calf raise, ma con le ripetizioni ferme a quelle scritte e RIR 3 o più: il volume sulle gambe resta più basso del 20 ottobre, quando le serie sono arrivate a 8–12 ripetizioni. Core, abductor e tibiale come il 20 ottobre.",
      "blocks": [
       {
        "title": "Blocco A · gambe e anti-rotazione",
@@ -1596,8 +1597,8 @@
         {
          "id": "a1",
          "name": "A1 · Step-up con manubri",
-         "target": "2 × 6 per gamba, 12 kg per mano (24 totali), RIR 3 o più: ferma la serie alla 6ª ripetizione anche se ne hai ancora, poi passa all'A2",
-         "sets": 2,
+         "target": "3 × 6 per gamba, 12 kg per mano (24 totali), RIR 3 o più: ferma ogni serie alla 6ª ripetizione anche se ne hai ancora, poi passa all'A2",
+         "sets": 3,
          "reps": 6,
          "how": {
           "parti": "Davanti a una panca o a un box alto quanto il ginocchio, un manubrio per mano, piede intero sul box.",
@@ -1629,8 +1630,8 @@
         {
          "id": "b1",
          "name": "B1 · Stacco rumeno a una gamba",
-         "target": "2 × 6 per gamba, 24 kg totali, RIR 3 o più: ferma la serie alla 6ª ripetizione",
-         "sets": 2,
+         "target": "3 × 6 per gamba, 24 kg totali, RIR 3 o più: ferma ogni serie alla 6ª ripetizione",
+         "sets": 3,
          "reps": 6,
          "how": {
           "parti": "In piedi su una gamba con il ginocchio morbido, manubrio nella mano opposta alla gamba d'appoggio.",
@@ -1662,8 +1663,8 @@
         {
          "id": "c1",
          "name": "C1 · Calf raise a una gamba con manubrio",
-         "target": "2 × 10 per gamba, parti con 12 kg, pausa 1″ in alto, RIR 3 o più",
-         "sets": 2,
+         "target": "3 × 10 per gamba, parti con 12 kg, pausa 1″ in alto, RIR 3 o più",
+         "sets": 3,
          "reps": 10,
          "how": {
           "parti": "Su una gamba sola con l'avampiede sul bordo di un gradino, un manubrio nella mano dello stesso lato e l'altra mano a un muro o a un rack per l'equilibrio.",
@@ -1737,8 +1738,8 @@
      "notes": [
       "Prima di iniziare: 5-8′ di cyclette o tapis roulant facile e una serie leggera di step-up (6 per gamba).",
       "Fai le coppie A1 + A2, B1 + B2 e C1 + C2 alternando gli esercizi, con 90″ di recupero dopo ogni coppia. Il blocco D chiude la seduta.",
-      "Step-up, stacco rumeno e calf raise: ferma le serie alle ripetizioni scritte, anche se potresti farne di più. Il volume sulle gambe è basso apposta: ieri hai corso gli intervalli e sabato c'è la corsa lunga.",
-      "Se ieri hai chiuso gli intervalli a RPE 8 o più, fai una sola serie su A1, B1 e C1.",
+      "Step-up, stacco rumeno e calf raise: tre serie, ma ferma ognuna alle ripetizioni scritte anche se potresti farne di più. Ieri hai corso gli intervalli e sabato c'è la corsa lunga: la regola sulle ripetizioni è ciò che tiene basso il carico.",
+      "Se ieri hai chiuso gli intervalli a RPE 8 o più, fai 2 serie su A1, B1 e C1.",
       "Calf raise: il carico di partenza (12 kg) è una stima. Regolalo con la prima serie; se i polpacci sono rigidi, riduci il carico o salta D3 e tieni solo D2.",
       "Nel diario scrivi il carico, le serie e la riserva (RIR) di ogni esercizio, nel campo Fastidi la zona e l'intensità da 0 a 10 se senti dolore, e indica dove senti esattamente un'eventuale rigidità."
      ]
@@ -1963,13 +1964,14 @@
      "date": "2026-10-31",
      "type": "corsa",
      "title": "Corsa facile 9 km",
-     "duration": "circa 62′",
+     "duration": "circa 60′",
      "status": "scheda",
      "summary": "9 km facili a ritmo costante, tetto FC 148 bpm, nessun finale libero. È la corsa lunga della settimana, dopo il giorno di sola mobilità.",
      "blocks": [],
      "notes": [
       "Regola principale: la FC non deve superare 148 bpm. Se la supera per più di 1 minuto, cammina per 30 secondi e riparti più piano, senza recuperare il passo perso.",
-      "Non accelerare nella seconda metà: se ti senti bene, resta a 6:45/km (8,9 km/h) fino alla fine. Nessun finale libero.",
+      "Non accelerare nella seconda metà: tieni fino alla fine il ritmo scelto nei km 3–4, tra 6:25 e 6:45/km (8,9–9,4 km/h), sempre con FC sotto 148. Nessun finale libero.",
+      "Ritmi ricalibrati sulla corsa del 25 ottobre: nei km 3–4 la FC è rimasta fra 145 e 152 a 6:17 di media; dal km 5, con passi più veloci, è salita a 157–162. Per questo la FC resta la regola e il passo è solo un'indicazione.",
       "Se prima del km 5 compare un dolore, chiudi a 8 km al massimo.",
       "Condizioni: sabato mattina nessun dolore e niente rigidità insolita. Se manca una condizione, la distanza scende a 8 km a 6:45–7:00/km (8,6–8,9 km/h).",
       "Sul tapis roulant imposta la pendenza all'1%; vale il tetto di FC, non la velocità in tabella.",
@@ -1999,20 +2001,20 @@
         "name": "Centrale",
         "cells": [
          "5 km",
-         "6:45–7:00",
+         "6:25–6:45",
          "148",
-         "8,6–8,9",
-         "33:45–35:00"
+         "8,9–9,4",
+         "32:05–33:45"
         ]
        },
        {
         "name": "Ultimi 2 km",
         "cells": [
          "2 km",
-         "6:45–7:00",
+         "6:25–6:45",
          "148",
-         "8,6–8,9",
-         "13:30–14:00"
+         "8,9–9,4",
+         "12:50–13:30"
         ]
        }
       ],
@@ -2023,7 +2025,7 @@
         "",
         "",
         "",
-        "61–63′"
+        "58–61′"
        ]
       }
      }
