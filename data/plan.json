@@ -1,6 +1,6 @@
 {
  "version": 1,
- "updated": "2026-10-22",
+ "updated": "2026-10-25",
  "weeks": [
   {
    "id": "2026-W42",
@@ -1329,6 +1329,720 @@
        ]
       }
      }
+    }
+   ]
+  },
+  {
+   "id": "2026-W44",
+   "start": "2026-10-26",
+   "title": "Settimana 44",
+   "note": "Lunedì nuoto, martedì corsa facile, mercoledì intervalli, giovedì forza, venerdì mobilità e core, sabato corsa facile 9 km, domenica bici zona 2.",
+   "workouts": [
+    {
+     "id": "2026-10-26-nuoto",
+     "date": "2026-10-26",
+     "type": "nuoto",
+     "title": "Nuoto",
+     "duration": "circa 42′",
+     "status": "scheda",
+     "summary": "Vasca da 18 m, 1.980 m (110 vasche), con pull buoy e tavoletta. Virata a tocco e spinta su ogni parete, anche nei blocchi con pull buoy. Il ritmo base di 16,7 s a vasca è misurato (nuotata dell'8 ottobre), gli altri tempi sono stime da verificare. Con poco tempo: togli gambe e pull buoy (1.512 m).",
+     "blocks": [],
+     "notes": [
+      "Domenica hai corso 10 km: il nuoto di lunedì dà un giorno senza impatto sulle gambe. Se le gambe sono pesanti, togli il finale veloce 4 × 4 (restano 1.692 m) invece di saltare il nuoto.",
+      "Tocco e spinta su ogni parete, sempre la stessa tecnica. Se i 16,7 s a vasca erano stati ricavati con un'altra virata, i tempi target possono risultare più duri o più facili: confronta i tuoi tempi reali con la tabella e scrivili nelle note.",
+      "Serie centrale: se la 1ª ripetizione supera 2:14, il target è troppo ambizioso: riparti da 2:15 per tutte. Se la 5ª è più lenta della 1ª di oltre 4″, la prossima volta la partenza passa a 2:40.",
+      "Gambe: se 2 vasche richiedono più di 1:00, porta la partenza a 1:30.",
+      "Finale: se non tieni 1:03 per tutte e quattro, il target di 1:01 era troppo veloce e viene allungato.",
+      "Pull buoy: è il blocco che carica di più le spalle. Se senti dolore, salta il blocco.",
+      "Dopo la seduta confronta i tempi a vasca registrati dall'orologio con questi target e scrivili nelle note della valutazione."
+     ],
+     "table": {
+      "first": "Esercizio + accessorio",
+      "cols": [
+       "Ripetizioni",
+       "Tempo target",
+       "Ripartenza",
+       "Metri"
+      ],
+      "rows": [
+       {
+        "name": "Riscaldamento",
+        "cells": [
+         "6 vasche",
+         "circa 1:50 totali",
+         "–",
+         "108"
+        ]
+       },
+       {
+        "name": "Gambe, tavoletta",
+        "cells": [
+         "4 × 2 vasche",
+         "0:56",
+         "1:15",
+         "144"
+        ]
+       },
+       {
+        "name": "Progressivi",
+        "cells": [
+         "4 × 4 vasche",
+         "1:10 · 1:08 · 1:06 · 1:04",
+         "1:30",
+         "288"
+        ]
+       },
+       {
+        "name": "Serie centrale",
+        "cells": [
+         "5 × 8 vasche",
+         "2:10 (16,3 s a vasca)",
+         "2:30",
+         "720"
+        ]
+       },
+       {
+        "name": "Braccia, pull buoy",
+        "cells": [
+         "3 × 6 vasche",
+         "1:40",
+         "2:00",
+         "324"
+        ]
+       },
+       {
+        "name": "Finale veloce",
+        "cells": [
+         "4 × 4 vasche",
+         "1:01 (15,3 s a vasca)",
+         "1:25",
+         "288"
+        ]
+       },
+       {
+        "name": "Defaticamento",
+        "cells": [
+         "6 vasche",
+         "circa 1:50 totali",
+         "–",
+         "108"
+        ]
+       }
+      ],
+      "total": {
+       "name": "Totale",
+       "cells": [
+        "110 vasche",
+        "circa 42′",
+        "",
+        "1.980"
+       ]
+      }
+     }
+    },
+    {
+     "id": "2026-10-27-corsa",
+     "date": "2026-10-27",
+     "type": "corsa",
+     "title": "Corsa facile 4 km",
+     "duration": "circa 27′",
+     "status": "scheda",
+     "summary": "Corsa facile di 4 km, il giorno dopo il nuoto e prima degli intervalli di mercoledì. Tetto FC 148 bpm: il passo si adegua alla FC, non il contrario.",
+     "blocks": [],
+     "notes": [
+      "Regola principale: la FC non deve superare 148 bpm. Se la supera per più di 1 minuto, cammina per 30 secondi e riparti più piano, senza recuperare il passo perso.",
+      "Primo km a 6:45/km (8,9 km/h). Poi tra 6:45 e 7:00/km (8,6–8,9 km/h): non più veloce, anche se la FC resta bassa. Domani ci sono gli intervalli.",
+      "Sul tapis roulant imposta la pendenza all'1%; vale il tetto di FC, non la velocità in tabella.",
+      "Questa corsa serve ad arrivare freschi agli intervalli: se la FC supera 148 più di una volta, la seduta è andata troppo forte.",
+      "Dopo la seduta compila nella valutazione Fastidi: zona (tibiale, Achille o altro) e intensità da 0 a 10, più FC media e ritmo di ogni km nelle note."
+     ],
+     "table": {
+      "first": "Fase",
+      "cols": [
+       "Distanza",
+       "Ritmo /km",
+       "FC tetto",
+       "km/h",
+       "Tempo"
+      ],
+      "rows": [
+       {
+        "name": "Primo km",
+        "cells": [
+         "1 km",
+         "6:45",
+         "148",
+         "8,9",
+         "6:45"
+        ]
+       },
+       {
+        "name": "Resto",
+        "cells": [
+         "3 km",
+         "6:45–7:00",
+         "148",
+         "8,6–8,9",
+         "20:15–21:00"
+        ]
+       }
+      ],
+      "total": {
+       "name": "Totale",
+       "cells": [
+        "4 km",
+        "",
+        "",
+        "",
+        "circa 27′"
+       ]
+      }
+     }
+    },
+    {
+     "id": "2026-10-28-corsa",
+     "date": "2026-10-28",
+     "type": "corsa",
+     "title": "Intervalli 4 × 4′",
+     "duration": "circa 42′",
+     "status": "scheda",
+     "summary": "Unica seduta di qualità della settimana: 4 ripetute da 4 minuti a 5:35/km (10,7 km/h) con 2 minuti di trotto, per circa 6,5 km totali.",
+     "blocks": [],
+     "notes": [
+      "Il ritmo di 5:35/km è una stima, non un test: il 25 ottobre, dopo 5 km, i km 6–9 sono stati corsi a 5:53–6:02 con FC 158–162. Da fresco dovresti reggere 5:35 sui 4′.",
+      "La FC è solo di controllo, non un tetto: se nel primo intervallo supera 172 bpm, rallenta di 10–15 s/km per tutte le ripetizioni successive.",
+      "Riscaldamento e defaticamento restano facili: riscaldamento sotto 148 bpm, defaticamento sotto 140.",
+      "Se mercoledì mattina senti rigidità o fastidio alla tibia o all'Achille, gli intervalli diventano 30–35 minuti a ritmo costante facile, tetto FC 148.",
+      "Se chiudi la seduta a RPE 8 o più, domani in forza togli anche la seconda serie sulle gambe.",
+      "Sul tapis roulant imposta la pendenza all'1%; vale il tetto di FC, non la velocità in tabella.",
+      "Dopo la seduta compila nella valutazione Fastidi: zona (tibiale, Achille o altro) e intensità da 0 a 10, più FC media e ritmo di ogni km nelle note."
+     ],
+     "table": {
+      "first": "Fase",
+      "cols": [
+       "Durata",
+       "Ritmo /km",
+       "FC",
+       "km/h",
+       "Tempo"
+      ],
+      "rows": [
+       {
+        "name": "Riscaldamento",
+        "cells": [
+         "12′",
+         "6:45–7:00",
+         "tetto 148",
+         "8,6–8,9",
+         "12′"
+        ]
+       },
+       {
+        "name": "Intervalli 4 ×",
+        "cells": [
+         "4′",
+         "5:35",
+         "controllo",
+         "10,7",
+         "16′"
+        ]
+       },
+       {
+        "name": "Recuperi 3 ×",
+        "cells": [
+         "2′ trotto",
+         "7:30",
+         "–",
+         "8,0",
+         "6′"
+        ]
+       },
+       {
+        "name": "Defaticamento",
+        "cells": [
+         "8′",
+         "7:00–7:30",
+         "tetto 140",
+         "8,0–8,6",
+         "8′"
+        ]
+       }
+      ],
+      "total": {
+       "name": "Totale",
+       "cells": [
+        "circa 6,5 km",
+        "",
+        "",
+        "",
+        "circa 42′"
+       ]
+      }
+     }
+    },
+    {
+     "id": "2026-10-29-forza",
+     "date": "2026-10-29",
+     "type": "forza",
+     "title": "Forza funzionale",
+     "duration": "circa 60′",
+     "status": "scheda",
+     "summary": "Terza seduta di forza per la corsa, il giorno dopo gli intervalli e prima della mobilità di venerdì. Meno volume sulle gambe: 2 serie per step-up e stacco rumeno, 2 serie per i calf raise a una gamba, tutto a RIR 3 o più. Core, abductor e tibiale come il 20 ottobre.",
+     "blocks": [
+      {
+       "title": "Blocco A · gambe e anti-rotazione",
+       "dur": "circa 14′",
+       "items": [
+        {
+         "id": "a1",
+         "name": "A1 · Step-up con manubri",
+         "target": "2 × 6 per gamba, 12 kg per mano (24 totali), RIR 3 o più: ferma la serie alla 6ª ripetizione anche se ne hai ancora, poi passa all'A2",
+         "sets": 2,
+         "reps": 6,
+         "how": {
+          "parti": "Davanti a una panca o a un box alto quanto il ginocchio, un manubrio per mano, piede intero sul box.",
+          "fai": "Spingi sul piede appoggiato fino a distendere anca e ginocchio, senza dare la spinta con la gamba dietro. Scendi in 3″.",
+          "evita": "Far rientrare il ginocchio o rimbalzare in basso con la gamba a terra."
+         }
+        },
+        {
+         "id": "a2",
+         "name": "A2 · Pallof press",
+         "target": "3 × 10 per lato, 5 kg, pausa 2″ con le braccia tese",
+         "sets": 3,
+         "reps": 10,
+         "how": {
+          "parti": "Di fianco a un cavo (o a un elastico fissato a una colonna) all'altezza del petto, maniglia al petto, piedi larghi come le spalle.",
+          "fai": "Distendi le braccia in avanti e fermati 2″ resistendo alla trazione, poi torna al petto.",
+          "evita": "Ruotare il busto verso il cavo o spostare il bacino."
+         }
+        }
+       ],
+       "cols": [
+        "Serie e ripetizioni"
+       ]
+      },
+      {
+       "title": "Blocco B · catena posteriore e schiena",
+       "dur": "circa 14′",
+       "items": [
+        {
+         "id": "b1",
+         "name": "B1 · Stacco rumeno a una gamba",
+         "target": "2 × 6 per gamba, 24 kg totali, RIR 3 o più: ferma la serie alla 6ª ripetizione",
+         "sets": 2,
+         "reps": 6,
+         "how": {
+          "parti": "In piedi su una gamba con il ginocchio morbido, manubrio nella mano opposta alla gamba d'appoggio.",
+          "fai": "Spingi il bacino indietro fino a portare busto e gamba libera in linea orizzontale, poi risali stringendo il gluteo. Per l'equilibrio puoi sfiorare un appoggio con due dita.",
+          "evita": "Arrotondare la schiena o ruotare il bacino verso l'alto."
+         }
+        },
+        {
+         "id": "b2",
+         "name": "B2 · Rematore a un braccio",
+         "target": "3 × 8 per lato, 12 kg, pausa 1″ in alto",
+         "sets": 3,
+         "reps": 8,
+         "how": {
+          "parti": "Una mano sulla panca e il piede opposto indietro, schiena piatta, manubrio nell'altra mano a braccio disteso.",
+          "fai": "Tira il gomito verso l'anca, fermati 1″ e scendi in 2-3″.",
+          "evita": "Ruotare il busto o alzare la spalla verso l'orecchio."
+         }
+        }
+       ],
+       "cols": [
+        "Serie e ripetizioni"
+       ]
+      },
+      {
+       "title": "Blocco C · polpacci e core",
+       "dur": "circa 12′",
+       "items": [
+        {
+         "id": "c1",
+         "name": "C1 · Calf raise a una gamba con manubrio",
+         "target": "2 × 10 per gamba, parti con 12 kg, pausa 1″ in alto, RIR 3 o più",
+         "sets": 2,
+         "reps": 10,
+         "how": {
+          "parti": "Su una gamba sola con l'avampiede sul bordo di un gradino, un manubrio nella mano dello stesso lato e l'altra mano a un muro o a un rack per l'equilibrio.",
+          "fai": "Sali sulle punte, fermati 1″ e scendi in 3″ fino a sentire il polpaccio allungarsi sotto il livello del gradino. Se la serie chiude oltre RIR 4, sali di 4 kg nella serie dopo. La 3ª serie deve chiudere a RIR 2–3.",
+          "evita": "Piegare il ginocchio, rimbalzare in basso o appoggiare l'altro piede."
+         }
+        },
+        {
+         "id": "c2",
+         "name": "C2 · Lateral crunch alla macchina",
+         "target": "3 × 10–12 per lato, RIR 2; primo giorno parti leggero e trova il carico",
+         "sets": 3,
+         "reps": 10,
+         "how": {
+          "parti": "Seduto alla macchina con il pad sul fianco e il bacino fermo, mani sulle impugnature.",
+          "fai": "Piega il busto di lato contro il pad e torna in 2–3″, senza dare slancio.",
+          "evita": "Ruotare il busto o spingere con le gambe."
+         }
+        }
+       ],
+       "cols": [
+        "Serie e ripetizioni"
+       ]
+      },
+      {
+       "title": "Blocco D · stabilità del bacino e tibiale posteriore",
+       "dur": "circa 11′",
+       "items": [
+        {
+         "id": "d1",
+         "name": "D1 · Abductor machine",
+         "target": "2 × 12, 35 kg",
+         "sets": 2,
+         "reps": 12,
+         "how": {
+          "parti": "Seduto alla macchina con la schiena appoggiata e i cuscinetti all'esterno delle ginocchia.",
+          "fai": "Apri le gambe fino a sentire lavorare il gluteo, fermati un attimo e torna lentamente.",
+          "evita": "Dare slancio o staccare il bacino dal sedile."
+         }
+        },
+        {
+         "id": "d2",
+         "name": "D2 · Inversione con elastico",
+         "target": "2 × 12 per gamba, RIR 3 o più, ritorno in 3″",
+         "sets": 2,
+         "reps": 12,
+         "how": {
+          "parti": "Seduto con la gamba tesa davanti, elastico attorno all'avampiede e fissato di lato (lato esterno del piede), tallone a terra.",
+          "fai": "Porta la punta del piede verso l'interno contro la resistenza dell'elastico, fermati 1″ e torna lentamente in 3″.",
+          "evita": "Muovere la gamba o il ginocchio al posto della caviglia, o forzare fino a dolore."
+         }
+        },
+        {
+         "id": "d3",
+         "name": "D3 · Calf raise con pallina tra i talloni",
+         "target": "2 × 12, a corpo libero, RIR 3 o più, discesa in 3″",
+         "sets": 2,
+         "reps": 12,
+         "how": {
+          "parti": "In piedi con una pallina o un asciugamano arrotolato stretto tra i talloni, appoggio leggero a un muro.",
+          "fai": "Sali sulle punte stringendo i talloni sulla pallina, fermati 1″ e scendi in 3″.",
+          "evita": "Far cadere la pallina o aprire i talloni durante la salita."
+         }
+        }
+       ],
+       "cols": [
+        "Serie e ripetizioni"
+       ]
+      }
+     ],
+     "notes": [
+      "Prima di iniziare: 5-8′ di cyclette o tapis roulant facile e una serie leggera di step-up (6 per gamba).",
+      "Fai le coppie A1 + A2, B1 + B2 e C1 + C2 alternando gli esercizi, con 90″ di recupero dopo ogni coppia. Il blocco D chiude la seduta.",
+      "Step-up, stacco rumeno e calf raise: ferma le serie alle ripetizioni scritte, anche se potresti farne di più. Il volume sulle gambe è basso apposta: ieri hai corso gli intervalli e sabato c'è la corsa lunga.",
+      "Se ieri hai chiuso gli intervalli a RPE 8 o più, fai una sola serie su A1, B1 e C1.",
+      "Calf raise: il carico di partenza (12 kg) è una stima. Regolalo con la prima serie; se i polpacci sono rigidi, riduci il carico o salta D3 e tieni solo D2.",
+      "Nel diario scrivi il carico, le serie e la riserva (RIR) di ogni esercizio, nel campo Fastidi la zona e l'intensità da 0 a 10 se senti dolore, e indica dove senti esattamente un'eventuale rigidità."
+     ]
+    },
+    {
+     "id": "2026-10-30-mobilita",
+     "date": "2026-10-30",
+     "type": "mobilita",
+     "title": "Mobilità e core",
+     "duration": "circa 55′",
+     "status": "scheda",
+     "summary": "A casa, a corpo libero, senza elastico. Mobilità su caviglia, tibiale, ginocchio e anca (circa 25′), poi core anti-rotazione e stabilità monopodalica (circa 30′). Con poco tempo (circa 20′): caviglia al muro, sollevamento punte, polpaccio, flessore dell'anca, dead bug, plank laterale, ponte monopodalico.",
+     "blocks": [
+      {
+       "title": "Mobilità: caviglia, tibiale, ginocchio, anca",
+       "dur": "circa 27′",
+       "items": [
+        {
+         "id": "p01",
+         "name": "Caviglia al muro",
+         "target": "2 × 10 per lato",
+         "how": {
+          "parti": "In piedi, punta del piede a circa 10 cm dal muro, mani al muro per l'equilibrio.",
+          "fai": "Porta il ginocchio a toccare il muro senza alzare il tallone, poi torna. Se è facile, allontana il piede.",
+          "evita": "Far cadere il ginocchio verso l'interno o alzare il tallone."
+         }
+        },
+        {
+         "id": "p02",
+         "name": "Sollevamento punte al muro (tibiale)",
+         "target": "2 × 20, discesa in 3″",
+         "how": {
+          "parti": "Schiena e glutei al muro, piedi a circa 30 cm dal muro, gambe tese.",
+          "fai": "Solleva le punte dei piedi il più possibile, tenendo i talloni a terra. Scendi lentamente in 3″.",
+          "evita": "Piegare le ginocchia o staccare i talloni. Non andare a cedimento: il tibiale è già stato lavorato martedì."
+         }
+        },
+        {
+         "id": "p03",
+         "name": "Camminata sui talloni",
+         "target": "2 × 20 passi",
+         "how": {
+          "parti": "In piedi, busto alto, punte dei piedi sollevate da terra.",
+          "fai": "Cammina in avanti sui talloni a passi corti, tenendo le punte più alte che puoi.",
+          "evita": "Far cadere le punte o inclinare il busto all'indietro."
+         }
+        },
+        {
+         "id": "p04",
+         "name": "Polpaccio al muro",
+         "target": "2 × 30″ per gamba, tesa e piegata",
+         "how": {
+          "parti": "Mani al muro, un piede avanti e l'altro indietro di un passo e mezzo, con la punta dritta.",
+          "fai": "Tallone dietro a terra e gamba tesa: porta il bacino verso il muro per 30″. Poi piega un po' il ginocchio dietro, tallone sempre a terra, per altri 30″.",
+          "evita": "Staccare il tallone o ruotare il piede verso l'esterno."
+         }
+        },
+        {
+         "id": "p05",
+         "name": "Affondo indietro lento",
+         "target": "2 × 8 per lato, discesa in 3″",
+         "how": {
+          "parti": "In piedi, piedi larghi come il bacino, mani sui fianchi.",
+          "fai": "Fai un passo indietro e scendi in 3″ finché il ginocchio dietro sfiora il pavimento. Spingi col tallone davanti per risalire.",
+          "evita": "Far cadere il ginocchio davanti verso l'interno o scendere di scatto."
+         }
+        },
+        {
+         "id": "p06",
+         "name": "Squat profondo con pausa",
+         "target": "2 × 30″",
+         "how": {
+          "parti": "In piedi, piedi poco più larghi delle spalle, punte leggermente aperte.",
+          "fai": "Scendi in squat profondo con i talloni a terra e spingi le ginocchia verso l'esterno. Resta fermo respirando.",
+          "evita": "Staccare i talloni o far cadere le ginocchia verso l'interno. Se non arrivi in fondo, scendi fin dove tieni i talloni a terra."
+         }
+        },
+        {
+         "id": "p07",
+         "name": "90/90 con transizioni",
+         "target": "2 × 6 per lato",
+         "how": {
+          "parti": "Seduto a terra, ginocchia piegate a 90° e ruotate da un lato, una gamba davanti e una di lato.",
+          "fai": "Ruota lentamente le ginocchia dall'altro lato, senza usare le mani se riesci. Busto alto.",
+          "evita": "Ruotare con scatti o inclinare il busto per compensare."
+         }
+        },
+        {
+         "id": "p08",
+         "name": "Flessore dell'anca in affondo",
+         "target": "2 × 45″ per lato",
+         "how": {
+          "parti": "Un ginocchio a terra (metti un cuscino), piede davanti piatto con il ginocchio sopra la caviglia.",
+          "fai": "Stringi il gluteo della gamba dietro e porta il bacino in avanti, busto alto, fino a sentire tirare davanti all'anca.",
+          "evita": "Inarcare la zona lombare: se la schiena si incava, spingi meno in avanti."
+         }
+        },
+        {
+         "id": "p09",
+         "name": "World's greatest stretch",
+         "target": "2 × 5 per lato",
+         "how": {
+          "parti": "Parti in posizione di piegamento sulle braccia. Porta un piede accanto alla mano dello stesso lato.",
+          "fai": "Ruota il busto verso l'interno e solleva il braccio verso il soffitto, seguendolo con lo sguardo. Torna e ripeti.",
+          "evita": "Staccare il tallone dietro o ruotare solo le spalle: deve ruotare il torace."
+         }
+        }
+       ],
+       "cols": [
+        "Serie e ripetizioni"
+       ]
+      },
+      {
+       "title": "Core per la corsa",
+       "dur": "circa 35′",
+       "items": [
+        {
+         "id": "p10",
+         "name": "Dead bug",
+         "target": "3 × 10 per lato",
+         "how": {
+          "parti": "Sdraiato, braccia verso il soffitto, anche e ginocchia a 90°, zona lombare a contatto con il pavimento.",
+          "fai": "Espira e abbassa insieme il braccio destro e la gamba sinistra, senza toccare terra. Torna e cambia lato.",
+          "evita": "Staccare la zona lombare dal pavimento: se succede, riduci l'ampiezza."
+         }
+        },
+        {
+         "id": "p11",
+         "name": "Plank sugli avambracci",
+         "target": "3 × 40″",
+         "how": {
+          "parti": "Sugli avambracci, gomiti sotto le spalle, corpo in linea dalla testa ai talloni.",
+          "fai": "Contrai glutei e addome e respira regolare.",
+          "evita": "Far cadere il bacino o alzarlo troppo."
+         }
+        },
+        {
+         "id": "p12",
+         "name": "Plank con tocco spalla alternato",
+         "target": "3 × 8 per lato",
+         "how": {
+          "parti": "In posizione di plank sulle mani, piedi larghi quanto le spalle (più larghi se serve stabilità).",
+          "fai": "Tocca la spalla opposta con una mano alternando i lati, tenendo il bacino fermo.",
+          "evita": "Ruotare il bacino o oscillare: se succede, allarga i piedi."
+         }
+        },
+        {
+         "id": "p13",
+         "name": "Bird dog con pausa",
+         "target": "3 × 8 per lato, pausa 2″",
+         "how": {
+          "parti": "In quadrupedia, schiena in posizione neutra, sguardo a terra.",
+          "fai": "Stendi il braccio destro e la gamba sinistra fino a formare una linea con la schiena. Fermati 2″ e torna.",
+          "evita": "Ruotare il bacino o inarcare la schiena: immagina un bicchiere d'acqua sulla zona lombare."
+         }
+        },
+        {
+         "id": "p14",
+         "name": "Plank laterale",
+         "target": "3 × 30–40″ per lato",
+         "how": {
+          "parti": "Sul fianco, gomito sotto la spalla, gambe distese una sopra l'altra.",
+          "fai": "Solleva il bacino fino ad allineare spalla, anca e caviglia. Respira regolare.",
+          "evita": "Far cadere il bacino o ruotare il busto in avanti."
+         }
+        },
+        {
+         "id": "p15",
+         "name": "Ponte glutei monopodalico",
+         "target": "3 × 12 per lato",
+         "how": {
+          "parti": "Sdraiato, una gamba piegata con il piede a terra e l'altra distesa in alto o piegata al petto.",
+          "fai": "Spingi sul tallone e alza il bacino fino a formare una linea tra spalle e ginocchio. Scendi piano.",
+          "evita": "Inarcare la zona lombare in alto o far cadere il bacino da un lato."
+         }
+        },
+        {
+         "id": "p16",
+         "name": "Abduzione d'anca sdraiato",
+         "target": "3 × 12 per lato",
+         "how": {
+          "parti": "Sdraiato su un fianco, gamba di sotto piegata, gamba di sopra tesa in linea col busto.",
+          "fai": "Solleva la gamba di sopra con la punta leggermente verso il basso, poi scendi lentamente.",
+          "evita": "Ruotare il bacino all'indietro o portare la gamba davanti al corpo."
+         }
+        },
+        {
+         "id": "p17",
+         "name": "Stacco monopodalico a corpo libero",
+         "target": "3 × 8 per lato",
+         "how": {
+          "parti": "In piedi su una gamba, ginocchio leggermente piegato, mani lungo i fianchi.",
+          "fai": "Inclina il busto in avanti portando indietro l'altra gamba, tenendo la schiena dritta. Risali spingendo col piede a terra.",
+          "evita": "Ruotare il bacino o arrotondare la schiena: scendi meno se perdi l'equilibrio."
+         }
+        },
+        {
+         "id": "p18",
+         "name": "Hollow hold",
+         "target": "3 × 20″",
+         "how": {
+          "parti": "Sdraiato, braccia lungo le orecchie, gambe tese, zona lombare a contatto con il pavimento.",
+          "fai": "Solleva spalle e gambe di pochi centimetri e tieni la posizione, respirando.",
+          "evita": "Staccare la zona lombare dal pavimento: se succede, piega le ginocchia."
+         }
+        }
+       ],
+       "cols": [
+        "Serie e ripetizioni"
+       ]
+      }
+     ],
+     "notes": [
+      "Intensità bassa: resta sotto RPE 5–6 e lascia sempre 2 ripetizioni di riserva. Domani c'è la corsa lunga della settimana.",
+      "Il core qui è moderato: se arrivi al plank laterale con la fatica che sale, fermati lì (circa 55′) e salta gli ultimi esercizi.",
+      "Se senti dolore acuto al ginocchio o lungo la tibia, esci dall'esercizio. Il semplice indolenzimento muscolare è normale.",
+      "Dopo la seduta scrivi nelle note la rigidità a inizio seduta e dove la senti."
+     ]
+    },
+    {
+     "id": "2026-10-31-corsa",
+     "date": "2026-10-31",
+     "type": "corsa",
+     "title": "Corsa facile 9 km",
+     "duration": "circa 62′",
+     "status": "scheda",
+     "summary": "9 km facili a ritmo costante, tetto FC 148 bpm, nessun finale libero. È la corsa lunga della settimana, dopo il giorno di sola mobilità.",
+     "blocks": [],
+     "notes": [
+      "Regola principale: la FC non deve superare 148 bpm. Se la supera per più di 1 minuto, cammina per 30 secondi e riparti più piano, senza recuperare il passo perso.",
+      "Non accelerare nella seconda metà: se ti senti bene, resta a 6:45/km (8,9 km/h) fino alla fine. Nessun finale libero.",
+      "Se prima del km 5 compare un dolore, chiudi a 8 km al massimo.",
+      "Condizioni: sabato mattina nessun dolore e niente rigidità insolita. Se manca una condizione, la distanza scende a 8 km a 6:45–7:00/km (8,6–8,9 km/h).",
+      "Sul tapis roulant imposta la pendenza all'1%; vale il tetto di FC, non la velocità in tabella.",
+      "Dopo la seduta compila nella valutazione Fastidi: zona (tibiale, Achille o altro) e intensità da 0 a 10, più FC media e ritmo di ogni km nelle note."
+     ],
+     "table": {
+      "first": "Fase",
+      "cols": [
+       "Distanza",
+       "Ritmo /km",
+       "FC tetto",
+       "km/h",
+       "Tempo"
+      ],
+      "rows": [
+       {
+        "name": "Primi 2 km",
+        "cells": [
+         "2 km",
+         "6:45",
+         "148",
+         "8,9",
+         "13:30"
+        ]
+       },
+       {
+        "name": "Centrale",
+        "cells": [
+         "5 km",
+         "6:45–7:00",
+         "148",
+         "8,6–8,9",
+         "33:45–35:00"
+        ]
+       },
+       {
+        "name": "Ultimi 2 km",
+        "cells": [
+         "2 km",
+         "6:45–7:00",
+         "148",
+         "8,6–8,9",
+         "13:30–14:00"
+        ]
+       }
+      ],
+      "total": {
+       "name": "Totale",
+       "cells": [
+        "9 km",
+        "",
+        "",
+        "",
+        "61–63′"
+       ]
+      }
+     }
+    },
+    {
+     "id": "2026-11-01-bici",
+     "date": "2026-11-01",
+     "type": "bici",
+     "title": "Bici su strada zona 2",
+     "duration": "1 h–1 h 10",
+     "status": "scheda",
+     "summary": "Uscita da Piazza Roma a Montorfano, circa 27–31 km, il giorno dopo la corsa lunga. Zona 2: FC tra 120 e 149 bpm.",
+     "blocks": [],
+     "notes": [
+      "FC di riferimento: 120–149 bpm, zona 2 impostata a mano su Strava (per la bici ritenuta affidabile, ma non verificata). Il 24 ottobre hai fatto 29,3 km con FC media 139 e massima 152.",
+      "Durata tra 60 e 70 minuti: se hai più tempo, vai più piano, non più lungo.",
+      "Niente sforzi sui segmenti Strava e niente salite spinte: resta in zona 2 anche in salita.",
+      "Dopo la seduta scrivi nelle note della valutazione FC media, durata e come stanno le gambe."
+     ]
     }
    ]
   }
