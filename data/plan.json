@@ -1,6 +1,6 @@
 {
  "version": 1,
- "updated": "2026-10-25",
+ "updated": "2026-10-26",
  "weeks": [
   {
    "id": "2026-W42",
@@ -1345,16 +1345,16 @@
      "title": "Nuoto",
      "duration": "circa 42′",
      "status": "scheda",
-     "summary": "Vasca da 18 m, 1.980 m (110 vasche), con pull buoy e tavoletta. Virata a tocco e spinta su ogni parete, anche nei blocchi con pull buoy. Il ritmo base di 16,7 s a vasca è misurato (nuotata dell'8 ottobre), gli altri tempi sono stime da verificare. Con poco tempo: togli gambe e pull buoy (1.512 m).",
+     "summary": "Vasca da 18 m, 1.980 m (110 vasche), con pull buoy e tavoletta. Virata a tocco e spinta su ogni parete, anche nei blocchi con pull buoy. Tempi ricalibrati dopo la seduta del 26 ottobre: ritmo base circa 14 s a vasca muro a muro (orologio: 14,0 s l'8 ottobre, 13,0 s il 26 ottobre); i tempi sono ancora da verificare. Con poco tempo: togli gambe e pull buoy (1.512 m).",
      "blocks": [],
      "notes": [
       "Domenica hai corso 10 km: il nuoto di lunedì dà un giorno senza impatto sulle gambe. Se le gambe sono pesanti, togli il finale veloce 4 × 4 (restano 1.692 m) invece di saltare il nuoto.",
-      "Tocco e spinta su ogni parete, sempre la stessa tecnica. Se i 16,7 s a vasca erano stati ricavati con un'altra virata, i tempi target possono risultare più duri o più facili: confronta i tuoi tempi reali con la tabella e scrivili nelle note.",
-      "Serie centrale: se la 1ª ripetizione supera 2:14, il target è troppo ambizioso: riparti da 2:15 per tutte. Se la 5ª è più lenta della 1ª di oltre 4″, la prossima volta la partenza passa a 2:40.",
-      "Gambe: se 2 vasche richiedono più di 1:00, porta la partenza a 1:30.",
-      "Finale: se non tieni 1:03 per tutte e quattro, il target di 1:01 era troppo veloce e viene allungato.",
+      "Tocco e spinta su ogni parete, sempre la stessa tecnica. I tempi della tabella sono muro a muro, letti dal cronometro della vasca. Il 26 ottobre il ritmo reale era più veloce della scheda precedente: i vecchi 16,7 s a vasca non coincidevano con i dati dell'orologio.",
+      "Serie centrale: se la media delle ripetizioni 4–5 supera quella delle ripetizioni 1–2 di oltre 6″, la prossima volta la partenza passa a 2:40. Se la 1ª ripetizione supera 1:59, il target è troppo ambizioso: riparti da 2:00 per tutte.",
+      "Gambe: se 2 vasche richiedono più di 1:05, porta la partenza a 1:30.",
+      "Finale: se non tieni 0:55 per tutte e quattro, il target di 0:52 era troppo veloce e viene allungato.",
       "Pull buoy: è il blocco che carica di più le spalle. Se senti dolore, salta il blocco.",
-      "Dopo la seduta confronta i tempi a vasca registrati dall'orologio con questi target e scrivili nelle note della valutazione."
+      "Dopo la seduta confronta i tempi con questi target e scrivili nelle note della valutazione. L'orologio può perdere o fondere vasche (il 26 ottobre ne ha perse 2): conta le vasche tu."
      ],
      "table": {
       "first": "Esercizio + accessorio",
@@ -1369,7 +1369,7 @@
         "name": "Riscaldamento",
         "cells": [
          "6 vasche",
-         "circa 1:50 totali",
+         "circa 1:35 totali",
          "–",
          "108"
         ]
@@ -1378,7 +1378,7 @@
         "name": "Gambe, tavoletta",
         "cells": [
          "4 × 2 vasche",
-         "0:56",
+         "1:00",
          "1:15",
          "144"
         ]
@@ -1387,7 +1387,7 @@
         "name": "Progressivi",
         "cells": [
          "4 × 4 vasche",
-         "1:10 · 1:08 · 1:06 · 1:04",
+         "0:54 · 0:52 · 0:50 · 0:48",
          "1:30",
          "288"
         ]
@@ -1396,7 +1396,7 @@
         "name": "Serie centrale",
         "cells": [
          "5 × 8 vasche",
-         "2:10 (16,3 s a vasca)",
+         "1:55 (14,4 s a vasca)",
          "2:30",
          "720"
         ]
@@ -1405,7 +1405,7 @@
         "name": "Braccia, pull buoy",
         "cells": [
          "3 × 6 vasche",
-         "1:40",
+         "1:35",
          "2:00",
          "324"
         ]
@@ -1414,7 +1414,7 @@
         "name": "Finale veloce",
         "cells": [
          "4 × 4 vasche",
-         "1:01 (15,3 s a vasca)",
+         "0:52 (13 s a vasca)",
          "1:25",
          "288"
         ]
@@ -1423,7 +1423,7 @@
         "name": "Defaticamento",
         "cells": [
          "6 vasche",
-         "circa 1:50 totali",
+         "circa 1:40 totali",
          "–",
          "108"
         ]
@@ -1433,7 +1433,7 @@
        "name": "Totale",
        "cells": [
         "110 vasche",
-        "circa 42′",
+        "circa 40′",
         "",
         "1.980"
        ]
