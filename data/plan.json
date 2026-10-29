@@ -1,6 +1,6 @@
 {
  "version": 1,
- "updated": "2026-10-26",
+ "updated": "2026-10-29",
  "weeks": [
   {
    "id": "2026-W42",
@@ -1586,19 +1586,19 @@
      "date": "2026-10-29",
      "type": "forza",
      "title": "Forza funzionale",
-     "duration": "circa 63′",
+     "duration": "circa 56′",
      "status": "scheda",
-     "summary": "Terza seduta di forza per la corsa, il giorno dopo gli intervalli e prima della mobilità di venerdì. Tre serie su step-up, stacco rumeno e calf raise, ma con le ripetizioni ferme a quelle scritte e RIR 3 o più: il volume sulle gambe resta più basso del 20 ottobre, quando le serie sono arrivate a 8–12 ripetizioni. Core, abductor e tibiale come il 20 ottobre.",
+     "summary": "Terza seduta di forza per la corsa, il giorno dopo gli intervalli (chiusi a RPE 8) e prima della mobilità di venerdì. Solo 2 serie su step-up, stacco rumeno e calf raise, con le ripetizioni ferme a quelle scritte e RIR 3 o più. Calf raise con pallina tolto. Calf raise monopodalico solo se la gamba sinistra è a 3/10 o meno dopo il riscaldamento.",
      "blocks": [
       {
        "title": "Blocco A · gambe e anti-rotazione",
-       "dur": "circa 14′",
+       "dur": "circa 12′",
        "items": [
         {
          "id": "a1",
          "name": "A1 · Step-up con manubri",
-         "target": "3 × 6 per gamba, 12 kg per mano (24 totali), RIR 3 o più: ferma ogni serie alla 6ª ripetizione anche se ne hai ancora, poi passa all'A2",
-         "sets": 3,
+         "target": "2 × 6 per gamba, 12 kg per mano (24 totali), RIR 3 o più: ferma ogni serie alla 6ª ripetizione anche se ne hai ancora, poi passa all'A2",
+         "sets": 2,
          "reps": 6,
          "how": {
           "parti": "Davanti a una panca o a un box alto quanto il ginocchio, un manubrio per mano, piede intero sul box.",
@@ -1625,13 +1625,13 @@
       },
       {
        "title": "Blocco B · catena posteriore e schiena",
-       "dur": "circa 14′",
+       "dur": "circa 12′",
        "items": [
         {
          "id": "b1",
          "name": "B1 · Stacco rumeno a una gamba",
-         "target": "3 × 6 per gamba, 24 kg totali, RIR 3 o più: ferma ogni serie alla 6ª ripetizione",
-         "sets": 3,
+         "target": "2 × 6 per gamba, 24 kg totali, RIR 3 o più: ferma ogni serie alla 6ª ripetizione",
+         "sets": 2,
          "reps": 6,
          "how": {
           "parti": "In piedi su una gamba con il ginocchio morbido, manubrio nella mano opposta alla gamba d'appoggio.",
@@ -1658,13 +1658,13 @@
       },
       {
        "title": "Blocco C · polpacci e core",
-       "dur": "circa 12′",
+       "dur": "circa 10′",
        "items": [
         {
          "id": "c1",
          "name": "C1 · Calf raise a una gamba con manubrio",
-         "target": "3 × 10 per gamba, parti con 12 kg, pausa 1″ in alto, RIR 3 o più",
-         "sets": 3,
+         "target": "2 × 10 per gamba, 12 kg, pausa 1″ in alto, RIR 3 o più. Fallo solo se la gamba sinistra è a 3/10 o meno dopo il riscaldamento, altrimenti salta",
+         "sets": 2,
          "reps": 10,
          "how": {
           "parti": "Su una gamba sola con l'avampiede sul bordo di un gradino, un manubrio nella mano dello stesso lato e l'altra mano a un muro o a un rack per l'equilibrio.",
@@ -1691,12 +1691,12 @@
       },
       {
        "title": "Blocco D · stabilità del bacino e tibiale posteriore",
-       "dur": "circa 11′",
+       "dur": "circa 8′",
        "items": [
         {
          "id": "d1",
          "name": "D1 · Abductor machine",
-         "target": "2 × 12, 35 kg",
+         "target": "2 × 12, 40 kg",
          "sets": 2,
          "reps": 12,
          "how": {
@@ -1716,18 +1716,6 @@
           "fai": "Porta la punta del piede verso l'interno contro la resistenza dell'elastico, fermati 1″ e torna lentamente in 3″.",
           "evita": "Muovere la gamba o il ginocchio al posto della caviglia, o forzare fino a dolore."
          }
-        },
-        {
-         "id": "d3",
-         "name": "D3 · Calf raise con pallina tra i talloni",
-         "target": "2 × 12, a corpo libero, RIR 3 o più, discesa in 3″",
-         "sets": 2,
-         "reps": 12,
-         "how": {
-          "parti": "In piedi con una pallina o un asciugamano arrotolato stretto tra i talloni, appoggio leggero a un muro.",
-          "fai": "Sali sulle punte stringendo i talloni sulla pallina, fermati 1″ e scendi in 3″.",
-          "evita": "Far cadere la pallina o aprire i talloni durante la salita."
-         }
         }
        ],
        "cols": [
@@ -1738,11 +1726,93 @@
      "notes": [
       "Prima di iniziare: 5-8′ di cyclette o tapis roulant facile e una serie leggera di step-up (6 per gamba).",
       "Fai le coppie A1 + A2, B1 + B2 e C1 + C2 alternando gli esercizi, con 90″ di recupero dopo ogni coppia. Il blocco D chiude la seduta.",
-      "Step-up, stacco rumeno e calf raise: tre serie, ma ferma ognuna alle ripetizioni scritte anche se potresti farne di più. Ieri hai corso gli intervalli e sabato c'è la corsa lunga: la regola sulle ripetizioni è ciò che tiene basso il carico.",
-      "Se ieri hai chiuso gli intervalli a RPE 8 o più, fai 2 serie su A1, B1 e C1.",
-      "Calf raise: il carico di partenza (12 kg) è una stima. Regolalo con la prima serie; se i polpacci sono rigidi, riduci il carico o salta D3 e tieni solo D2.",
+      "Step-up, stacco rumeno e calf raise: 2 serie e ferma ognuna alle ripetizioni scritte anche se potresti farne di più. Il 20 ottobre sullo step-up hai fatto 8, 8 e 12 ripetizioni invece di 6: oggi il volume sulle gambe va tenuto basso perché sabato c'è la corsa lunga.",
+      "Gamba sinistra: dopo il riscaldamento valuta la rigidità da 0 a 10. Se è sopra 3, salta il calf raise C1 e tieni solo D2.",
+      "Abductor a 40 kg: è il carico che hai usato il 20 ottobre (40 e 45 kg con RIR 2).",
       "Nel diario scrivi il carico, le serie e la riserva (RIR) di ogni esercizio, nel campo Fastidi la zona e l'intensità da 0 a 10 se senti dolore, e indica dove senti esattamente un'eventuale rigidità."
      ]
+    },
+    {
+     "id": "2026-10-29-nuoto",
+     "date": "2026-10-29",
+     "type": "nuoto",
+     "title": "Nuoto (facoltativo)",
+     "duration": "circa 28′",
+     "status": "scheda",
+     "summary": "Seduta facoltativa di recupero attivo, la sera dopo la palestra. Vasca da 18 m, 1.332 m (74 vasche), con pull buoy. Virata a tocco e spinta su ogni parete. Senza gambe con la tavoletta e senza finale veloce, per non caricare caviglia e polpaccio. Tempi 5–6 secondi più lenti sulla serie centrale e 3–4 sul pull rispetto al 26 ottobre (1:54 e 1:34): sono ricavati da una sola seduta e vanno verificati.",
+     "blocks": [],
+     "notes": [
+      "Falla solo se dopo la palestra la fatica alle gambe è 3/10 o meno e la gamba sinistra 2/10 o meno. Altrimenti salta: il nuoto di lunedì 2 novembre resta in programma.",
+      "Tocco e spinta su ogni parete. I tempi sono muro a muro, letti dal cronometro della vasca. L'orologio può perdere o fondere vasche: conta le vasche tu.",
+      "Serie centrale: se la prima ripetizione supera 2:03, riparti da 2:05 per tutte.",
+      "Pull buoy: se senti dolore alle spalle, salta il blocco.",
+      "Dopo la seduta scrivi i tempi nelle note della valutazione."
+     ],
+     "table": {
+      "first": "Esercizio + accessorio",
+      "cols": [
+       "Ripetizioni",
+       "Tempo target",
+       "Ripartenza",
+       "Metri"
+      ],
+      "rows": [
+       {
+        "name": "Riscaldamento",
+        "cells": [
+         "6 vasche",
+         "circa 1:35 totali",
+         "–",
+         "108"
+        ]
+       },
+       {
+        "name": "Progressivi",
+        "cells": [
+         "3 × 4 vasche",
+         "0:56 · 0:54 · 0:52",
+         "1:30",
+         "216"
+        ]
+       },
+       {
+        "name": "Serie centrale",
+        "cells": [
+         "4 × 8 vasche",
+         "2:00 (15 s a vasca)",
+         "2:35",
+         "576"
+        ]
+       },
+       {
+        "name": "Braccia, pull buoy",
+        "cells": [
+         "3 × 6 vasche",
+         "1:38",
+         "2:05",
+         "324"
+        ]
+       },
+       {
+        "name": "Defaticamento",
+        "cells": [
+         "6 vasche",
+         "circa 1:40 totali",
+         "–",
+         "108"
+        ]
+       }
+      ],
+      "total": {
+       "name": "Totale",
+       "cells": [
+        "74 vasche",
+        "circa 28′",
+        "",
+        "1.332"
+       ]
+      }
+     }
     },
     {
      "id": "2026-10-30-mobilita",
