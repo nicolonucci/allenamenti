@@ -2122,7 +2122,7 @@
    "id": "2026-W45",
    "start": "2026-11-02",
    "title": "Settimana 45",
-   "note": "Lunedì corsa facile 4 km + mobilità, mercoledì tempo 2 × 10′, venerdì corsa facile 4 km + mobilità, domenica corsa lunga 11 km. Nuoto, forza e bici da definire.",
+   "note": "Lunedì corsa facile 4 km + mobilità, martedì nuoto, mercoledì tempo 2 × 10′, giovedì forza + polpacci, venerdì corsa facile 4 km + mobilità, sabato bici zona 2, domenica corsa lunga 11 km.",
    "workouts": [
     {
      "id": "2026-11-02-corsa",
@@ -2131,7 +2131,7 @@
      "title": "Corsa facile 4 km",
      "duration": "circa 27′",
      "status": "scheda",
-     "summary": "4 km facili in zona 2, tetto FC 149 bpm, nessun finale libero. Prima del tempo di mercoledì.",
+     "summary": "4 km facili in zona 2, tetto FC 149 bpm, nessun finale libero. Prima del nuoto di martedì e del tempo di mercoledì.",
      "blocks": [],
      "notes": [
       "Regola principale: la FC non deve superare 149 bpm (zona 2 di Strava: 120–149). Se la supera per più di 1 minuto, cammina 30 secondi e riparti più piano, senza recuperare il passo perso.",
@@ -2270,6 +2270,109 @@
      ]
     },
     {
+     "id": "2026-11-03-nuoto",
+     "date": "2026-11-03",
+     "type": "nuoto",
+     "title": "Nuoto",
+     "duration": "circa 42′",
+     "status": "scheda",
+     "summary": "Vasca da 18 m, 1.980 m (110 vasche), con pull buoy e tavoletta. Virata a tocco e spinta su ogni parete, anche nei blocchi con pull buoy. Pull e finale ricalibrati sui tempi reali del 26 e 29 ottobre. Con poco tempo: togli gambe e pull buoy (1.512 m).",
+     "blocks": [],
+     "notes": [
+      "Il giorno prima c'è la corsa facile di 4 km e il giorno dopo il tempo 2 × 10′. Se le gambe sono pesanti, togli il finale veloce 4 × 4 (restano 1.692 m) invece di saltare il nuoto.",
+      "Tocco e spinta su ogni parete, sempre la stessa tecnica. I tempi della tabella sono muro a muro, letti dal cronometro della vasca.",
+      "Tempi ricalibrati sui dati: pull da 1:35 a 1:30 (29 ottobre: 1:27, 1:31, 1:28 sulle tre ripetizioni) e finale veloce da 0:52 a 0:54 (26 ottobre: 0:53, 0:55, 0:56, 0:56). Serie centrale invariata a 1:55 (26 ottobre: 1:50–2:00; 29 ottobre: 1:51–1:57).",
+      "Serie centrale: se la media delle ripetizioni 4–5 supera quella delle ripetizioni 1–2 di oltre 6″, la prossima volta la partenza passa a 2:40.",
+      "Gambe: se 2 vasche richiedono più di 1:05, porta la partenza a 1:30.",
+      "Finale: se non tieni 0:56 per tutte e quattro, il target di 0:54 è ancora troppo veloce e viene allungato.",
+      "Pull buoy: è il blocco che carica di più le spalle. Se senti dolore, salta il blocco.",
+      "Dopo la seduta confronta i tempi con questi target e scrivili nelle note della valutazione. L'orologio può perdere o fondere vasche (il 26 ottobre ne ha perse 2): conta le vasche tu."
+     ],
+     "table": {
+      "first": "Esercizio + accessorio",
+      "cols": [
+       "Ripetizioni",
+       "Tempo target",
+       "Ripartenza",
+       "Metri"
+      ],
+      "rows": [
+       {
+        "name": "Riscaldamento",
+        "cells": [
+         "6 vasche",
+         "circa 1:35 totali",
+         "–",
+         "108"
+        ]
+       },
+       {
+        "name": "Gambe, tavoletta",
+        "cells": [
+         "4 × 2 vasche",
+         "1:00",
+         "1:15",
+         "144"
+        ]
+       },
+       {
+        "name": "Progressivi",
+        "cells": [
+         "4 × 4 vasche",
+         "0:54 · 0:52 · 0:50 · 0:48",
+         "1:30",
+         "288"
+        ]
+       },
+       {
+        "name": "Serie centrale",
+        "cells": [
+         "5 × 8 vasche",
+         "1:55 (14,4 s a vasca)",
+         "2:30",
+         "720"
+        ]
+       },
+       {
+        "name": "Braccia, pull buoy",
+        "cells": [
+         "3 × 6 vasche",
+         "1:30",
+         "2:00",
+         "324"
+        ]
+       },
+       {
+        "name": "Finale veloce",
+        "cells": [
+         "4 × 4 vasche",
+         "0:54 (13,5 s a vasca)",
+         "1:25",
+         "288"
+        ]
+       },
+       {
+        "name": "Defaticamento",
+        "cells": [
+         "6 vasche",
+         "circa 1:40 totali",
+         "–",
+         "108"
+        ]
+       }
+      ],
+      "total": {
+       "name": "Totale",
+       "cells": [
+        "110 vasche",
+        "circa 40′",
+        "",
+        "1.980"
+       ]
+      }
+     }
+    },
+    {
      "id": "2026-11-04-corsa",
      "date": "2026-11-04",
      "type": "corsa",
@@ -2352,13 +2455,188 @@
      }
     },
     {
+     "id": "2026-11-05-forza",
+     "date": "2026-11-05",
+     "type": "forza",
+     "title": "Forza funzionale",
+     "duration": "circa 55′",
+     "status": "scheda",
+     "summary": "Forza per la corsa, il giorno dopo il tempo 2 × 10′ e il giorno prima della corsa facile di venerdì. 2 serie sulle gambe (step-up e stacco rumeno) con RIR 3 o più. Novità: il calf raise con manubrio è sostituito dai due esercizi per il polpaccio approvati il 29 ottobre (HSR alla leg press e polpaccio da seduti), che chiudono la seduta.",
+     "blocks": [
+      {
+       "title": "Blocco A · gambe e anti-rotazione",
+       "dur": "circa 12′",
+       "items": [
+        {
+         "id": "a1",
+         "name": "A1 · Step-up con manubri",
+         "target": "2 × 6 per gamba, 14 kg per mano (28 totali), RIR 3 o più: ferma ogni serie alla 6ª ripetizione anche se ne hai ancora, poi passa all'A2",
+         "sets": 2,
+         "reps": 6,
+         "how": {
+          "parti": "Davanti a una panca o a un box alto quanto il ginocchio, un manubrio per mano, piede intero sul box.",
+          "fai": "Spingi sul piede appoggiato fino a distendere anca e ginocchio, senza dare la spinta con la gamba dietro. Scendi in 3″.",
+          "evita": "Far rientrare il ginocchio o rimbalzare in basso con la gamba a terra."
+         }
+        },
+        {
+         "id": "a2",
+         "name": "A2 · Pallof press",
+         "target": "3 × 10 per lato, 6,25 kg, pausa 2″ con le braccia tese",
+         "sets": 3,
+         "reps": 10,
+         "how": {
+          "parti": "Di fianco a un cavo (o a un elastico fissato a una colonna) all'altezza del petto, maniglia al petto, piedi larghi come le spalle.",
+          "fai": "Distendi le braccia in avanti e fermati 2″ resistendo alla trazione, poi torna al petto.",
+          "evita": "Ruotare il busto verso il cavo o spostare il bacino."
+         }
+        }
+       ],
+       "cols": [
+        "Serie e ripetizioni"
+       ]
+      },
+      {
+       "title": "Blocco B · catena posteriore e schiena",
+       "dur": "circa 12′",
+       "items": [
+        {
+         "id": "b1",
+         "name": "B1 · Stacco rumeno a una gamba",
+         "target": "2 × 6 per gamba, 28 kg totali, RIR 3 o più: ferma ogni serie alla 6ª ripetizione",
+         "sets": 2,
+         "reps": 6,
+         "how": {
+          "parti": "In piedi su una gamba con il ginocchio morbido, manubrio nella mano opposta alla gamba d'appoggio.",
+          "fai": "Spingi il bacino indietro fino a portare busto e gamba libera in linea orizzontale, poi risali stringendo il gluteo. Per l'equilibrio puoi sfiorare un appoggio con due dita.",
+          "evita": "Arrotondare la schiena o ruotare il bacino verso l'alto."
+         }
+        },
+        {
+         "id": "b2",
+         "name": "B2 · Rematore a un braccio",
+         "target": "3 × 10 per lato, 14 kg, pausa 1″ in alto",
+         "sets": 3,
+         "reps": 10,
+         "how": {
+          "parti": "Una mano sulla panca e il piede opposto indietro, schiena piatta, manubrio nell'altra mano a braccio disteso.",
+          "fai": "Tira il gomito verso l'anca, fermati 1″ e scendi in 2-3″.",
+          "evita": "Ruotare il busto o alzare la spalla verso l'orecchio."
+         }
+        }
+       ],
+       "cols": [
+        "Serie e ripetizioni"
+       ]
+      },
+      {
+       "title": "Blocco C · core",
+       "dur": "circa 4′",
+       "items": [
+        {
+         "id": "c2",
+         "name": "C1 · Lateral crunch alla macchina",
+         "target": "3 × 10–12 per lato, 25 kg, RIR 2",
+         "sets": 3,
+         "reps": 10,
+         "how": {
+          "parti": "Seduto alla macchina con il pad sul fianco e il bacino fermo, mani sulle impugnature.",
+          "fai": "Piega il busto di lato contro il pad e torna in 2–3″, senza dare slancio.",
+          "evita": "Ruotare il busto o spingere con le gambe."
+         }
+        }
+       ],
+       "cols": [
+        "Serie e ripetizioni"
+       ]
+      },
+      {
+       "title": "Blocco D · stabilità del bacino e tibiale posteriore",
+       "dur": "circa 8′",
+       "items": [
+        {
+         "id": "d1",
+         "name": "D1 · Abductor machine",
+         "target": "2 × 12, 45 kg",
+         "sets": 2,
+         "reps": 12,
+         "how": {
+          "parti": "Seduto alla macchina con la schiena appoggiata e i cuscinetti all'esterno delle ginocchia.",
+          "fai": "Apri le gambe fino a sentire lavorare il gluteo, fermati un attimo e torna lentamente.",
+          "evita": "Dare slancio o staccare il bacino dal sedile."
+         }
+        },
+        {
+         "id": "d2",
+         "name": "D2 · Inversione con elastico",
+         "target": "2 × 12 per gamba, RIR 3 o più, ritorno in 3″",
+         "sets": 2,
+         "reps": 12,
+         "how": {
+          "parti": "Seduto con la gamba tesa davanti, elastico attorno all'avampiede e fissato di lato (lato esterno del piede), tallone a terra.",
+          "fai": "Porta la punta del piede verso l'interno contro la resistenza dell'elastico, fermati 1″ e torna lentamente in 3″.",
+          "evita": "Muovere la gamba o il ginocchio al posto della caviglia, o forzare fino a dolore."
+         }
+        }
+       ],
+       "cols": [
+        "Serie e ripetizioni"
+       ]
+      },
+      {
+       "title": "Blocco E · polpacci (fine seduta)",
+       "dur": "circa 10′",
+       "cols": [
+        "Serie e ripetizioni"
+       ],
+       "items": [
+        {
+         "id": "c3",
+         "name": "E1 · Calf raise HSR alla leg press",
+         "target": "2 × 6–8, 3″ in salita e 3″ in discesa, pausa 90″, RIR 3 o più",
+         "sets": 2,
+         "reps": 6,
+         "how": {
+          "parti": "Seduto alla leg press con solo le punte dei piedi sulla pedana, talloni fuori dal bordo, ginocchia quasi tese (non bloccate). Parti da un carico moderato.",
+          "fai": "Spingi sulle punte in 3″ fino a salire il più in alto possibile, fermati 1″ e scendi in 3″ sotto il livello della pedana fino a sentire il polpaccio allungarsi. Se chiudi la serie oltre RIR 4, alza il carico nella serie dopo.",
+          "evita": "Piegare le ginocchia, rimbalzare in basso o accorciare la discesa."
+         }
+        },
+        {
+         "id": "c4",
+         "name": "E2 · Calf raise da seduti (rotary calf)",
+         "target": "2 × 8–12, 2″ in salita e 3″ in discesa, pausa 60″, RIR 3 o più",
+         "sets": 2,
+         "reps": 8,
+         "how": {
+          "parti": "Seduto alla rotary calf con le ginocchia piegate, cuscinetto sopra le ginocchia e avampiedi sulla pedana.",
+          "fai": "Sali sulle punte in 2″, fermati 1″ in alto e scendi in 3″ fino a sentire il polpaccio allungarsi. Se chiudi la serie oltre RIR 4, alza il carico nella serie dopo.",
+          "evita": "Dare slancio, accorciare la discesa o far cadere le ginocchia verso l'interno."
+         }
+        }
+       ]
+      }
+     ],
+     "notes": [
+      "Prima di iniziare: 5-8′ di cyclette o tapis roulant facile e una serie leggera di step-up (6 per gamba).",
+      "Fai le coppie A1 + A2 e B1 + B2 alternando gli esercizi, con 90″ di recupero dopo ogni coppia. Poi C1, il blocco D e i polpacci (blocco E) in fondo.",
+      "Step-up e stacco rumeno: 2 serie e ferma ognuna alla 6ª ripetizione anche se potresti farne di più. Il giorno prima hai il tempo: se lo hai chiuso a RPE 8 o più, fai 1 sola serie su step-up e stacco rumeno.",
+      "Polpacci (blocco E): sostituiscono il calf raise a una gamba con manubrio, non vanno sommati. I carichi non sono nel diario: per l'HSR scegli il peso con cui chiudi 8 ripetizioni lente con RIR 3 o più e scrivilo. Il carico del polpaccio da seduti trovalo con la stessa regola.",
+      "Polpacci: 2 serie questa settimana. Passano a 3 serie dalla prossima forza solo se il giorno dopo polpacci e tendine d'Achille sono a 3/10 o meno.",
+      "Dopo il riscaldamento valuta polpaccio e gamba sinistra da 0 a 10. Se sono sopra 3, fai 1 sola serie leggera di ogni esercizio del blocco E.",
+      "Abductor: il 29 ottobre hai fatto 45 e 50 kg con RIR 1. Oggi parti da 45 kg.",
+      "Domani corsa facile di 4 km: se dopo la forza il polpaccio è sopra 3/10, fai 3 km.",
+      "Nel diario scrivi il carico, le serie e la riserva (RIR) di ogni esercizio, nel campo Fastidi la zona e l'intensità da 0 a 10 se senti dolore, e indica dove senti esattamente un'eventuale rigidità."
+     ]
+    },
+    {
      "id": "2026-11-06-corsa",
      "date": "2026-11-06",
      "type": "corsa",
      "title": "Corsa facile 4 km",
      "duration": "circa 27′",
      "status": "scheda",
-     "summary": "4 km facili in zona 2, tetto FC 149 bpm, nessun finale libero. Due giorni prima della corsa lunga di domenica.",
+     "summary": "4 km facili in zona 2, tetto FC 149 bpm, nessun finale libero. Il giorno dopo la forza di giovedì e due giorni prima della corsa lunga di domenica.",
      "blocks": [],
      "notes": [
       "Regola principale: la FC non deve superare 149 bpm (zona 2 di Strava: 120–149). Se la supera per più di 1 minuto, cammina 30 secondi e riparti più piano, senza recuperare il passo perso.",
@@ -2494,6 +2772,22 @@
         }
        ]
       }
+     ]
+    },
+    {
+     "id": "2026-11-07-bici",
+     "date": "2026-11-07",
+     "type": "bici",
+     "title": "Bici su strada zona 2",
+     "duration": "1 h–1 h 10",
+     "status": "scheda",
+     "summary": "Uscita da Piazza Roma a Montorfano, circa 27–31 km, il giorno dopo la corsa facile di venerdì e il giorno prima della corsa lunga di domenica. Zona 2: FC tra 120 e 149 bpm.",
+     "blocks": [],
+     "notes": [
+      "FC di riferimento: 120–149 bpm, zona 2 impostata a mano su Strava. Il 17 e il 24 ottobre hai fatto 27,3 km/h di media con FC media 129 e 139: se vai a quella velocità sotto 149 bpm sei nel posto giusto.",
+      "Domani corsa lunga: resta in zona 2 anche in salita e se superi 149 bpm per più di 5 minuti rallenta. Niente sforzi sui segmenti Strava.",
+      "Durata tra 60 e 70 minuti: se hai più tempo, vai più piano, non più lungo.",
+      "Dopo la seduta scrivi nelle note della valutazione FC media, durata e come stanno le gambe."
      ]
     },
     {
