@@ -2122,16 +2122,16 @@
    "id": "2026-W45",
    "start": "2026-11-02",
    "title": "Settimana 45",
-   "note": "Lunedì corsa facile 4 km + mobilità, martedì nuoto, mercoledì tempo 2 × 10′, giovedì forza + polpacci, venerdì corsa facile 4 km + mobilità, sabato bici zona 2, domenica corsa lunga 11 km.",
+   "note": "Lunedì corsa facile 5 km + mobilità, martedì nuoto, mercoledì tempo 2 × 10′, giovedì forza + polpacci, venerdì corsa facile 4 km + mobilità, sabato bici zona 2, domenica corsa lunga 11 km.",
    "workouts": [
     {
      "id": "2026-11-02-corsa",
      "date": "2026-11-02",
      "type": "corsa",
-     "title": "Corsa facile 4 km",
-     "duration": "circa 27′",
+     "title": "Corsa facile 5 km",
+     "duration": "circa 33′",
      "status": "scheda",
-     "summary": "4 km facili in zona 2, tetto FC 149 bpm, nessun finale libero. Prima del nuoto di martedì e del tempo di mercoledì.",
+     "summary": "5 km facili in zona 2, tetto FC 149 bpm, nessun finale libero. Prima del nuoto di martedì e del tempo di mercoledì.",
      "blocks": [],
      "notes": [
       "Regola principale: la FC non deve superare 149 bpm (zona 2 di Strava: 120–149). Se la supera per più di 1 minuto, cammina 30 secondi e riparti più piano, senza recuperare il passo perso.",
@@ -2164,22 +2164,22 @@
        {
         "name": "Restanti",
         "cells": [
-         "3 km",
+         "4 km",
          "6:35–6:45",
          "149",
          "8,9–9,1",
-         "19:45–20:15"
+         "26:20–27:00"
         ]
        }
       ],
       "total": {
        "name": "Totale",
        "cells": [
-        "4 km",
+        "5 km",
         "",
         "",
         "",
-        "26:35–27:05"
+        "33:10–33:50"
        ]
       }
      }
