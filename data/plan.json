@@ -2383,6 +2383,7 @@
      "blocks": [],
      "notes": [
       "Il ritmo di 5:50/km è una stima, non un test: il 28 ottobre le ripetute da 4′ a 5:34 sono state a FC 163 (zona 4 di Strava, che parte da 164). Il tempo deve essere comodamente duro, più lento delle ripetute: FC attesa 158–162 (ipotesi da verificare).",
+      "I blocchi si fanno a tempo (10′); la distanza è indicativa, ricavata da 10′ a 5:50/km (1,71 km a blocco, 3,43 km in tutto) e serve per il tapis roulant o per controllare il GPS.",
       "Non andare più veloce di 5:45/km: il 28 ottobre l'ultima ripetuta era 15 s/km sopra il piano, e anche il 21 ottobre avevi chiuso il finale al massimo senza che fosse in scheda.",
       "La FC è di controllo: se nel primo blocco supera 166 bpm, rallenta di 10 s/km per il secondo.",
       "Riscaldamento e defaticamento restano facili: riscaldamento sotto 149 bpm, defaticamento sotto 140.",
@@ -2395,6 +2396,7 @@
       "first": "Fase",
       "cols": [
        "Durata",
+       "Distanza",
        "Ritmo /km",
        "FC",
        "km/h",
@@ -2405,6 +2407,7 @@
         "name": "Riscaldamento",
         "cells": [
          "12′",
+         "1,8 km",
          "6:35–6:50",
          "tetto 149",
          "8,8–9,1",
@@ -2415,6 +2418,7 @@
         "name": "Tempo 2 ×",
         "cells": [
          "10′",
+         "1,71 km",
          "5:50",
          "controllo",
          "10,3",
@@ -2425,6 +2429,7 @@
         "name": "Recupero",
         "cells": [
          "3′ trotto",
+         "0,4 km",
          "7:30",
          "–",
          "8,0",
@@ -2435,6 +2440,7 @@
         "name": "Defaticamento",
         "cells": [
          "8′",
+         "1,1 km",
          "7:00–7:30",
          "tetto 140",
          "8,0–8,6",
@@ -2445,6 +2451,7 @@
       "total": {
        "name": "Totale",
        "cells": [
+        "",
         "circa 6,7 km",
         "",
         "",
