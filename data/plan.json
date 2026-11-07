@@ -2639,6 +2639,575 @@
      ]
     }
    ]
+  },
+  {
+   "id": "2026-W46",
+   "start": "2026-11-09",
+   "title": "Settimana 46",
+   "note": "Lunedì nuoto (mattina) + intervalli 5 × 4′ (pomeriggio), martedì corsa facile 4 km, mercoledì riposo, giovedì tempo 2 × 15′, venerdì forza (con HSR e bent leg per i polpacci), sabato riposo, domenica corsa lunga 12 km. Circa 32 km di corsa. Domenica 8 novembre senza corsa (bici nel piano della settimana precedente). Il 15 km resta l'obiettivo dopo questa settimana.",
+   "workouts": [
+    {
+     "id": "2026-11-09-nuoto",
+     "date": "2026-11-09",
+     "type": "nuoto",
+     "title": "Nuoto",
+     "duration": "circa 42′",
+     "status": "scheda",
+     "summary": "Vasca da 18 m, 1.980 m (110 vasche), con pull buoy e tavoletta. Virata a tocco e spinta su ogni parete, anche nei blocchi con pull buoy. Mattina: nel pomeriggio ci sono gli intervalli di corsa. Progressivi ricalibrati sui tempi del 3 novembre. Con poco tempo: togli gambe e pull buoy (1.512 m).",
+     "blocks": [],
+     "notes": [
+      "Nel pomeriggio ci sono gli intervalli 5 × 4′: il nuoto resta la scheda di sempre, ma se le gambe sono pesanti togli il finale veloce 4 × 4 (restano 1.692 m) invece di saltare la seduta. Che il nuoto pesi sugli intervalli è un'ipotesi, non un dato.",
+      "Progressivi ricalibrati sui dati: il 3 novembre le prime tre ripetizioni sono state 0:50, 0:49 e 0:49 contro 0:54, 0:52 e 0:50 in scheda; ora 0:52 → 0:48. Serie centrale invariata a 1:55 (3 novembre: 1:55–1:58). Pull a 1:30 e finale a 0:54 restano quelli dell'ultima scheda: il 3 novembre pull e finale non erano separabili nei dati.",
+      "Tocco e spinta su ogni parete, sempre la stessa tecnica. I tempi della tabella sono muro a muro, letti dal cronometro della vasca.",
+      "Serie centrale: se la media delle ripetizioni 4–5 supera quella delle ripetizioni 1–2 di oltre 6″, la prossima volta la partenza passa a 2:40.",
+      "Gambe: se 2 vasche richiedono più di 1:05, porta la partenza a 1:30.",
+      "Finale: se non tieni 0:56 per tutte e quattro, il target di 0:54 è ancora troppo veloce e viene allungato.",
+      "Pull buoy: è il blocco che carica di più le spalle. Se senti dolore, salta il blocco.",
+      "Dopo la seduta confronta i tempi con questi target e scrivili nelle note della valutazione. L'orologio può perdere o fondere vasche (il 3 novembre ne ha contate 114 contro 110): conta le vasche tu."
+     ],
+     "table": {
+      "first": "Esercizio + accessorio",
+      "cols": [
+       "Ripetizioni",
+       "Tempo target",
+       "Ripartenza",
+       "Metri"
+      ],
+      "rows": [
+       {
+        "name": "Riscaldamento",
+        "cells": [
+         "6 vasche",
+         "circa 1:35 totali",
+         "–",
+         "108"
+        ]
+       },
+       {
+        "name": "Gambe, tavoletta",
+        "cells": [
+         "4 × 2 vasche",
+         "1:00",
+         "1:15",
+         "144"
+        ]
+       },
+       {
+        "name": "Progressivi",
+        "cells": [
+         "4 × 4 vasche",
+         "0:52 · 0:50 · 0:49 · 0:48",
+         "1:30",
+         "288"
+        ]
+       },
+       {
+        "name": "Serie centrale",
+        "cells": [
+         "5 × 8 vasche",
+         "1:55 (14,4 s a vasca)",
+         "2:30",
+         "720"
+        ]
+       },
+       {
+        "name": "Braccia, pull buoy",
+        "cells": [
+         "3 × 6 vasche",
+         "1:30",
+         "2:00",
+         "324"
+        ]
+       },
+       {
+        "name": "Finale veloce",
+        "cells": [
+         "4 × 4 vasche",
+         "0:54 (13,5 s a vasca)",
+         "1:25",
+         "288"
+        ]
+       },
+       {
+        "name": "Defaticamento",
+        "cells": [
+         "6 vasche",
+         "circa 1:40 totali",
+         "–",
+         "108"
+        ]
+       }
+      ],
+      "total": {
+       "name": "Totale",
+       "cells": [
+        "110 vasche",
+        "circa 40′",
+        "",
+        "1.980"
+       ]
+      }
+     }
+    },
+    {
+     "id": "2026-11-09-corsa",
+     "date": "2026-11-09",
+     "type": "corsa",
+     "title": "Intervalli 5 × 4′",
+     "duration": "circa 48′",
+     "status": "scheda",
+     "summary": "Seduta di qualità del lunedì, nel pomeriggio dopo il nuoto del mattino: 5 ripetute da 4 minuti a 5:30/km (10,9 km/h) con 2 minuti di trotto, per circa 7,6 km totali. Sabato e domenica sono di riposo.",
+     "blocks": [],
+     "notes": [
+      "Il ritmo di 5:30/km è una stima, non un test: il 28 ottobre le 4 ripetute da 4′ sono state a 5:34 con FC 163 (zona 4 di Strava parte da 164) e l'ultima era 15 s/km sopra il piano. Qui ce n'è una in più, quindi parti piano nella prima.",
+      "La FC è di controllo, non un tetto: se già alla seconda ripetizione supera 172 bpm, rallenta di 5–10 s/km invece di tagliare le ripetizioni.",
+      "Le ripetizioni si fanno a tempo (4′); la distanza è indicativa (0,73 km a ripetizione) e serve per il tapis roulant o per controllare il GPS.",
+      "Riscaldamento e defaticamento restano facili: riscaldamento sotto 149 bpm, defaticamento sotto 140.",
+      "Se dopo il riscaldamento polpacci o gamba sinistra sono sopra 3/10, o il nuoto del mattino ti ha lasciato le gambe pesanti, fai 4 ripetizioni invece di 5.",
+      "Se chiudi la seduta a RPE 8 o più, martedì tieni la corsa facile a 6:50/km per tutti i 4 km.",
+      "Sul tapis roulant imposta la pendenza all'1%; vale il tetto di FC, non la velocità in tabella.",
+      "Dopo la seduta compila nella valutazione Fastidi: zona e intensità da 0 a 10, più FC media e ritmo di ogni ripetizione nelle note."
+     ],
+     "table": {
+      "first": "Fase",
+      "cols": [
+       "Durata",
+       "Ritmo /km",
+       "FC",
+       "km/h",
+       "Tempo"
+      ],
+      "rows": [
+       {
+        "name": "Riscaldamento",
+        "cells": [
+         "12′",
+         "6:35–6:50",
+         "tetto 149",
+         "8,8–9,1",
+         "12′"
+        ]
+       },
+       {
+        "name": "Intervalli 5 ×",
+        "cells": [
+         "4′",
+         "5:30",
+         "controllo",
+         "10,9",
+         "20′"
+        ]
+       },
+       {
+        "name": "Recuperi 4 ×",
+        "cells": [
+         "2′ trotto",
+         "7:30",
+         "–",
+         "8,0",
+         "8′"
+        ]
+       },
+       {
+        "name": "Defaticamento",
+        "cells": [
+         "8′",
+         "7:00–7:30",
+         "tetto 140",
+         "8,0–8,6",
+         "8′"
+        ]
+       }
+      ],
+      "total": {
+       "name": "Totale",
+       "cells": [
+        "circa 7,6 km",
+        "",
+        "",
+        "",
+        "circa 48′"
+       ]
+      }
+     }
+    },
+    {
+     "id": "2026-11-10-corsa",
+     "date": "2026-11-10",
+     "type": "corsa",
+     "title": "Corsa facile 4 km",
+     "duration": "circa 27′",
+     "status": "scheda",
+     "summary": "4 km facili in zona 2, tetto FC 149 bpm, nessun finale libero. Il giorno dopo gli intervalli, di scarico prima del riposo di mercoledì e del tempo di giovedì.",
+     "blocks": [],
+     "notes": [
+      "Regola principale: la FC non deve superare 149 bpm (zona 2 di Strava: 120–149). Se la supera per più di 1 minuto, cammina 30 secondi e riparti più piano, senza recuperare il passo perso.",
+      "Dai dati: il 5 novembre 4 km a 6:20/km con FC media 143,5 e massima 152 (94% dei campioni in zona 2). Il passo è solo un'indicazione: se la FC sale prima del tuo passo, rallenta.",
+      "Se prima di partire polpaccio, tibiale o tendine d'Achille sono sopra 3/10, o se gli intervalli di ieri hanno chiuso a RPE 8 o più, fai 6:50/km per tutti i 4 km.",
+      "Sul tapis roulant imposta la pendenza all'1%; vale il tetto di FC, non la velocità in tabella.",
+      "Dopo la seduta compila nella valutazione Fastidi: zona e intensità da 0 a 10, più FC media nelle note."
+     ],
+     "table": {
+      "first": "Fase",
+      "cols": [
+       "Distanza",
+       "Ritmo /km",
+       "FC tetto",
+       "km/h",
+       "Tempo"
+      ],
+      "rows": [
+       {
+        "name": "Primo km",
+        "cells": [
+         "1 km",
+         "6:50",
+         "149",
+         "8,8",
+         "6:50"
+        ]
+       },
+       {
+        "name": "Restanti",
+        "cells": [
+         "3 km",
+         "6:20–6:45",
+         "149",
+         "8,9–9,5",
+         "19:00–20:15"
+        ]
+       }
+      ],
+      "total": {
+       "name": "Totale",
+       "cells": [
+        "4 km",
+        "",
+        "",
+        "",
+        "25:50–27:05"
+       ]
+      }
+     }
+    },
+    {
+     "id": "2026-11-12-corsa",
+     "date": "2026-11-12",
+     "type": "corsa",
+     "title": "Tempo 2 × 15′",
+     "duration": "circa 53′",
+     "status": "scheda",
+     "summary": "2 blocchi da 15 minuti a 5:45/km (10,4 km/h) con 3 minuti di trotto, per circa 8,5 km totali: 5 minuti in più a blocco rispetto al tempo del 4 novembre, con un ritmo leggermente più lento. Venerdì c'è la forza e domenica il lungo.",
+     "blocks": [],
+     "notes": [
+      "Dati solidi: il 4 novembre 2 × 10′ a 5:44/km (FC 157,3) e 5:39/km (FC 160,7), RPE 6 nel diario (Strava 7); la seconda ripetizione è andata più veloce e con FC più alta. Il passaggio a 15′ è +50% di lavoro, per questo il ritmo è leggermente più lento.",
+      "I blocchi si fanno a tempo (15′); la distanza è indicativa (2,61 km a blocco, 5,22 km in tutto) e serve per il tapis roulant o per controllare il GPS.",
+      "Non andare più veloce di 5:40/km. Se nel primo blocco la FC supera 166 bpm, rallenta di 10 s/km per il secondo. FC attesa 157–162 (ipotesi da verificare: a 15′ potrebbe derivare di più).",
+      "Riscaldamento e defaticamento restano facili: riscaldamento sotto 149 bpm, defaticamento sotto 140.",
+      "Se dopo il riscaldamento polpacci o gamba sinistra sono sopra 3/10, il tempo diventa 2 × 10′ allo stesso ritmo.",
+      "Se chiudi la seduta a RPE 8 o più, domani in forza togli l'HSR e tieni solo il bent leg.",
+      "Sul tapis roulant imposta la pendenza all'1%; vale il tetto di FC, non la velocità in tabella.",
+      "Dopo la seduta compila nella valutazione Fastidi: zona e intensità da 0 a 10, più FC media e ritmo di ogni blocco nelle note."
+     ],
+     "table": {
+      "first": "Fase",
+      "cols": [
+       "Durata",
+       "Distanza",
+       "Ritmo /km",
+       "FC",
+       "km/h",
+       "Tempo"
+      ],
+      "rows": [
+       {
+        "name": "Riscaldamento",
+        "cells": [
+         "12′",
+         "1,8 km",
+         "6:35–6:50",
+         "tetto 149",
+         "8,8–9,1",
+         "12′"
+        ]
+       },
+       {
+        "name": "Tempo 2 ×",
+        "cells": [
+         "15′",
+         "2,61 km",
+         "5:45",
+         "controllo",
+         "10,4",
+         "30′"
+        ]
+       },
+       {
+        "name": "Recupero",
+        "cells": [
+         "3′ trotto",
+         "0,4 km",
+         "7:30",
+         "–",
+         "8,0",
+         "3′"
+        ]
+       },
+       {
+        "name": "Defaticamento",
+        "cells": [
+         "8′",
+         "1,1 km",
+         "7:00–7:30",
+         "tetto 140",
+         "8,0–8,6",
+         "8′"
+        ]
+       }
+      ],
+      "total": {
+       "name": "Totale",
+       "cells": [
+        "",
+        "circa 8,5 km",
+        "",
+        "",
+        "",
+        "circa 53′"
+       ]
+      }
+     }
+    },
+    {
+     "id": "2026-11-13-forza",
+     "date": "2026-11-13",
+     "type": "forza",
+     "title": "Forza funzionale",
+     "duration": "circa 56′",
+     "status": "scheda",
+     "summary": "Quarta seduta di forza per la corsa, il giorno dopo il tempo 2 × 15′ e due giorni prima del lungo da 12 km. Stesso schema del 29 ottobre: 2 serie su step-up e stacco rumeno con RIR 3 o più. Nel blocco C il calf raise con manubrio è sostituito da HSR alla leg press e bent leg alla rotary calf.",
+     "blocks": [
+      {
+       "title": "Blocco A · gambe e anti-rotazione",
+       "dur": "circa 12′",
+       "items": [
+        {
+         "id": "a1",
+         "name": "A1 · Step-up con manubri",
+         "target": "2 × 6 per gamba, 12 kg per mano (24 totali), RIR 3 o più: ferma ogni serie alla 6ª ripetizione anche se ne hai ancora, poi passa all'A2",
+         "sets": 2,
+         "reps": 6,
+         "how": {
+          "parti": "Davanti a una panca o a un box alto quanto il ginocchio, un manubrio per mano, piede intero sul box.",
+          "fai": "Spingi sul piede appoggiato fino a distendere anca e ginocchio, senza dare la spinta con la gamba dietro. Scendi in 3″.",
+          "evita": "Far rientrare il ginocchio o rimbalzare in basso con la gamba a terra."
+         }
+        },
+        {
+         "id": "a2",
+         "name": "A2 · Pallof press",
+         "target": "3 × 10 per lato, 5 kg, pausa 2″ con le braccia tese",
+         "sets": 3,
+         "reps": 10,
+         "how": {
+          "parti": "Di fianco a un cavo (o a un elastico fissato a una colonna) all'altezza del petto, maniglia al petto, piedi larghi come le spalle.",
+          "fai": "Distendi le braccia in avanti e fermati 2″ resistendo alla trazione, poi torna al petto.",
+          "evita": "Ruotare il busto verso il cavo o spostare il bacino."
+         }
+        }
+       ],
+       "cols": [
+        "Serie e ripetizioni"
+       ]
+      },
+      {
+       "title": "Blocco B · catena posteriore e schiena",
+       "dur": "circa 12′",
+       "items": [
+        {
+         "id": "b1",
+         "name": "B1 · Stacco rumeno a una gamba",
+         "target": "2 × 6 per gamba, 24 kg totali, RIR 3 o più: ferma ogni serie alla 6ª ripetizione",
+         "sets": 2,
+         "reps": 6,
+         "how": {
+          "parti": "In piedi su una gamba con il ginocchio morbido, manubrio nella mano opposta alla gamba d'appoggio.",
+          "fai": "Spingi il bacino indietro fino a portare busto e gamba libera in linea orizzontale, poi risali stringendo il gluteo. Per l'equilibrio puoi sfiorare un appoggio con due dita.",
+          "evita": "Arrotondare la schiena o ruotare il bacino verso l'alto."
+         }
+        },
+        {
+         "id": "b2",
+         "name": "B2 · Rematore a un braccio",
+         "target": "3 × 8 per lato, 12 kg, pausa 1″ in alto",
+         "sets": 3,
+         "reps": 8,
+         "how": {
+          "parti": "Una mano sulla panca e il piede opposto indietro, schiena piatta, manubrio nell'altra mano a braccio disteso.",
+          "fai": "Tira il gomito verso l'anca, fermati 1″ e scendi in 2-3″.",
+          "evita": "Ruotare il busto o alzare la spalla verso l'orecchio."
+         }
+        }
+       ],
+       "cols": [
+        "Serie e ripetizioni"
+       ]
+      },
+      {
+       "title": "Blocco C · polpacci e core",
+       "dur": "circa 14′",
+       "items": [
+        {
+         "id": "c1",
+         "name": "C1 · Calf raise HSR alla leg press",
+         "target": "3 × 6–8, 3″ su e 3″ giù, pausa 90″, RIR 3 o più; il carico si trova il primo giorno: parti leggero",
+         "sets": 3,
+         "reps": 6,
+         "how": {
+          "parti": "Seduto alla leg press con le sole punte dei piedi sulla pedana, ginocchia quasi tese e talloni liberi nel vuoto.",
+          "fai": "Spingi sulle punte fino alla massima estensione in 3″, fermati un attimo e torna giù in 3″ fino a sentire il polpaccio allungarsi. Il carico deve permettere 6–8 ripetizioni controllate.",
+          "evita": "Piegare le ginocchia, rimbalzare in basso o accorciare il movimento."
+         }
+        },
+        {
+         "id": "c2",
+         "name": "C2 · Bent leg calf raise alla rotary calf",
+         "target": "3 × 8–12, 2″ su e 3″ giù, pausa 60″; il carico si trova il primo giorno: parti leggero",
+         "sets": 3,
+         "reps": 8,
+         "how": {
+          "parti": "Seduto alla rotary calf con il pad sulle ginocchia piegate e le punte dei piedi sulla pedana.",
+          "fai": "Sali sulle punte in 2″, fermati un attimo e scendi in 3″ fino all'allungamento completo del polpaccio.",
+          "evita": "Spingere con le cosce o accorciare la discesa."
+         }
+        },
+        {
+         "id": "c3",
+         "name": "C3 · Lateral crunch alla macchina",
+         "target": "3 × 10–12 per lato, RIR 2; primo giorno parti leggero e trova il carico",
+         "sets": 3,
+         "reps": 10,
+         "how": {
+          "parti": "Seduto alla macchina con il pad sul fianco e il bacino fermo, mani sulle impugnature.",
+          "fai": "Piega il busto di lato contro il pad e torna in 2–3″, senza dare slancio.",
+          "evita": "Ruotare il busto o spingere con le gambe."
+         }
+        }
+       ],
+       "cols": [
+        "Serie e ripetizioni"
+       ]
+      },
+      {
+       "title": "Blocco D · stabilità del bacino e tibiale posteriore",
+       "dur": "circa 8′",
+       "items": [
+        {
+         "id": "d1",
+         "name": "D1 · Abductor machine",
+         "target": "2 × 12, 40 kg",
+         "sets": 2,
+         "reps": 12,
+         "how": {
+          "parti": "Seduto alla macchina con la schiena appoggiata e i cuscinetti all'esterno delle ginocchia.",
+          "fai": "Apri le gambe fino a sentire lavorare il gluteo, fermati un attimo e torna lentamente.",
+          "evita": "Dare slancio o staccare il bacino dal sedile."
+         }
+        },
+        {
+         "id": "d2",
+         "name": "D2 · Inversione con elastico",
+         "target": "2 × 12 per gamba, RIR 3 o più, ritorno in 3″",
+         "sets": 2,
+         "reps": 12,
+         "how": {
+          "parti": "Seduto con la gamba tesa davanti, elastico attorno all'avampiede e fissato di lato (lato esterno del piede), tallone a terra.",
+          "fai": "Porta la punta del piede verso l'interno contro la resistenza dell'elastico, fermati 1″ e torna lentamente in 3″.",
+          "evita": "Muovere la gamba o il ginocchio al posto della caviglia, o forzare fino a dolore."
+         }
+        }
+       ],
+       "cols": [
+        "Serie e ripetizioni"
+       ]
+      }
+     ],
+     "notes": [
+      "Prima di iniziare: 5-8′ di cyclette o tapis roulant facile e una serie leggera di step-up (6 per gamba).",
+      "Fai le coppie A1 + A2 e B1 + B2 alternando gli esercizi, con 90″ di recupero dopo ogni coppia. Poi C1 e C2 con le pause scritte, C3 e il blocco D chiudono la seduta.",
+      "Step-up e stacco rumeno: 2 serie e ferma ognuna alle ripetizioni scritte anche se potresti farne di più. Il volume sulle gambe va tenuto basso: ieri tempo da 30′ di lavoro e domenica corsa lunga da 12 km.",
+      "Polpacci: HSR e bent leg sono 6 serie due giorni prima di 12 km. Dopo il riscaldamento valuta la rigidità dei polpacci da 0 a 10: se è sopra 3, salta C1 (HSR) e tieni solo C2. Che 6 serie siano troppe è un'ipotesi, non un dato.",
+      "Carichi di C1 e C2: non hai ancora un dato, il calf raise con manubrio del 20 ottobre non è confrontabile. Il primo giorno parti leggero e scrivi nel diario il carico, le serie e la riserva (RIR) di entrambi.",
+      "Abductor a 40 kg: è il carico che hai usato il 20 ottobre (40 e 45 kg con RIR 2).",
+      "Nel diario scrivi il carico, le serie e la riserva (RIR) di ogni esercizio, nel campo Fastidi la zona e l'intensità da 0 a 10 se senti dolore, e indica dove senti esattamente un'eventuale rigidità."
+     ]
+    },
+    {
+     "id": "2026-11-15-corsa-12k",
+     "date": "2026-11-15",
+     "type": "corsa",
+     "title": "Corsa lunga 12 km",
+     "duration": "circa 80′",
+     "status": "scheda",
+     "summary": "12 km a ritmo costante, tetto di passo 6:30/km (9,2 km/h), dopo il sabato di riposo. L'obiettivo è portare a casa la distanza, senza vincolo di zona 2. Il 15 km resta l'obiettivo e viene dopo una settimana da circa 32 km senza rigidità ai polpacci.",
+     "blocks": [],
+     "notes": [
+      "Regola principale: non andare mai sotto 6:30/km (più veloce di 9,2 km/h), nemmeno nel finale. La FC è di controllo, non un tetto: il 31 ottobre i 10 km a 6:32/km sono stati a FC media 146,8 e massima 154.",
+      "La corsa più lunga del periodo è 10 km (25 e 31 ottobre): 12 km sono +2 km, la settimana arriva a circa 32 km contro i circa 22 km delle ultime settimane. Il rischio è muscolo-tendineo (polpacci), non cardiovascolare: è una supposizione mia, non un dato.",
+      "Se dopo il tempo e la forza i polpacci sono sopra 3/10 sabato sera o domenica mattina, la distanza scende a 10 km.",
+      "Se prima del km 6 compare un dolore, chiudi a 8 km al massimo.",
+      "Sul tapis roulant imposta la pendenza all'1%.",
+      "Dopo la seduta compila nella valutazione Fastidi: zona e intensità da 0 a 10, più FC media e ritmo di ogni km nelle note."
+     ],
+     "table": {
+      "first": "Fase",
+      "cols": [
+       "Distanza",
+       "Ritmo /km",
+       "km/h",
+       "Tempo"
+      ],
+      "rows": [
+       {
+        "name": "Primi 2 km",
+        "cells": [
+         "2 km",
+         "6:45",
+         "8,9",
+         "13:30"
+        ]
+       },
+       {
+        "name": "Centrale",
+        "cells": [
+         "8 km",
+         "6:30–6:45",
+         "8,9–9,2",
+         "52:00–54:00"
+        ]
+       },
+       {
+        "name": "Ultimi 2 km",
+        "cells": [
+         "2 km",
+         "6:30–6:45",
+         "8,9–9,2",
+         "13:00–13:30"
+        ]
+       }
+      ],
+      "total": {
+       "name": "Totale",
+       "cells": [
+        "12 km",
+        "",
+        "",
+        "78–81′"
+       ]
+      }
+     }
+    }
+   ]
   }
  ]
 }
