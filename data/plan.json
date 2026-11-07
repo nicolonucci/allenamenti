@@ -2608,6 +2608,20 @@
      ]
     },
     {
+     "id": "2026-11-07-corsa",
+     "date": "2026-11-07",
+     "type": "corsa",
+     "title": "Corsa 7 km",
+     "duration": "48′",
+     "status": "scheda",
+     "summary": "Allenamento svolto (Apple Watch + Strava): 7,01 km in 48′38″, 6:56/km (8,6 km/h), dislivello +68 m, FC media 142 e massima 153 (94% del tempo in zona 2), nessuna deriva cardiaca. Fatta al posto della corsa lunga da 15 km, che è stata rimandata.",
+     "blocks": [],
+     "notes": [
+      "Split da GPX (min/km): 6:26, 6:45, 7:00, 6:55, 7:34, 7:20, ultimi 954 m 6:56. I km 5 e 6 sono i più lenti perché con più dislivello (+17 e +16 m).",
+      "La corsa lunga da 15 km non è stata eseguita: 7 km fatti al posto suo."
+     ]
+    },
+    {
      "id": "2026-11-08-bici",
      "date": "2026-11-08",
      "type": "bici",
