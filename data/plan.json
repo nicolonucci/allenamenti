@@ -1,6 +1,6 @@
 {
  "version": 1,
- "updated": "2026-11-03",
+ "updated": "2026-11-07",
  "weeks": [
   {
    "id": "2026-W42",
@@ -2122,7 +2122,7 @@
    "id": "2026-W45",
    "start": "2026-11-02",
    "title": "Settimana 45",
-   "note": "Lunedì corsa facile 5 km + mobilità, martedì nuoto, mercoledì tempo 2 × 10′, giovedì corsa facile 4 km + mobilità, venerdì riposo, sabato o domenica corsa lunga 15 km (obiettivo distanza, tetto di passo 6:30/km, nessun tetto di FC). Forza e bici tolte questa settimana.",
+   "note": "Lunedì corsa facile 5 km + mobilità, martedì nuoto, mercoledì tempo 2 × 10′, giovedì corsa facile 4 km + mobilità, venerdì riposo, sabato corsa 7 km (al posto della lunga), domenica bici zona 2. Forza tolta questa settimana. Corsa lunga da 15 km rimandata alla settimana successiva.",
    "workouts": [
     {
      "id": "2026-11-02-corsa",
@@ -2608,66 +2608,21 @@
      ]
     },
     {
-     "id": "2026-11-08-corsa",
+     "id": "2026-11-08-bici",
      "date": "2026-11-08",
-     "type": "corsa",
-     "title": "Corsa lunga 15 km",
-     "duration": "circa 100′",
+     "type": "bici",
+     "title": "Bici su strada zona 2",
+     "duration": "circa 75′",
      "status": "scheda",
-     "summary": "15 km, obiettivo portare a casa la distanza: nessun tetto di FC, ma nessun passo più veloce di 6:30/km. Il tuo lungo più lungo del periodo è 10 km (25 e 31 ottobre): questo è +5 km (+50%). Giorno da decidere tra sabato 7 e domenica 8 (se sabato, domenica è riposo).",
+     "summary": "Uscita da Piazza Roma a Montorfano, circa 33 km, al posto della corsa lunga da 15 km (rimandata alla settimana 9–15 nov). Zona 2: FC tra 120 e 149 bpm, media attesa 125–140.",
      "blocks": [],
      "notes": [
-      "Tetto di passo, non di FC: non andare più veloce di 6:30/km in nessun km. Dai dati: il 25 ottobre 10 km a 6:03/km con FC media 154 hanno dato Relative Effort 51 su Strava, il 31 ottobre 10 km a 6:37/km con FC media 147 solo 20. A ritmo più alto il 15 km costerebbe molto di più della sola distanza.",
-      "La FC non è un limite: dopo i 12 km tende a salire a parità di passo (deriva cardiaca, ipotesi dal comportamento tipico, non misurata sui tuoi dati). Superare 149 nella seconda metà non è un fallimento; se la FC sale mentre il passo resta fermo a 6:45–6:50, va bene.",
-      "Parti sui 6:50/km nei primi 3 km, poi 6:30–6:50 senza accelerare nella seconda metà: nessun finale libero.",
-      "Percorso il più piatto possibile: il 31 ottobre i 65 m di dislivello hanno portato la FC sopra 148 per circa il 40% del tempo.",
-      "Ti fermi solo per dolore a tibiale, tendine d'Achille o polpaccio, non per la FC. Prima di partire questi tre devono essere a 3/10 o meno; se non lo sono, fai 10 km.",
-      "Resta scoperto il lavoro sui polpacci: questa settimana la forza con HSR è saltata, quindi è il fattore di rischio da tenere d'occhio durante e dopo.",
-      "Sul tapis roulant imposta la pendenza all'1%; vale il passo (km/h) in tabella.",
-      "Dopo la seduta compila nella valutazione Fastidi: zona e intensità da 0 a 10, più FC media e ritmo di ogni km nelle note. Il giorno dopo scrivi anche come stanno i polpacci."
-     ],
-     "table": {
-      "first": "Fase",
-      "cols": [
-       "Distanza",
-       "Ritmo /km",
-       "FC",
-       "km/h",
-       "Tempo"
-      ],
-      "rows": [
-       {
-        "name": "Primi 3 km",
-        "cells": [
-         "3 km",
-         "6:50",
-         "libera",
-         "8,8",
-         "20:30"
-        ]
-       },
-       {
-        "name": "Restanti",
-        "cells": [
-         "12 km",
-         "6:30–6:50 (mai sotto 6:30)",
-         "libera",
-         "8,8–9,2",
-         "78:00–82:00"
-        ]
-       }
-      ],
-      "total": {
-       "name": "Totale",
-       "cells": [
-        "15 km",
-        "",
-        "",
-        "",
-        "98:30–102:30"
-       ]
-      }
-     }
+      "FC di riferimento: 120–149 bpm, zona 2 impostata su Strava. Le ultime uscite: 17 ottobre 27 km a 129 bpm di media, 24 ottobre 29,3 km a 139 (massima 152). Durata e distanza sono una stima da queste due uscite (circa 27–28 km/h), non una misura.",
+      "Se hai meno tempo, 60′ vanno bene lo stesso; se ne hai di più, vai più piano, non più lungo.",
+      "Niente sforzi sui segmenti Strava e niente salite spinte: resta in zona 2 anche in salita.",
+      "Oggi hai corso 7 km (FC media 142, gambe 1): i dati non mostrano fatica, la bici serve a scaricare e tenere il volume sotto controllo.",
+      "Dopo la seduta scrivi nelle note della valutazione FC media, durata e come stanno le gambe."
+     ]
     }
    ]
   }
