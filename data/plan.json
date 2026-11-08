@@ -2836,13 +2836,13 @@
      "date": "2026-11-10",
      "type": "forza",
      "title": "Forza funzionale",
-     "duration": "circa 56′",
+     "duration": "circa 62′",
      "status": "scheda",
-     "summary": "Quarta seduta di forza per la corsa, il giorno dopo gli intervalli 5 × 4′ e due giorni prima del tempo 2 × 15′. Stesso schema del 29 ottobre: 2 serie su step-up e stacco rumeno con RIR 3 o più. Nel blocco C il calf raise con manubrio è sostituito da HSR alla leg press e bent leg alla rotary calf.",
+     "summary": "Quarta seduta di forza per la corsa, il giorno dopo gli intervalli 5 × 4′ e due giorni prima del tempo 2 × 15′. Stesso schema del 29 ottobre: 2 serie su step-up e stacco rumeno con RIR 3 o più. Aggiunti pull down e chest press per la parte alta, in tripletta con gli esercizi dei blocchi A e B. Nel blocco C il calf raise con manubrio è sostituito da HSR alla leg press e bent leg alla rotary calf.",
      "blocks": [
       {
-       "title": "Blocco A · gambe e anti-rotazione",
-       "dur": "circa 12′",
+       "title": "Blocco A · gambe, anti-rotazione e dorsali",
+       "dur": "circa 15′",
        "items": [
         {
          "id": "a1",
@@ -2867,6 +2867,18 @@
           "fai": "Distendi le braccia in avanti e fermati 2″ resistendo alla trazione, poi torna al petto.",
           "evita": "Ruotare il busto verso il cavo o spostare il bacino."
          }
+        },
+        {
+         "id": "a3",
+         "name": "A3 · Pull down",
+         "target": "2 × 10, RIR 3 o più, pausa 1″ in basso e ritorno in 3″; il carico si trova il primo giorno: parti leggero",
+         "sets": 2,
+         "reps": 10,
+         "how": {
+          "parti": "Seduto con le cosce bloccate sotto i rulli, presa poco più larga delle spalle, braccia distese.",
+          "fai": "Tira la barra verso la parte alta del petto portando i gomiti verso le anche, fermati 1″ e risali in 3″.",
+          "evita": "Dondolare il busto indietro o tirare con la sola forza delle braccia."
+         }
         }
        ],
        "cols": [
@@ -2874,8 +2886,8 @@
        ]
       },
       {
-       "title": "Blocco B · catena posteriore e schiena",
-       "dur": "circa 12′",
+       "title": "Blocco B · catena posteriore, schiena e petto",
+       "dur": "circa 15′",
        "items": [
         {
          "id": "b1",
@@ -2899,6 +2911,18 @@
           "parti": "Una mano sulla panca e il piede opposto indietro, schiena piatta, manubrio nell'altra mano a braccio disteso.",
           "fai": "Tira il gomito verso l'anca, fermati 1″ e scendi in 2-3″.",
           "evita": "Ruotare il busto o alzare la spalla verso l'orecchio."
+         }
+        },
+        {
+         "id": "b3",
+         "name": "B3 · Chest press",
+         "target": "2 × 10, RIR 3 o più, spinta in 2″ e ritorno in 3″; il carico si trova il primo giorno: parti leggero",
+         "sets": 2,
+         "reps": 10,
+         "how": {
+          "parti": "Seduto con la schiena appoggiata, maniglie all'altezza del petto, scapole indietro e giù.",
+          "fai": "Spingi in avanti fino a distendere quasi i gomiti in 2″, poi torna in 3″ controllando.",
+          "evita": "Staccare le spalle dallo schienale o bloccare i gomiti a fine corsa."
          }
         }
        ],
@@ -2987,11 +3011,11 @@
      ],
      "notes": [
       "Prima di iniziare: 5-8′ di cyclette o tapis roulant facile e una serie leggera di step-up (6 per gamba).",
-      "Fai le coppie A1 + A2 e B1 + B2 alternando gli esercizi, con 90″ di recupero dopo ogni coppia. Poi C1 e C2 con le pause scritte, C3 e il blocco D chiudono la seduta.",
+      "Fai le triplette A1 + A2 + A3 e B1 + B2 + B3 alternando gli esercizi, con 90″ di recupero dopo ogni tripletta. Poi C1 e C2 con le pause scritte, C3 e il blocco D chiudono la seduta.",
       "Step-up e stacco rumeno: 2 serie e ferma ognuna alle ripetizioni scritte anche se potresti farne di più. Il volume sulle gambe va tenuto basso: ieri intervalli 5 × 4′ e giovedì tempo 2 × 15′.",
       "Polpacci: HSR e bent leg sono 6 serie due giorni prima del tempo 2 × 15′. Dopo il riscaldamento valuta la rigidità dei polpacci da 0 a 10: se è sopra 3, salta C1 (HSR) e tieni solo C2. Che 6 serie siano troppe è un'ipotesi, non un dato.",
       "Se gli intervalli di ieri hanno chiuso a RPE 8 o più, salta C1 (HSR) e tieni solo C2.",
-      "Carichi di C1 e C2: non hai ancora un dato, il calf raise con manubrio del 20 ottobre non è confrontabile. Il primo giorno parti leggero e scrivi nel diario il carico, le serie e la riserva (RIR) di entrambi.",
+      "Carichi di C1 e C2: non hai ancora un dato, il calf raise con manubrio del 20 ottobre non è confrontabile. Il primo giorno parti leggero e scrivi nel diario il carico, le serie e la riserva (RIR) di entrambi. Lo stesso vale per A3 (pull down) e B3 (chest press), di cui non hai ancora dati.",
       "Abductor a 40 kg: è il carico che hai usato il 20 ottobre (40 e 45 kg con RIR 2).",
       "Nel diario scrivi il carico, le serie e la riserva (RIR) di ogni esercizio, nel campo Fastidi la zona e l'intensità da 0 a 10 se senti dolore, e indica dove senti esattamente un'eventuale rigidità."
      ]
