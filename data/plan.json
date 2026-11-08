@@ -1,6 +1,6 @@
 {
  "version": 1,
- "updated": "2026-11-07",
+ "updated": "2026-11-08",
  "weeks": [
   {
    "id": "2026-W42",
@@ -2644,7 +2644,7 @@
    "id": "2026-W46",
    "start": "2026-11-09",
    "title": "Settimana 46",
-   "note": "Lunedì nuoto (mattina) + intervalli 5 × 4′ (pomeriggio), martedì corsa facile 4 km, mercoledì riposo, giovedì tempo 2 × 15′, venerdì forza (con HSR e bent leg per i polpacci), sabato riposo, domenica corsa lunga 12 km. Circa 32 km di corsa. Domenica 8 novembre senza corsa (bici nel piano della settimana precedente). Il 15 km resta l'obiettivo dopo questa settimana.",
+   "note": "Lunedì nuoto (mattina) + intervalli 5 × 4′ (pomeriggio), martedì forza (con HSR e bent leg per i polpacci), mercoledì corsa facile 4 km, giovedì tempo 2 × 15′, venerdì e sabato riposo, domenica corsa lunga 12 km. Circa 32 km di corsa. Domenica 8 novembre senza corsa (bici nel piano della settimana precedente). Il 15 km resta l'obiettivo dopo questa settimana.",
    "workouts": [
     {
      "id": "2026-11-09-nuoto",
@@ -2764,7 +2764,7 @@
       "Le ripetizioni si fanno a tempo (4′); la distanza è indicativa (0,73 km a ripetizione) e serve per il tapis roulant o per controllare il GPS.",
       "Riscaldamento e defaticamento restano facili: riscaldamento sotto 149 bpm, defaticamento sotto 140.",
       "Se dopo il riscaldamento polpacci o gamba sinistra sono sopra 3/10, o il nuoto del mattino ti ha lasciato le gambe pesanti, fai 4 ripetizioni invece di 5.",
-      "Se chiudi la seduta a RPE 8 o più, martedì tieni la corsa facile a 6:50/km per tutti i 4 km.",
+      "Se chiudi la seduta a RPE 8 o più, domani in forza togli l'HSR e tieni solo il bent leg, e mercoledì tieni la corsa facile a 6:50/km per tutti i 4 km.",
       "Sul tapis roulant imposta la pendenza all'1%; vale il tetto di FC, non la velocità in tabella.",
       "Dopo la seduta compila nella valutazione Fastidi: zona e intensità da 0 a 10, più FC media e ritmo di ogni ripetizione nelle note."
      ],
@@ -2832,160 +2832,13 @@
      }
     },
     {
-     "id": "2026-11-10-corsa",
+     "id": "2026-11-10-forza",
      "date": "2026-11-10",
-     "type": "corsa",
-     "title": "Corsa facile 4 km",
-     "duration": "circa 27′",
-     "status": "scheda",
-     "summary": "4 km facili in zona 2, tetto FC 149 bpm, nessun finale libero. Il giorno dopo gli intervalli, di scarico prima del riposo di mercoledì e del tempo di giovedì.",
-     "blocks": [],
-     "notes": [
-      "Regola principale: la FC non deve superare 149 bpm (zona 2 di Strava: 120–149). Se la supera per più di 1 minuto, cammina 30 secondi e riparti più piano, senza recuperare il passo perso.",
-      "Dai dati: il 5 novembre 4 km a 6:20/km con FC media 143,5 e massima 152 (94% dei campioni in zona 2). Il passo è solo un'indicazione: se la FC sale prima del tuo passo, rallenta.",
-      "Se prima di partire polpaccio, tibiale o tendine d'Achille sono sopra 3/10, o se gli intervalli di ieri hanno chiuso a RPE 8 o più, fai 6:50/km per tutti i 4 km.",
-      "Sul tapis roulant imposta la pendenza all'1%; vale il tetto di FC, non la velocità in tabella.",
-      "Dopo la seduta compila nella valutazione Fastidi: zona e intensità da 0 a 10, più FC media nelle note."
-     ],
-     "table": {
-      "first": "Fase",
-      "cols": [
-       "Distanza",
-       "Ritmo /km",
-       "FC tetto",
-       "km/h",
-       "Tempo"
-      ],
-      "rows": [
-       {
-        "name": "Primo km",
-        "cells": [
-         "1 km",
-         "6:50",
-         "149",
-         "8,8",
-         "6:50"
-        ]
-       },
-       {
-        "name": "Restanti",
-        "cells": [
-         "3 km",
-         "6:20–6:45",
-         "149",
-         "8,9–9,5",
-         "19:00–20:15"
-        ]
-       }
-      ],
-      "total": {
-       "name": "Totale",
-       "cells": [
-        "4 km",
-        "",
-        "",
-        "",
-        "25:50–27:05"
-       ]
-      }
-     }
-    },
-    {
-     "id": "2026-11-12-corsa",
-     "date": "2026-11-12",
-     "type": "corsa",
-     "title": "Tempo 2 × 15′",
-     "duration": "circa 53′",
-     "status": "scheda",
-     "summary": "2 blocchi da 15 minuti a 5:45/km (10,4 km/h) con 3 minuti di trotto, per circa 8,5 km totali: 5 minuti in più a blocco rispetto al tempo del 4 novembre, con un ritmo leggermente più lento. Venerdì c'è la forza e domenica il lungo.",
-     "blocks": [],
-     "notes": [
-      "Dati solidi: il 4 novembre 2 × 10′ a 5:44/km (FC 157,3) e 5:39/km (FC 160,7), RPE 6 nel diario (Strava 7); la seconda ripetizione è andata più veloce e con FC più alta. Il passaggio a 15′ è +50% di lavoro, per questo il ritmo è leggermente più lento.",
-      "I blocchi si fanno a tempo (15′); la distanza è indicativa (2,61 km a blocco, 5,22 km in tutto) e serve per il tapis roulant o per controllare il GPS.",
-      "Non andare più veloce di 5:40/km. Se nel primo blocco la FC supera 166 bpm, rallenta di 10 s/km per il secondo. FC attesa 157–162 (ipotesi da verificare: a 15′ potrebbe derivare di più).",
-      "Riscaldamento e defaticamento restano facili: riscaldamento sotto 149 bpm, defaticamento sotto 140.",
-      "Se dopo il riscaldamento polpacci o gamba sinistra sono sopra 3/10, il tempo diventa 2 × 10′ allo stesso ritmo.",
-      "Se chiudi la seduta a RPE 8 o più, domani in forza togli l'HSR e tieni solo il bent leg.",
-      "Sul tapis roulant imposta la pendenza all'1%; vale il tetto di FC, non la velocità in tabella.",
-      "Dopo la seduta compila nella valutazione Fastidi: zona e intensità da 0 a 10, più FC media e ritmo di ogni blocco nelle note."
-     ],
-     "table": {
-      "first": "Fase",
-      "cols": [
-       "Durata",
-       "Distanza",
-       "Ritmo /km",
-       "FC",
-       "km/h",
-       "Tempo"
-      ],
-      "rows": [
-       {
-        "name": "Riscaldamento",
-        "cells": [
-         "12′",
-         "1,8 km",
-         "6:35–6:50",
-         "tetto 149",
-         "8,8–9,1",
-         "12′"
-        ]
-       },
-       {
-        "name": "Tempo 2 ×",
-        "cells": [
-         "15′",
-         "2,61 km",
-         "5:45",
-         "controllo",
-         "10,4",
-         "30′"
-        ]
-       },
-       {
-        "name": "Recupero",
-        "cells": [
-         "3′ trotto",
-         "0,4 km",
-         "7:30",
-         "–",
-         "8,0",
-         "3′"
-        ]
-       },
-       {
-        "name": "Defaticamento",
-        "cells": [
-         "8′",
-         "1,1 km",
-         "7:00–7:30",
-         "tetto 140",
-         "8,0–8,6",
-         "8′"
-        ]
-       }
-      ],
-      "total": {
-       "name": "Totale",
-       "cells": [
-        "",
-        "circa 8,5 km",
-        "",
-        "",
-        "",
-        "circa 53′"
-       ]
-      }
-     }
-    },
-    {
-     "id": "2026-11-13-forza",
-     "date": "2026-11-13",
      "type": "forza",
      "title": "Forza funzionale",
      "duration": "circa 56′",
      "status": "scheda",
-     "summary": "Quarta seduta di forza per la corsa, il giorno dopo il tempo 2 × 15′ e due giorni prima del lungo da 12 km. Stesso schema del 29 ottobre: 2 serie su step-up e stacco rumeno con RIR 3 o più. Nel blocco C il calf raise con manubrio è sostituito da HSR alla leg press e bent leg alla rotary calf.",
+     "summary": "Quarta seduta di forza per la corsa, il giorno dopo gli intervalli 5 × 4′ e due giorni prima del tempo 2 × 15′. Stesso schema del 29 ottobre: 2 serie su step-up e stacco rumeno con RIR 3 o più. Nel blocco C il calf raise con manubrio è sostituito da HSR alla leg press e bent leg alla rotary calf.",
      "blocks": [
       {
        "title": "Blocco A · gambe e anti-rotazione",
@@ -3135,12 +2988,160 @@
      "notes": [
       "Prima di iniziare: 5-8′ di cyclette o tapis roulant facile e una serie leggera di step-up (6 per gamba).",
       "Fai le coppie A1 + A2 e B1 + B2 alternando gli esercizi, con 90″ di recupero dopo ogni coppia. Poi C1 e C2 con le pause scritte, C3 e il blocco D chiudono la seduta.",
-      "Step-up e stacco rumeno: 2 serie e ferma ognuna alle ripetizioni scritte anche se potresti farne di più. Il volume sulle gambe va tenuto basso: ieri tempo da 30′ di lavoro e domenica corsa lunga da 12 km.",
-      "Polpacci: HSR e bent leg sono 6 serie due giorni prima di 12 km. Dopo il riscaldamento valuta la rigidità dei polpacci da 0 a 10: se è sopra 3, salta C1 (HSR) e tieni solo C2. Che 6 serie siano troppe è un'ipotesi, non un dato.",
+      "Step-up e stacco rumeno: 2 serie e ferma ognuna alle ripetizioni scritte anche se potresti farne di più. Il volume sulle gambe va tenuto basso: ieri intervalli 5 × 4′ e giovedì tempo 2 × 15′.",
+      "Polpacci: HSR e bent leg sono 6 serie due giorni prima del tempo 2 × 15′. Dopo il riscaldamento valuta la rigidità dei polpacci da 0 a 10: se è sopra 3, salta C1 (HSR) e tieni solo C2. Che 6 serie siano troppe è un'ipotesi, non un dato.",
+      "Se gli intervalli di ieri hanno chiuso a RPE 8 o più, salta C1 (HSR) e tieni solo C2.",
       "Carichi di C1 e C2: non hai ancora un dato, il calf raise con manubrio del 20 ottobre non è confrontabile. Il primo giorno parti leggero e scrivi nel diario il carico, le serie e la riserva (RIR) di entrambi.",
       "Abductor a 40 kg: è il carico che hai usato il 20 ottobre (40 e 45 kg con RIR 2).",
       "Nel diario scrivi il carico, le serie e la riserva (RIR) di ogni esercizio, nel campo Fastidi la zona e l'intensità da 0 a 10 se senti dolore, e indica dove senti esattamente un'eventuale rigidità."
      ]
+    },
+    {
+     "id": "2026-11-11-corsa",
+     "date": "2026-11-11",
+     "type": "corsa",
+     "title": "Corsa facile 4 km",
+     "duration": "circa 27′",
+     "status": "scheda",
+     "summary": "4 km facili in zona 2, tetto FC 149 bpm, nessun finale libero. Il giorno dopo la forza e prima del tempo di giovedì; venerdì e sabato sono di riposo.",
+     "blocks": [],
+     "notes": [
+      "Regola principale: la FC non deve superare 149 bpm (zona 2 di Strava: 120–149). Se la supera per più di 1 minuto, cammina 30 secondi e riparti più piano, senza recuperare il passo perso.",
+      "Dai dati: il 5 novembre 4 km a 6:20/km con FC media 143,5 e massima 152 (94% dei campioni in zona 2). Il passo è solo un'indicazione: se la FC sale prima del tuo passo, rallenta.",
+      "Se prima di partire polpaccio, tibiale o tendine d'Achille sono sopra 3/10, o se gli intervalli di lunedì hanno chiuso a RPE 8 o più, fai 6:50/km per tutti i 4 km.",
+      "Se dopo la corsa segni gambe 4 o più nel diario, domani il tempo diventa 2 × 10′ allo stesso ritmo.",
+      "Sul tapis roulant imposta la pendenza all'1%; vale il tetto di FC, non la velocità in tabella.",
+      "Dopo la seduta compila nella valutazione Fastidi: zona e intensità da 0 a 10, più FC media nelle note."
+     ],
+     "table": {
+      "first": "Fase",
+      "cols": [
+       "Distanza",
+       "Ritmo /km",
+       "FC tetto",
+       "km/h",
+       "Tempo"
+      ],
+      "rows": [
+       {
+        "name": "Primo km",
+        "cells": [
+         "1 km",
+         "6:50",
+         "149",
+         "8,8",
+         "6:50"
+        ]
+       },
+       {
+        "name": "Restanti",
+        "cells": [
+         "3 km",
+         "6:20–6:45",
+         "149",
+         "8,9–9,5",
+         "19:00–20:15"
+        ]
+       }
+      ],
+      "total": {
+       "name": "Totale",
+       "cells": [
+        "4 km",
+        "",
+        "",
+        "",
+        "25:50–27:05"
+       ]
+      }
+     }
+    },
+    {
+     "id": "2026-11-12-corsa",
+     "date": "2026-11-12",
+     "type": "corsa",
+     "title": "Tempo 2 × 15′",
+     "duration": "circa 53′",
+     "status": "scheda",
+     "summary": "2 blocchi da 15 minuti a 5:45/km (10,4 km/h) con 3 minuti di trotto, per circa 8,5 km totali: 5 minuti in più a blocco rispetto al tempo del 4 novembre, con un ritmo leggermente più lento. Venerdì e sabato sono di riposo e domenica c'è il lungo.",
+     "blocks": [],
+     "notes": [
+      "Dati solidi: il 4 novembre 2 × 10′ a 5:44/km (FC 157,3) e 5:39/km (FC 160,7), RPE 6 nel diario (Strava 7); la seconda ripetizione è andata più veloce e con FC più alta. Il passaggio a 15′ è +50% di lavoro, per questo il ritmo è leggermente più lento.",
+      "I blocchi si fanno a tempo (15′); la distanza è indicativa (2,61 km a blocco, 5,22 km in tutto) e serve per il tapis roulant o per controllare il GPS.",
+      "Non andare più veloce di 5:40/km. Se nel primo blocco la FC supera 166 bpm, rallenta di 10 s/km per il secondo. FC attesa 157–162 (ipotesi da verificare: a 15′ potrebbe derivare di più).",
+      "Riscaldamento e defaticamento restano facili: riscaldamento sotto 149 bpm, defaticamento sotto 140.",
+      "Se dopo il riscaldamento polpacci o gamba sinistra sono sopra 3/10, o se mercoledì hai segnato gambe 4 o più nel diario, il tempo diventa 2 × 10′ allo stesso ritmo.",
+      "Sul tapis roulant imposta la pendenza all'1%; vale il tetto di FC, non la velocità in tabella.",
+      "Dopo la seduta compila nella valutazione Fastidi: zona e intensità da 0 a 10, più FC media e ritmo di ogni blocco nelle note."
+     ],
+     "table": {
+      "first": "Fase",
+      "cols": [
+       "Durata",
+       "Distanza",
+       "Ritmo /km",
+       "FC",
+       "km/h",
+       "Tempo"
+      ],
+      "rows": [
+       {
+        "name": "Riscaldamento",
+        "cells": [
+         "12′",
+         "1,8 km",
+         "6:35–6:50",
+         "tetto 149",
+         "8,8–9,1",
+         "12′"
+        ]
+       },
+       {
+        "name": "Tempo 2 ×",
+        "cells": [
+         "15′",
+         "2,61 km",
+         "5:45",
+         "controllo",
+         "10,4",
+         "30′"
+        ]
+       },
+       {
+        "name": "Recupero",
+        "cells": [
+         "3′ trotto",
+         "0,4 km",
+         "7:30",
+         "–",
+         "8,0",
+         "3′"
+        ]
+       },
+       {
+        "name": "Defaticamento",
+        "cells": [
+         "8′",
+         "1,1 km",
+         "7:00–7:30",
+         "tetto 140",
+         "8,0–8,6",
+         "8′"
+        ]
+       }
+      ],
+      "total": {
+       "name": "Totale",
+       "cells": [
+        "",
+        "circa 8,5 km",
+        "",
+        "",
+        "",
+        "circa 53′"
+       ]
+      }
+     }
     },
     {
      "id": "2026-11-15-corsa-12k",
