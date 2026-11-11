@@ -1,6 +1,6 @@
 {
  "version": 1,
- "updated": "2026-11-10",
+ "updated": "2026-11-11",
  "weeks": [
   {
    "id": "2026-W42",
@@ -2644,7 +2644,7 @@
    "id": "2026-W46",
    "start": "2026-11-09",
    "title": "Settimana 46",
-   "note": "Lunedì nuoto (mattina) + intervalli 5 × 4′ (pomeriggio), martedì forza (con HSR e bent leg per i polpacci), mercoledì corsa facile 4 km, giovedì tempo 2 × 15′, venerdì nuoto leggero facoltativo (si decide giovedì sera), sabato riposo, domenica corsa lunga 12 km. Circa 32 km di corsa. Domenica 8 novembre senza corsa (bici nel piano della settimana precedente). Il 15 km resta l'obiettivo dopo questa settimana.",
+   "note": "Lunedì nuoto (mattina) + intervalli 5 × 4′ (pomeriggio), martedì forza (con HSR e bent leg per i polpacci), mercoledì corsa facile 4 km, giovedì mattina nuoto leggero (via libera se le gambe sono a 3/10 o meno e hai dormito almeno 6 ore), venerdì mattina tempo 3 × 10′, sabato riposo, domenica corsa lunga 12 km. Circa 32 km di corsa. Domenica 8 novembre senza corsa (bici nel piano della settimana precedente). Il 15 km resta l'obiettivo dopo questa settimana.",
    "workouts": [
     {
      "id": "2026-11-09-nuoto",
@@ -3081,107 +3081,19 @@
      }
     },
     {
-     "id": "2026-11-12-corsa",
+     "id": "2026-11-12-nuoto",
      "date": "2026-11-12",
-     "type": "corsa",
-     "title": "Tempo 2 × 15′",
-     "duration": "circa 53′",
-     "status": "scheda",
-     "summary": "2 blocchi da 15 minuti a 5:45/km (10,4 km/h) con 3 minuti di trotto, per circa 8,5 km totali: 5 minuti in più a blocco rispetto al tempo del 4 novembre, con un ritmo leggermente più lento. Venerdì e sabato sono di riposo e domenica c'è il lungo.",
-     "blocks": [],
-     "notes": [
-      "Dati solidi: il 4 novembre 2 × 10′ a 5:44/km (FC 157,3) e 5:39/km (FC 160,7), RPE 6 nel diario (Strava 7); la seconda ripetizione è andata più veloce e con FC più alta. Il passaggio a 15′ è +50% di lavoro, per questo il ritmo è leggermente più lento.",
-      "I blocchi si fanno a tempo (15′); la distanza è indicativa (2,61 km a blocco, 5,22 km in tutto) e serve per il tapis roulant o per controllare il GPS.",
-      "Non andare più veloce di 5:40/km. Se nel primo blocco la FC supera 166 bpm, rallenta di 10 s/km per il secondo. FC attesa 157–162 (ipotesi da verificare: a 15′ potrebbe derivare di più).",
-      "Riscaldamento e defaticamento restano facili: riscaldamento sotto 149 bpm, defaticamento sotto 140.",
-      "Se dopo il riscaldamento polpacci o gamba sinistra sono sopra 3/10, o se mercoledì hai segnato gambe 4 o più nel diario, il tempo diventa 2 × 10′ allo stesso ritmo.",
-      "Sul tapis roulant imposta la pendenza all'1%; vale il tetto di FC, non la velocità in tabella.",
-      "Dopo la seduta compila nella valutazione Fastidi: zona e intensità da 0 a 10, più FC media e ritmo di ogni blocco nelle note."
-     ],
-     "table": {
-      "first": "Fase",
-      "cols": [
-       "Durata",
-       "Distanza",
-       "Ritmo /km",
-       "FC",
-       "km/h",
-       "Tempo"
-      ],
-      "rows": [
-       {
-        "name": "Riscaldamento",
-        "cells": [
-         "12′",
-         "1,8 km",
-         "6:35–6:50",
-         "tetto 149",
-         "8,8–9,1",
-         "12′"
-        ]
-       },
-       {
-        "name": "Tempo 2 ×",
-        "cells": [
-         "15′",
-         "2,61 km",
-         "5:45",
-         "controllo",
-         "10,4",
-         "30′"
-        ]
-       },
-       {
-        "name": "Recupero",
-        "cells": [
-         "3′ trotto",
-         "0,4 km",
-         "7:30",
-         "–",
-         "8,0",
-         "3′"
-        ]
-       },
-       {
-        "name": "Defaticamento",
-        "cells": [
-         "8′",
-         "1,1 km",
-         "7:00–7:30",
-         "tetto 140",
-         "8,0–8,6",
-         "8′"
-        ]
-       }
-      ],
-      "total": {
-       "name": "Totale",
-       "cells": [
-        "",
-        "circa 8,5 km",
-        "",
-        "",
-        "",
-        "circa 53′"
-       ]
-      }
-     }
-    },
-    {
-     "id": "2026-11-13-nuoto",
-     "date": "2026-11-13",
      "type": "nuoto",
-     "title": "Nuoto leggero (facoltativo)",
+     "title": "Nuoto leggero",
      "duration": "circa 28′",
      "status": "scheda",
-     "summary": "Seduta facoltativa di scarico attivo, venerdì mattina tra il tempo 2 × 15′ di giovedì e la corsa lunga di domenica. Vasca da 18 m, 1.404 m (78 vasche), con pull buoy e tavoletta. Virata a tocco e spinta su ogni parete. Intensità facile, RPE 2–3: serve a sciogliere le gambe, non a nuotare forte. I tempi sono circa il 5–10% più lenti di quelli del 9 novembre (calcolo, non misurato) e vanno verificati.",
+     "summary": "Scarico attivo giovedì mattina, il giorno prima del tempo 3 × 10′ di venerdì mattina. Vasca da 18 m, 1.404 m (78 vasche), con pull buoy e tavoletta. Virata a tocco e spinta su ogni parete. Intensità facile, RPE 2–3: serve a sciogliere le gambe, non a nuotare forte. I tempi sono circa il 5–12% più lenti di quelli del 9 novembre (calcolo, non misurato) e vanno verificati.",
      "blocks": [],
      "notes": [
-      "Decisione giovedì sera: falla solo se dopo il tempo 2 × 15′ la fatica alle gambe è 3/10 o meno e giovedì notte dormi almeno 6 ore. Altrimenti salta e tieni il riposo di venerdì.",
-      "Se giovedì sera vuoi più stimolo, esiste una variante da circa 1.700 m con serie centrale 4 × 8 a 1:55 (RPE 4): la definiamo in tabella giovedì, non è ancora in scheda.",
-      "Frequenza cardiaca: se la media di una serie supera 135, rallenta. Il 3 novembre, in una seduta a RPE 3, la media è stata 130.",
-      "Serie centrale: se chiudi una ripetizione sotto 1:55 stai andando troppo forte, riparti da 2:05.",
-      "Progressivi tutti uguali a 0:54 (il vecchio target), senza accelerare tra una ripetizione e l'altra.",
+      "Via libera giovedì mattina: nuota solo se le gambe sono a 3/10 o meno e hai dormito almeno 6 ore. Altrimenti salta: il tempo di venerdì resta 3 × 10′.",
+      "Frequenza cardiaca: il riferimento è una media sotto 130 (il 3 novembre, a RPE 3, è stata 130). Se la media di una serie supera 135, rallenta.",
+      "Serie centrale: se chiudi una ripetizione sotto 1:55 stai andando troppo forte, riparti da 2:05. Il 9 novembre sei andato 3–5 s più veloce dei target e hai chiuso a RPE 6: oggi i tempi sono un limite, non un obiettivo.",
+      "Progressivi tutti uguali a 0:54, senza accelerare tra una ripetizione e l'altra.",
       "Tocco e spinta su ogni parete. I tempi sono muro a muro, letti dal cronometro della vasca. L'orologio può perdere o fondere vasche (il 9 novembre ha contato 117 vasche contro 110 reali): conta le vasche tu.",
       "Pull buoy: se senti dolore alle spalle, salta il blocco.",
       "Dopo la seduta scrivi i tempi nelle note della valutazione."
@@ -3262,6 +3174,94 @@
      }
     },
     {
+     "id": "2026-11-13-corsa",
+     "date": "2026-11-13",
+     "type": "corsa",
+     "title": "Tempo 3 × 10′",
+     "duration": "circa 56′",
+     "status": "scheda",
+     "summary": "3 blocchi da 10 minuti a 5:45/km (10,4 km/h) con 3 minuti di trotto, per circa 8,9 km totali: 30 minuti di qualità, +50% rispetto al tempo del 4 novembre, con blocchi della stessa lunghezza già testati. Venerdì mattina, dopo il nuoto leggero di giovedì. Sabato è di riposo e domenica c'è il lungo.",
+     "blocks": [],
+     "notes": [
+      "Dati solidi: il 4 novembre 2 × 10′ a 5:44/km (FC 157,3) e 5:39/km (FC 160,7), RPE 6 nel diario (Strava 7); la seconda ripetizione è andata più veloce e con FC più alta.",
+      "Perché 3 × 10′ e non 2 × 15′: nei dati non risulta nessuna seduta il 6 novembre, quindi venerdì è il settimo giorno di allenamento di fila; l'energia 2 è comparsa il 31 ottobre, il 2 novembre e l'11 novembre; il lungo è a circa 48 ore. Con tre blocchi puoi fermarti a 20′ (come il 4 novembre) se il secondo va male.",
+      "I blocchi si fanno a tempo (10′); la distanza è indicativa (1,74 km a blocco, 5,22 km in tutto) e serve per il tapis roulant o per controllare il GPS.",
+      "Non andare più veloce di 5:40/km. Se la FC media del 2° blocco supera 163, il 3° va a 5:55/km (10,1 km/h) oppure ti fermi a 20′. Se in un blocco la FC supera 166, rallenta di 10 s/km. FC attesa 156–162 (dal 4 novembre; sul terzo blocco è una stima).",
+      "Il tempo diventa 2 × 10′ allo stesso ritmo se giovedì notte dormi meno di 6,5 ore (soglia nostra, non misurata), se venerdì mattina energia è 2 e gambe 4 o più, o se dopo il riscaldamento polpacci o gamba sinistra sono sopra 3/10.",
+      "Riscaldamento e defaticamento restano facili: riscaldamento sotto 149 bpm, defaticamento sotto 140.",
+      "Sul tapis roulant imposta la pendenza all'1%; vale il tetto di FC, non la velocità in tabella.",
+      "Dopo la seduta compila nella valutazione Fastidi: zona e intensità da 0 a 10, più FC media e ritmo di ogni blocco nelle note."
+     ],
+     "table": {
+      "first": "Fase",
+      "cols": [
+       "Durata",
+       "Distanza",
+       "Ritmo /km",
+       "FC",
+       "km/h",
+       "Tempo"
+      ],
+      "rows": [
+       {
+        "name": "Riscaldamento",
+        "cells": [
+         "12′",
+         "1,8 km",
+         "6:35–6:50",
+         "tetto 149",
+         "8,8–9,1",
+         "12′"
+        ]
+       },
+       {
+        "name": "Tempo 3 ×",
+        "cells": [
+         "10′",
+         "1,74 km",
+         "5:45",
+         "controllo",
+         "10,4",
+         "30′"
+        ]
+       },
+       {
+        "name": "Recupero 2 ×",
+        "cells": [
+         "3′ trotto",
+         "0,4 km",
+         "7:15–7:30",
+         "–",
+         "8,0–8,3",
+         "6′"
+        ]
+       },
+       {
+        "name": "Defaticamento",
+        "cells": [
+         "8′",
+         "1,1 km",
+         "7:00–7:30",
+         "tetto 140",
+         "8,0–8,6",
+         "8′"
+        ]
+       }
+      ],
+      "total": {
+       "name": "Totale",
+       "cells": [
+        "",
+        "circa 8,9 km",
+        "",
+        "",
+        "",
+        "circa 56′"
+       ]
+      }
+     }
+    },
+    {
      "id": "2026-11-15-corsa-12k",
      "date": "2026-11-15",
      "type": "corsa",
@@ -3274,6 +3274,7 @@
       "Regola principale: non andare mai sotto 6:30/km (più veloce di 9,2 km/h), nemmeno nel finale. La FC è di controllo, non un tetto: il 31 ottobre i 10 km a 6:32/km sono stati a FC media 146,8 e massima 154.",
       "La corsa più lunga del periodo è 10 km (25 e 31 ottobre): 12 km sono +2 km, la settimana arriva a circa 32 km contro i circa 22 km delle ultime settimane. Il rischio è muscolo-tendineo (polpacci), non cardiovascolare: è una supposizione mia, non un dato.",
       "Se dopo il tempo e la forza i polpacci sono sopra 3/10 sabato sera o domenica mattina, la distanza scende a 10 km.",
+      "Se venerdì il tempo chiude a RPE 8 o più, o con gambe 4 o più nel diario, la distanza scende a 10 km.",
       "Se prima del km 6 compare un dolore, chiudi a 8 km al massimo.",
       "Sul tapis roulant imposta la pendenza all'1%.",
       "Dopo la seduta compila nella valutazione Fastidi: zona e intensità da 0 a 10, più FC media e ritmo di ogni km nelle note."
