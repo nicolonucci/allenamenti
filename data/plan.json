@@ -1,6 +1,6 @@
 {
  "version": 1,
- "updated": "2026-11-11",
+ "updated": "2026-11-14",
  "weeks": [
   {
    "id": "2026-W42",
@@ -2644,7 +2644,7 @@
    "id": "2026-W46",
    "start": "2026-11-09",
    "title": "Settimana 46",
-   "note": "Lunedì nuoto (mattina) + intervalli 5 × 4′ (pomeriggio), martedì forza (con HSR e bent leg per i polpacci), mercoledì corsa facile 4 km, giovedì mattina nuoto leggero (via libera se le gambe sono a 3/10 o meno e hai dormito almeno 6 ore), venerdì mattina tempo 3 × 10′, sabato riposo, domenica corsa lunga 12 km. Circa 32 km di corsa. Domenica 8 novembre senza corsa (bici nel piano della settimana precedente). Il 15 km resta l'obiettivo dopo questa settimana.",
+   "note": "Lunedì nuoto (mattina) + intervalli 5 × 4′ (pomeriggio), martedì forza (con HSR e bent leg per i polpacci), mercoledì corsa facile 4 km, giovedì mattina nuoto leggero (via libera se le gambe sono a 3/10 o meno e hai dormito almeno 6 ore), venerdì mattina tempo 3 × 10′, sabato corsa lunga 15 km (spostata da domenica e allungata da 12 km), domenica nessuna seduta. Circa 32 km di corsa. Domenica 8 novembre senza corsa (bici nel piano della settimana precedente). Il 15 km resta l'obiettivo dopo questa settimana.",
    "workouts": [
     {
      "id": "2026-11-09-nuoto",
@@ -3263,21 +3263,19 @@
     },
     {
      "id": "2026-11-15-corsa-12k",
-     "date": "2026-11-15",
+     "date": "2026-11-14",
      "type": "corsa",
-     "title": "Corsa lunga 12 km",
-     "duration": "circa 80′",
+     "title": "Corsa lunga 15 km",
+     "duration": "circa 88′",
      "status": "scheda",
-     "summary": "12 km a ritmo costante, tetto di passo 6:30/km (9,2 km/h), dopo il sabato di riposo. L'obiettivo è portare a casa la distanza, senza vincolo di zona 2. Il 15 km resta l'obiettivo e viene dopo una settimana da circa 32 km senza rigidità ai polpacci.",
+     "summary": "Pianificata per domenica 15 novembre (12 km, tetto di passo 6:30/km), spostata a sabato 14 e portata a 15 km per scelta tua, senza vincolo di zona 2. Eseguita: 15,03 km in 87:44, 5:50/km (10,3 km/h), FC media 156 e massima 166, a negative split.",
      "blocks": [],
      "notes": [
-      "Regola principale: non andare mai sotto 6:30/km (più veloce di 9,2 km/h), nemmeno nel finale. La FC è di controllo, non un tetto: il 31 ottobre i 10 km a 6:32/km sono stati a FC media 146,8 e massima 154.",
-      "La corsa più lunga del periodo è 10 km (25 e 31 ottobre): 12 km sono +2 km, la settimana arriva a circa 32 km contro i circa 22 km delle ultime settimane. Il rischio è muscolo-tendineo (polpacci), non cardiovascolare: è una supposizione mia, non un dato.",
-      "Se dopo il tempo e la forza i polpacci sono sopra 3/10 sabato sera o domenica mattina, la distanza scende a 10 km.",
-      "Se venerdì il tempo chiude a RPE 8 o più, o con gambe 4 o più nel diario, la distanza scende a 10 km.",
-      "Se prima del km 6 compare un dolore, chiudi a 8 km al massimo.",
-      "Sul tapis roulant imposta la pendenza all'1%.",
-      "Dopo la seduta compila nella valutazione Fastidi: zona e intensità da 0 a 10, più FC media e ritmo di ogni km nelle note."
+      "Dati misurati (Apple Watch, Strava): 15,03 km, 87:44 in movimento, +32 m, 9,9 °C. FC media 156,4 e massima 165 (Strava); il 94% dei campioni è sopra 149 (zona 3 di Strava), l'1% in zona 4, nessun tratto continuo in zona 4 o oltre.",
+      "Passo (dal GPX): km 1–5 a 5:56/km, km 6–10 a 5:54/km, km 11–15 a 5:40/km; ultimo km 5:31. Negli ultimi 5 km il passo migliora del 4% con la FC di circa 3 bpm più alta: nessuna deriva cardiaca.",
+      "Confronto: il 25 ottobre i 10 km erano stati a 10,1 km/h con FC media 154,7 (massima 180); oggi 15 km a 10,3 km/h con FC media 156.",
+      "Diario: RPE 6, energia 5, gambe 2, nessuna integrazione durante la corsa. Strava Relative Effort 91, più delle altre sei sedute della settimana sommate (86).",
+      "Il piano prevedeva sabato di riposo e il lungo domenica a 12 km; domenica 15 non c'è nessuna seduta in programma."
      ],
      "table": {
       "first": "Fase",
@@ -3289,40 +3287,40 @@
       ],
       "rows": [
        {
-        "name": "Primi 2 km",
+        "name": "Km 1–5",
         "cells": [
-         "2 km",
-         "6:45",
-         "8,9",
-         "13:30"
+         "5 km",
+         "5:56",
+         "10,1",
+         "29:41"
         ]
        },
        {
-        "name": "Centrale",
+        "name": "Km 6–10",
         "cells": [
-         "8 km",
-         "6:30–6:45",
-         "8,9–9,2",
-         "52:00–54:00"
+         "5 km",
+         "5:54",
+         "10,2",
+         "29:31"
         ]
        },
        {
-        "name": "Ultimi 2 km",
+        "name": "Km 11–15",
         "cells": [
-         "2 km",
-         "6:30–6:45",
-         "8,9–9,2",
-         "13:00–13:30"
+         "5 km",
+         "5:40",
+         "10,6",
+         "28:22"
         ]
        }
       ],
       "total": {
        "name": "Totale",
        "cells": [
-        "12 km",
-        "",
-        "",
-        "78–81′"
+        "15 km",
+        "5:50",
+        "10,3",
+        "circa 88′"
        ]
       }
      }
