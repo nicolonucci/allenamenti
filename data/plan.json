@@ -1,6 +1,6 @@
 {
  "version": 1,
- "updated": "2026-11-14",
+ "updated": "2026-11-17",
  "weeks": [
   {
    "id": "2026-W42",
@@ -3324,6 +3324,265 @@
        ]
       }
      }
+    }
+   ]
+  },
+  {
+   "id": "2026-W47",
+   "start": "2026-11-16",
+   "title": "Settimana 47",
+   "note": "Lunedì corsa facile 6 km in zona 2 (svolta), martedì intervalli 5 × 4′, mercoledì corsa facile 7 km (5 km se le gambe non sono libere) con mobilità breve dopo. Da giovedì 19 a domenica 22 non ti alleni: al massimo qualche esercizio di mobilità. Circa 21 km di corsa, senza nuoto, forza e bici. Lunedì 23 riparti con una corsa facile in zona 2 senza recuperare le sedute saltate.",
+   "workouts": [
+    {
+     "id": "2026-11-16-corsa",
+     "date": "2026-11-16",
+     "type": "corsa",
+     "title": "Corsa facile 6 km",
+     "duration": "38′",
+     "status": "scheda",
+     "summary": "Allenamento svolto (Apple Watch + Strava): 6,02 km in 38′25″, 6:23/km (9,4 km/h), dislivello +7 m, FC media 142 e massima 155 (97% dei campioni in zona 2, nessuno sopra 164), relative effort 10. Corsa serale, due giorni dopo la lunga da 15 km.",
+     "blocks": [],
+     "notes": [
+      "FC per blocchi da 5′ (Apple Watch): 128 · 142 · 147 · 143 · 146 · 144 · 144 · 145. Zona 2 reale, in linea con le corse facili precedenti.",
+      "Potenza media 196 W (Apple Watch)."
+     ]
+    },
+    {
+     "id": "2026-11-17-corsa",
+     "date": "2026-11-17",
+     "type": "corsa",
+     "title": "Intervalli 5 × 4′",
+     "duration": "circa 52′",
+     "status": "scheda",
+     "summary": "Seduta di qualità del martedì, tre giorni dopo la corsa lunga da 15 km: 5 ripetute da 4 minuti (5:15/km le prime due, 5:10/km le ultime tre) con 3 minuti di recupero camminato, per circa 7,7 km totali. Da giovedì a domenica non ti alleni.",
+     "blocks": [],
+     "notes": [
+      "Il ritmo è un tetto, non un obiettivo da battere: il 9 novembre le ripetizioni 3–5 sono state a 5:01–5:05/km, con FC fino a 176 e RPE 8. Oggi le gambe arrivano meno fresche dopo i 15 km di sabato: non andare sotto 5:15 e 5:10.",
+      "La FC è di controllo, non un tetto: se già alla seconda ripetizione supera 172 bpm, rallenta di 5–10 s/km invece di tagliare le ripetizioni.",
+      "Le ripetizioni si fanno a tempo (4′); la distanza è indicativa (0,76–0,77 km a ripetizione) e serve per il tapis roulant o per controllare il GPS.",
+      "Riscaldamento sotto 149 bpm, defaticamento sotto 140 dal terzo minuto, con i primi 2′ camminando.",
+      "Se dopo il riscaldamento polpacci o gamba sinistra sono sopra 3/10, le gambe sono a 4/10 o più, oppure la FC a 6:35–6:50/km supera 149, fai 4 ripetizioni invece di 5.",
+      "Se chiudi la seduta a RPE 8 o più, mercoledì tieni la corsa facile a 5 km a 6:50/km.",
+      "Sul tapis roulant imposta la pendenza all'1%; vale il tetto di FC, non la velocità in tabella.",
+      "Dopo la seduta compila nella valutazione Fastidi: zona e intensità da 0 a 10, più FC media e ritmo di ogni ripetizione nelle note."
+     ],
+     "table": {
+      "first": "Fase",
+      "cols": [
+       "Durata",
+       "Ritmo /km",
+       "FC",
+       "km/h",
+       "Tempo"
+      ],
+      "rows": [
+       {
+        "name": "Riscaldamento",
+        "cells": [
+         "12′",
+         "6:35–6:50",
+         "tetto 149",
+         "8,8–9,1",
+         "12′"
+        ]
+       },
+       {
+        "name": "Intervalli 1–2 ×",
+        "cells": [
+         "4′",
+         "5:15",
+         "controllo",
+         "11,4",
+         "8′"
+        ]
+       },
+       {
+        "name": "Intervalli 3–5 ×",
+        "cells": [
+         "4′",
+         "5:10",
+         "controllo",
+         "11,6",
+         "12′"
+        ]
+       },
+       {
+        "name": "Recuperi 4 ×",
+        "cells": [
+         "3′ camminati",
+         "–",
+         "–",
+         "–",
+         "12′"
+        ]
+       },
+       {
+        "name": "Defaticamento",
+        "cells": [
+         "8′",
+         "7:00–7:30",
+         "tetto 140",
+         "8,0–8,6",
+         "8′"
+        ]
+       }
+      ],
+      "total": {
+       "name": "Totale",
+       "cells": [
+        "circa 7,7 km",
+        "",
+        "",
+        "",
+        "circa 52′"
+       ]
+      }
+     }
+    },
+    {
+     "id": "2026-11-18-corsa",
+     "date": "2026-11-18",
+     "type": "corsa",
+     "title": "Corsa facile 7 km",
+     "duration": "circa 46′",
+     "status": "scheda",
+     "summary": "7 km facili in zona 2, tetto FC 149 bpm, nessun finale libero. Il giorno dopo gli intervalli; da giovedì a domenica non ti alleni, quindi può essere più lunga delle solite corse facili.",
+     "blocks": [],
+     "notes": [
+      "Regola principale: la FC non deve superare 149 bpm (zona 2 di Strava: 120–149). Se la supera per più di 1 minuto, cammina 30 secondi e riparti più piano, senza recuperare il passo perso.",
+      "Dai dati: il 16 novembre 6 km a 6:23/km con FC media 142 e massima 155 (97% dei campioni in zona 2). Il passo è solo un'indicazione: se la FC sale prima del tuo passo, rallenta.",
+      "Se prima di partire gambe a 4/10 o più, oppure polpaccio, tibiale o tendine d'Achille sopra 3/10, o se gli intervalli hanno chiuso a RPE 8 o più, fai 5 km a 6:50/km.",
+      "Se i polpacci fanno male durante la corsa, fermati: dopo c'è tempo per recuperare fino a lunedì.",
+      "Sul tapis roulant imposta la pendenza all'1%; vale il tetto di FC, non la velocità in tabella.",
+      "Dopo la seduta compila nella valutazione Fastidi: zona e intensità da 0 a 10, più FC media nelle note."
+     ],
+     "table": {
+      "first": "Fase",
+      "cols": [
+       "Distanza",
+       "Ritmo /km",
+       "FC tetto",
+       "km/h",
+       "Tempo"
+      ],
+      "rows": [
+       {
+        "name": "Primo km",
+        "cells": [
+         "1 km",
+         "6:50",
+         "149",
+         "8,8",
+         "6:50"
+        ]
+       },
+       {
+        "name": "Restanti",
+        "cells": [
+         "6 km",
+         "6:25–6:45",
+         "149",
+         "8,9–9,4",
+         "38:30–40:30"
+        ]
+       }
+      ],
+      "total": {
+       "name": "Totale",
+       "cells": [
+        "7 km",
+        "",
+        "",
+        "",
+        "45:20–47:20"
+       ]
+      }
+     }
+    },
+    {
+     "id": "2026-11-18-mobilita",
+     "date": "2026-11-18",
+     "type": "mobilita",
+     "title": "Mobilità e core",
+     "duration": "circa 12′",
+     "status": "scheda",
+     "summary": "Versione breve dopo la corsa facile di mercoledì, a casa, a corpo libero, senza elastico. Facoltativa: da giovedì a domenica non ti alleni, quindi se hai tempo puoi ripeterla uno di quei giorni. Caviglia, polpaccio, tibiale e anca; niente core in questa versione.",
+     "notes": [
+      "Falla subito dopo la corsa, a muscoli caldi. Intensità bassa: allunga fino a sentire tensione, mai dolore.",
+      "Se polpaccio, tendine d'Achille o tibiale superano 3/10 mentre fai un esercizio, saltalo e scrivi zona e intensità nelle note: è un dato che serve per decidere i prossimi lunghi.",
+      "Dopo la seduta scrivi nelle note la rigidità a inizio seduta e dove la senti."
+     ],
+     "blocks": [
+      {
+       "title": "Post-corsa: caviglia, polpaccio, tibiale, anca",
+       "dur": "circa 12′",
+       "cols": [
+        "Serie e ripetizioni"
+       ],
+       "items": [
+        {
+         "id": "p01",
+         "name": "Caviglia al muro",
+         "target": "2 × 10 per lato",
+         "how": {
+          "parti": "In piedi, punta del piede a circa 10 cm dal muro, mani al muro per l'equilibrio.",
+          "fai": "Porta il ginocchio a toccare il muro senza alzare il tallone, poi torna. Se è facile, allontana il piede.",
+          "evita": "Far cadere il ginocchio verso l'interno o alzare il tallone."
+         }
+        },
+        {
+         "id": "p04",
+         "name": "Polpaccio al muro",
+         "target": "2 × 30″ per gamba, tesa e piegata",
+         "how": {
+          "parti": "Mani al muro, un piede avanti e l'altro indietro di un passo e mezzo, con la punta dritta.",
+          "fai": "Tallone dietro a terra e gamba tesa: porta il bacino verso il muro per 30″. Poi piega un po' il ginocchio dietro, tallone sempre a terra, per altri 30″.",
+          "evita": "Staccare il tallone o ruotare il piede verso l'esterno. Niente affondo aggressivo sul tendine d'Achille."
+         }
+        },
+        {
+         "id": "p02",
+         "name": "Sollevamento punte al muro (tibiale)",
+         "target": "2 × 15, discesa in 3″",
+         "how": {
+          "parti": "Schiena e glutei al muro, piedi a circa 30 cm dal muro, gambe tese.",
+          "fai": "Solleva le punte dei piedi il più possibile, tenendo i talloni a terra. Scendi lentamente in 3″.",
+          "evita": "Piegare le ginocchia o staccare i talloni. Non andare a cedimento."
+         }
+        },
+        {
+         "id": "p03",
+         "name": "Camminata sui talloni",
+         "target": "1 × 20 passi",
+         "how": {
+          "parti": "In piedi, busto alto, punte dei piedi sollevate da terra.",
+          "fai": "Cammina in avanti sui talloni a passi corti, tenendo le punte più alte che puoi.",
+          "evita": "Far cadere le punte o inclinare il busto all'indietro."
+         }
+        },
+        {
+         "id": "p08",
+         "name": "Flessore dell'anca in affondo",
+         "target": "2 × 45″ per lato",
+         "how": {
+          "parti": "Un ginocchio a terra (metti un cuscino), piede davanti piatto con il ginocchio sopra la caviglia.",
+          "fai": "Stringi il gluteo della gamba dietro e porta il bacino in avanti, busto alto, fino a sentire tirare davanti all'anca.",
+          "evita": "Inarcare la zona lombare: se la schiena si incava, spingi meno in avanti."
+         }
+        },
+        {
+         "id": "p09",
+         "name": "World's greatest stretch",
+         "target": "1 × 5 per lato",
+         "how": {
+          "parti": "Parti in posizione di piegamento sulle braccia. Porta un piede accanto alla mano dello stesso lato.",
+          "fai": "Ruota il busto verso l'interno e solleva il braccio verso il soffitto, seguendolo con lo sguardo. Torna e ripeti.",
+          "evita": "Staccare il tallone dietro o ruotare solo le spalle: deve ruotare il torace."
+         }
+        }
+       ]
+      }
+     ]
     }
    ]
   }
